@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dailyLeadReportXML>
+    <leadReportHeader>
+        <count>38</count>
+        <generatedBy>Astra Life Direct Area Sales Manager 3</generatedBy>
+        <id>A2000333</id>
+        <period>2015-11-04T16:51:46.189+08:00</period>
+        <reportName>Daily Lead Report</reportName>
+        <role>ASM</role>
+    </leadReportHeader>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150805_105458</leadNumber>
+        <month>August</month>
+        <no>1</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 60                                                           </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980003</rmCode>
+        <rmName>Permata In Branch Relationship Manager 9</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Customer Reference</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR1A8000012150811110809</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-03T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-03T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150803_142457</leadNumber>
+        <month>August</month>
+        <no>2</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 60                                                           </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Customer Reference</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150804135849</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 25</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_200054</leadNumber>
+        <month>August</month>
+        <no>3</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 25                                                           </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Self Generated</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150811200237</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 25</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_175424</leadNumber>
+        <month>August</month>
+        <no>4</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 25                                                           </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150811175936</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 20</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_201702</leadNumber>
+        <month>August</month>
+        <no>5</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 20                                                           </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980002</rmCode>
+        <rmName>Permata In Branch Relationship Manager 8</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150811201910</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 20</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_181922</leadNumber>
+        <month>August</month>
+        <no>6</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 20                                                           </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980002</rmCode>
+        <rmName>Permata In Branch Relationship Manager 8</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150811182558</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 30</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_183509</leadNumber>
+        <month>August</month>
+        <no>7</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 30                                                           </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980006</rmCode>
+        <rmName>Permata In Branch Relationship Manager 12</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Customer Reference</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150811184201</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 35</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_202528</leadNumber>
+        <month>August</month>
+        <no>8</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 35                                                           </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980006</rmCode>
+        <rmName>Permata In Branch Relationship Manager 12</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Customer Reference</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150811202735</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>customer 35</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_185908</leadNumber>
+        <month>August</month>
+        <no>9</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 35                                                           </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980005</rmCode>
+        <rmName>Permata In Branch Relationship Manager 11</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150811190153</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 40</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_203315</leadNumber>
+        <month>August</month>
+        <no>10</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 40 something                                                 </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980005</rmCode>
+        <rmName>Permata In Branch Relationship Manager 11</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Customer Reference</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150811203539</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 40</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_191907</leadNumber>
+        <month>August</month>
+        <no>11</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 40 something                                                 </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980003</rmCode>
+        <rmName>Permata In Branch Relationship Manager 9</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Customer Reference</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150811194137</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 40</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_190949</leadNumber>
+        <month>August</month>
+        <no>12</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 40 something                                                 </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980004</rmCode>
+        <rmName>Permata In Branch Relationship Manager 10</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Self Generated</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>UR2A8000012150811191235</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-12T08:00:00+08:00</contactDate>
+        <customerName>Customer 18</customerName>
+        <firstStatusDate>2015-08-12T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150812_095728</leadNumber>
+        <month>August</month>
+        <no>13</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <policyHolderName>Customer 18                                                           </policyHolderName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980006</rmCode>
+        <rmName>Permata In Branch Relationship Manager 12</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-12T08:00:00+08:00</submitDate>
+        <eSubNumber>US1A8000012150812100123</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-02T16:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-04T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-04T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150804_140458</leadNumber>
+        <month>August</month>
+        <no>14</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T12:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150805_095130</leadNumber>
+        <month>August</month>
+        <no>15</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980007</rmCode>
+        <rmName>Echo </rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T12:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>Customer 30</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150805_101637</leadNumber>
+        <month>August</month>
+        <no>16</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980005</rmCode>
+        <rmName>Permata In Branch Relationship Manager 11</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T12:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>Customer 31</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150805_102108</leadNumber>
+        <month>August</month>
+        <no>17</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980004</rmCode>
+        <rmName>Permata In Branch Relationship Manager 10</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Self Generated</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T12:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>Customer 40</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150805_102914</leadNumber>
+        <month>August</month>
+        <no>18</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980005</rmCode>
+        <rmName>Permata In Branch Relationship Manager 11</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Customer Reference</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T12:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150805_103612</leadNumber>
+        <month>August</month>
+        <no>19</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980005</rmCode>
+        <rmName>Permata In Branch Relationship Manager 11</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T12:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>Customer 55</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150805_104218</leadNumber>
+        <month>August</month>
+        <no>20</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980007</rmCode>
+        <rmName>Echo </rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-10-11T15:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-12T08:00:00+08:00</contactDate>
+        <customerName>Chg</customerName>
+        <firstStatusDate>2015-08-12T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150812_103124</leadNumber>
+        <month>August</month>
+        <no>21</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Self Generated</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-10-10T17:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>Customer 45</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150805_105211</leadNumber>
+        <month>August</month>
+        <no>22</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-10-10T17:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>Customer 70</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150805_105719</leadNumber>
+        <month>August</month>
+        <no>23</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980006</rmCode>
+        <rmName>Permata In Branch Relationship Manager 12</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Self Generated</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-10-10T17:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>cusyomer 15</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150805_111832</leadNumber>
+        <month>August</month>
+        <no>24</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980009</rmCode>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Self Generated</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-10-10T17:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 18</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150811_093759</leadNumber>
+        <month>August</month>
+        <no>25</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Customer 18</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_105111</leadNumber>
+        <month>August</month>
+        <no>26</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980005</rmCode>
+        <rmName>Permata In Branch Relationship Manager 11</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>US1A8000012150811200950</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <contactDate>2015-08-11T08:00:00+08:00</contactDate>
+        <customerName>Testing demo ipad</customerName>
+        <firstStatusDate>2015-08-11T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <invalidFlag>N</invalidFlag>
+        <lastStatus>submit</lastStatus>
+        <leadNumber>A8000012_150811_151009</leadNumber>
+        <month>August</month>
+        <no>27</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+        <spnFlag>N</spnFlag>
+        <submitDate>2015-08-11T08:00:00+08:00</submitDate>
+        <eSubNumber>US1A8000012150811151258</eSubNumber>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-02T16:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-03T08:00:00+08:00</contactDate>
+        <customerName>Customer 65</customerName>
+        <firstStatusDate>2015-08-03T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150803_140311</leadNumber>
+        <month>August</month>
+        <no>28</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-02T16:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-03T08:00:00+08:00</contactDate>
+        <customerName>Customer 61</customerName>
+        <firstStatusDate>2015-08-03T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150803_165242</leadNumber>
+        <month>August</month>
+        <no>29</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T11:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-04T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-04T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150804_151647</leadNumber>
+        <month>August</month>
+        <no>30</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Self Generated</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T11:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-04T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-04T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150804_152133</leadNumber>
+        <month>August</month>
+        <no>31</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980005</rmCode>
+        <rmName>Permata In Branch Relationship Manager 11</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Self Generated</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T11:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-04T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-04T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150804_154519</leadNumber>
+        <month>August</month>
+        <no>32</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980004</rmCode>
+        <rmName>Permata In Branch Relationship Manager 10</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Customer Reference</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T11:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-04T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-04T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150804_160153</leadNumber>
+        <month>August</month>
+        <no>33</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980007</rmCode>
+        <rmName>Echo </rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Self Generated</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T11:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-04T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-04T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150804_161137</leadNumber>
+        <month>August</month>
+        <no>34</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980005</rmCode>
+        <rmName>Permata In Branch Relationship Manager 11</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Self Generated</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T11:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-04T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-04T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150804_161733</leadNumber>
+        <month>August</month>
+        <no>35</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T11:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-04T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-04T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150804_163918</leadNumber>
+        <month>August</month>
+        <no>36</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980001</rmCode>
+        <rmName>Permata In Branch Relationship Manager 7</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Customer Reference</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>        </areaCode>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>000     </branchCode>
+        <branchName>Permata Telemarketing         </branchName>
+        <cancelBySystemDate>2015-10-10T17:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-04T08:00:00+08:00</contactDate>
+        <customerName>Test lead</customerName>
+        <firstStatusDate>2015-08-04T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150804_193447</leadNumber>
+        <month>August</month>
+        <no>37</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>        </regionCode>
+        <rmCode>00030495</rmCode>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadReportDTOList>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <asmCode>A2000333</asmCode>
+        <asmName>Astra Life Direct Area Sales Manager 3</asmName>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <cancelBySystemDate>2015-11-03T11:56:30+08:00</cancelBySystemDate>
+        <contactDate>2015-08-05T08:00:00+08:00</contactDate>
+        <customerName>Customer 60</customerName>
+        <firstStatusDate>2015-08-05T08:00:00+08:00</firstStatusDate>
+        <indicator>Red</indicator>
+        <lastStatus>cancelSYS</lastStatus>
+        <leadNumber>A8000012_150805_094252</leadNumber>
+        <month>August</month>
+        <no>38</no>
+        <pfcCode>A8000012</pfcCode>
+        <pfcName>Astra Life Direct PFC 17</pfcName>
+        <regionCode>07      </regionCode>
+        <regionName>Permata Bank Region 07        </regionName>
+        <rmCode>36980006</rmCode>
+        <rmName>Permata In Branch Relationship Manager 12</rmName>
+        <rsmCode>A3000111</rsmCode>
+        <rsmName>Astra Life Direct Regional Sales Manager</rsmName>
+        <sourceLead>Bank Staff</sourceLead>
+    </dailyLeadReportDTOList>
+    <dailyLeadSumReportDTOList>
+        <code>A2000333</code>
+        <name>Astra Life Direct Area Sales Manager 3</name>
+        <totalCancelByPfc>0</totalCancelByPfc>
+        <totalCancelBySys>23</totalCancelBySys>
+        <totalContact>0</totalContact>
+        <totalCustomer>38</totalCustomer>
+        <totalMeet>0</totalMeet>
+        <totalProposal>0</totalProposal>
+        <totalSubmit>15</totalSubmit>
+        <type>ASM</type>
+        <rLevel>3</rLevel>
+    </dailyLeadSumReportDTOList>
+    <dailyLeadSumReportDTOList>
+        <code>A8000012</code>
+        <name>PFC 17 Astra Life Direct</name>
+        <totalCancelByPfc>0</totalCancelByPfc>
+        <totalCancelBySys>23</totalCancelBySys>
+        <totalContact>0</totalContact>
+        <totalCustomer>38</totalCustomer>
+        <totalMeet>0</totalMeet>
+        <totalProposal>0</totalProposal>
+        <totalSubmit>15</totalSubmit>
+        <type>PFC</type>
+        <rLevel>4</rLevel>
+    </dailyLeadSumReportDTOList>
+    <dailyLeadSumAllReportDTOList>
+        <code>A2000333</code>
+        <name>Astra Life Direct Area Sales Manager 3</name>
+        <totalCancelByPfc>0</totalCancelByPfc>
+        <totalCancelBySys>0</totalCancelBySys>
+        <totalContact>0</totalContact>
+        <totalCustomer>23</totalCustomer>
+        <totalMeet>0</totalMeet>
+        <totalProposal>0</totalProposal>
+        <totalSubmit>23</totalSubmit>
+        <type>ASM</type>
+        <rLevel>3</rLevel>
+    </dailyLeadSumAllReportDTOList>
+    <dailyLeadSumAllReportDTOList>
+        <code>A8000012</code>
+        <name>PFC 17 Astra Life Direct</name>
+        <totalCancelByPfc>0</totalCancelByPfc>
+        <totalCancelBySys>0</totalCancelBySys>
+        <totalContact>0</totalContact>
+        <totalCustomer>23</totalCustomer>
+        <totalMeet>0</totalMeet>
+        <totalProposal>0</totalProposal>
+        <totalSubmit>23</totalSubmit>
+        <type>PFC</type>
+        <rLevel>4</rLevel>
+    </dailyLeadSumAllReportDTOList>
+</dailyLeadReportXML>

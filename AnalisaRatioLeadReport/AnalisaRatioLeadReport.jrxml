@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Analisa Ratio Lead Report" language="groovy" pageWidth="595" pageHeight="675675" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="585a06d7-3765-41d6-b069-a4ffcd246b48">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="net.sf.jasperreports.export.xls.one.page.per.sheet" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.detect.cell.type" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
+	<property name="net.sf.jasperreports.export.xls.remove.empty.space.between.columns" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.remove.empty.space.between.rows" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.ignore.graphics" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.wrap.text" value="false"/>
+	<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+	<import value="net.sf.jasperreports.engine.data.*"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="analisaRatio" uuid="8bfdc590-cf06-4b82-9d2e-41afe7af160a">
+		<queryString language="xPath">
+			<![CDATA[/analisaRatioReportXML/analisaRatioReportDTOList]]>
+		</queryString>
+		<field name="region" class="java.lang.String">
+			<fieldDescription><![CDATA[region]]></fieldDescription>
+		</field>
+		<field name="asm" class="java.lang.String">
+			<fieldDescription><![CDATA[asm]]></fieldDescription>
+		</field>
+		<field name="pfc" class="java.lang.String">
+			<fieldDescription><![CDATA[pfc]]></fieldDescription>
+		</field>
+		<field name="leads" class="java.lang.String">
+			<fieldDescription><![CDATA[leads]]></fieldDescription>
+		</field>
+		<field name="contact" class="java.lang.String">
+			<fieldDescription><![CDATA[contact]]></fieldDescription>
+		</field>
+		<field name="meet" class="java.lang.String">
+			<fieldDescription><![CDATA[meet]]></fieldDescription>
+		</field>
+		<field name="proposal" class="java.lang.String">
+			<fieldDescription><![CDATA[proposal]]></fieldDescription>
+		</field>
+		<field name="submit" class="java.lang.String">
+			<fieldDescription><![CDATA[submit]]></fieldDescription>
+		</field>
+		<field name="cancel" class="java.lang.String">
+			<fieldDescription><![CDATA[cancel]]></fieldDescription>
+		</field>
+		<field name="rsmName" class="java.lang.String">
+			<fieldDescription><![CDATA[rsmName]]></fieldDescription>
+		</field>
+	</subDataset>
+	<queryString language="xPath">
+		<![CDATA[]]>
+	</queryString>
+	<field name="reportName" class="java.lang.String">
+		<fieldDescription><![CDATA[/analisaRatioReportXML/leadReportHeader/reportName]]></fieldDescription>
+	</field>
+	<field name="generatedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[/analisaRatioReportXML/leadReportHeader/generatedBy]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.String">
+		<fieldDescription><![CDATA[/analisaRatioReportXML/leadReportHeader/id]]></fieldDescription>
+	</field>
+	<field name="role" class="java.lang.String">
+		<fieldDescription><![CDATA[/analisaRatioReportXML/leadReportHeader/role]]></fieldDescription>
+	</field>
+	<field name="period" class="java.lang.String">
+		<fieldDescription><![CDATA[/analisaRatioReportXML/leadReportHeader/period]]></fieldDescription>
+	</field>
+	<field name="count" class="java.lang.String">
+		<fieldDescription><![CDATA[/analisaRatioReportXML/leadReportHeader/count]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="24" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="100" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="90" y="40" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="5fa8a74b-8e54-4e6a-b765-c1ebe420c45b">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{role}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="53" width="90" height="13" uuid="fdaa65f3-0224-4576-979b-b8ce077f9bd0"/>
+				<text><![CDATA[Period]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="13" width="90" height="13" uuid="13b8ef42-0228-4a5a-8ee5-a78e99b946ba"/>
+				<text><![CDATA[Agent Name]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="90" y="13" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b101e986-b71c-40e5-a68b-c54a1f00a2f2">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{generatedBy}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="90" y="53" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="2d91161e-74ff-4489-9559-d1dfa207bce5">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[( ($F{period} != null && !$F{period}.equals("0")) ? new SimpleDateFormat("yyyy-MM-dd").parse($F{period}) :"")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="90" height="13" uuid="681f2aee-a655-4bd0-91f8-e690448feca4"/>
+				<text><![CDATA[Report Name]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="90" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="0f003878-bac5-4949-89b9-33ca9a9e5fd1">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{reportName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="27" width="90" height="13" uuid="868522f8-3603-4292-9724-a28c9ff1e797"/>
+				<text><![CDATA[Agent Code]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="40" width="90" height="13" uuid="c8a794b7-6650-42cf-8cd8-352ea97c8ae6"/>
+				<text><![CDATA[Role]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="90" y="27" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="006b6d90-659b-4df3-9654-70c975d11f9a">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="401" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table 9" x="0" y="0" width="360" height="140" isPrintInFirstWholeBand="true" uuid="fc2cddb7-3395-49d1-bafe-e3487fd90656">
+					<printWhenExpression><![CDATA[!$F{count}.equals("0")]]></printWhenExpression>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="AllSectionsNoDetail">
+					<datasetRun subDataset="analisaRatio" uuid="e7c42e50-6afc-4b30-b1a6-df424ec47863">
+						<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).dataSource("/analisaRatioReportXML/analisaRatioReportDTOList")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="90" uuid="bdf4484b-d6cf-471c-b0f5-7507078f0239">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader height="26" rowSpan="2">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="38460236-855d-4ec9-bb95-cc44fca04584">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[RSM Name]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="becaca77-b8b2-4646-bf0c-c95a61ebcc53">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{rsmName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="bf612953-2313-460c-9311-bf5a1bbc1bcf">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader height="26" rowSpan="2">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="453c33c1-8cff-4be4-9fdd-9fa6ca246130">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[∑ ASM]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8c0ed197-d5fd-4ba3-b478-32f90b97a8ca">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{asm}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="b0d361b5-feb4-443f-ada1-11a8af0d485b">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader height="26" rowSpan="2">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="e6b164d1-72d2-4cbd-8873-0ab59c931fd7">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[∑ PFC]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="4e79b6a3-bccd-4d79-a437-63826cafa102">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{pfc}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:columnGroup width="540" uuid="ba9f9604-49de-451c-9193-0476fac35e09">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:columnHeader height="13" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="540" height="13" isPrintWhenDetailOverflows="true" uuid="170698c4-9636-48a7-820c-6f4a3b3cfd95">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[Basic Data]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:column width="90" uuid="86b24632-d075-4339-81af-547e4d28e799">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="6ee5e431-12bd-4d8e-8e77-81ca0fb80d15">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[Leads (L)]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="0e3f6ce4-1ff5-4ce1-8f1f-da8fd1ced7c1">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[$F{leads}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="1c98bf14-b0f3-4d52-bfd2-1ebd5a0afb57">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="6c16e2f2-a5c0-43af-8da2-b6d71e963524">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[Contact (CT)]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="346d80e6-c074-44e4-80f0-f584ffc39595">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[$F{contact}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="4698e6d9-b239-4f44-b4a7-b80992797055">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="10fe464d-c239-479c-b8c3-42e3fbba1a8f">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[Meet (M)]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="1e725845-5804-477f-896f-9b7ed23c20ca">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[$F{meet}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="99949037-1296-458d-adad-a48dfa6c10c8">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="cca31b12-4709-445a-a1aa-a180d133552c">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[Proposal (P)]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="e58942b1-7fb8-4521-bfd0-175c3d7f38b7">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[$F{proposal}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="b3d39c45-d90c-4d0e-90be-e065c76b0889">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c7ca094b-0160-4df8-9984-1ca598c40d89">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[Submit (S)]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="fd0c1a92-5088-482a-8a15-4d908f111247">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[$F{submit}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="0402bf40-38e0-485a-9074-d767de5d3d27">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="16907e99-71b9-464f-9fb7-6d2978800435">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[Cancel By PFC (CL)]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f8208e46-c40b-4ee6-a423-8fe29369213c">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[$F{cancel}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+					<jr:columnGroup width="360" uuid="9eb2e6b1-accc-4894-ac87-213c9ee1ca0a">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:columnHeader height="13" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="360" height="13" isPrintWhenDetailOverflows="true" uuid="2720db2a-1de4-4bf1-8354-3bea666e65ac">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[Leads Ratio]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:column width="90" uuid="af010fc1-1a2c-4375-abb6-e717bcec730c">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="d7eb70cd-67c8-47c9-9f57-cd31def94da3">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[CT/L
+]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="61f2a1ca-ba02-4c8e-a0f8-64fc6de42b03">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[( ($F{contact} != null && !$F{contact}.equals("0")) &&  ($F{leads} != null && !$F{leads}.equals("0")) ?  new Double($F{contact}) / new Double($F{leads}) : "")]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="c1ac8eb5-d10e-4462-832e-dcacbc1eb505">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="3317078c-6d14-4955-a193-2ac8b0772b59">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[M/L
+]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="1efbe3aa-4318-48d7-9dcc-387a8a291235">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[( ($F{meet} != null && !$F{meet}.equals("0")) &&  ($F{leads} != null && !$F{leads}.equals("0")) ?  new Double($F{meet}) / new Double($F{leads}) : "")]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="4c60f954-99fb-44e6-98e9-47e95f3d5021">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="2b08d434-278e-4ec9-93e1-932c940936c4">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[P/L
+]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="1b7beb8d-98dc-43be-b789-9652ca7374eb">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[( ($F{proposal} != null && !$F{proposal}.equals("0")) &&  ($F{leads} != null && !$F{leads}.equals("0")) ?  new Double($F{proposal}) / new Double($F{leads}) : "")]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="5c6eab07-bf4a-49d6-ae33-1542c6bb236a">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="d5a6cc41-7740-44cc-8c06-96e0f094c7f2">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[CL/L
+]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b29006c3-eb25-4c0c-b83a-e3b61d092e0f">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[( ($F{cancel} != null && !$F{cancel}.equals("0")) &&  ($F{leads} != null && !$F{leads}.equals("0")) ?  new Double($F{cancel}) / new Double($F{leads}) : "")]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+					<jr:columnGroup width="90" uuid="698fcdda-b179-4aa4-aab7-975606ad351b">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:columnHeader height="13" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b1f47cd6-cdd5-4621-825b-5ad6d81f1d0f">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[Closing Ratio
+]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:column width="90" uuid="1ca57074-1d84-4b64-b523-09654996188d">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="0cb07d24-c35e-41c2-a9c8-9f1504a46b8a">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[S/L
+]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f95e5d80-a9fd-4eff-8f12-537b5bc0b8b9">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[( ($F{submit} != null && !$F{submit}.equals("0")) &&  ($F{leads} != null && !$F{leads}.equals("0")) ?  new Double($F{submit}) / new Double($F{leads}) : "")]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+					<jr:columnGroup width="180" uuid="96cd9bec-69af-4bc6-b5ff-bd0bdfd53526">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:columnHeader height="13" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="180" height="13" isPrintWhenDetailOverflows="true" uuid="9a9605f4-e7b3-4b40-b27b-93d4f1db11d5">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[PFC Ratio
+]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:column width="90" uuid="ceb1fca7-0ecd-47ff-bc6e-b88ba1116aa3">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="74ec48a9-7787-4e06-96ec-d8ae094f5b34">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[L / ∑PFC
+]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c534d73a-f917-4ea5-8fb4-7557fa64ab7c">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[( ($F{leads} != null && !$F{leads}.equals("0")) &&  ($F{pfc} != null && !$F{pfc}.equals("0")) ?  new Double($F{leads}) / new Double($F{pfc}) : "")]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="8b0c3c28-fcf9-4258-998f-00a5b565d251">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="07394133-bb23-4f2c-9bf8-f11a7a57e151">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[S / ∑PFC
+]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="90" height="13" uuid="2b73cd09-35c6-4af9-8145-9c7dae4c3822">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[( ($F{submit} != null && !$F{submit}.equals("0")) &&  ($F{pfc} != null && !$F{pfc}.equals("0")) ?  new Double($F{submit}) / new Double($F{pfc}) : "")]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+					<jr:columnGroup width="180" uuid="5d012e65-5546-467f-a7d1-f874ad7d44f2">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:columnHeader height="13" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="180" height="13" isPrintWhenDetailOverflows="true" uuid="281d6c6b-407c-4f0a-98cf-2673386b54f3">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[ASM Ratio
+]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:column width="90" uuid="1e0e1746-71d4-4e36-a7f8-733656f0ff9a">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="6e47704c-97da-49cb-8a0d-95ab4c3f5595">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[L / ∑ASM
+]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8cd07de7-492b-4ce0-a577-b16d86962b51">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[( ($F{leads} != null && !$F{leads}.equals("0")) &&  ($F{asm} != null && !$F{asm}.equals("0")) ?  new Double($F{leads}) / new Double($F{asm}) : "")]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="ce157a08-77f4-46a1-9ba2-58f3cce18abd">
+							<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+							<jr:tableHeader style="table 9_TH" height="0" rowSpan="1"/>
+							<jr:columnHeader height="13" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f393e455-1ef2-4223-801a-0e467a417077">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement textAlignment="Center"/>
+									<text><![CDATA[S / ∑ASM
+]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell height="30" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="e63344ba-01a6-4219-a1bd-07a3e3112dea">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textFieldExpression><![CDATA[( ($F{submit} != null && !$F{submit}.equals("0")) &&  ($F{asm} != null && !$F{asm}.equals("0")) ?  new Double($F{submit}) / new Double($F{asm}) : "")]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+					<jr:column width="90" uuid="f474c678-5275-4165-8ffa-0846de14973a">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:tableHeader height="0" rowSpan="1"/>
+						<jr:tableFooter height="0" rowSpan="1"/>
+						<jr:columnHeader height="26" rowSpan="2">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" uuid="42db9a71-8f76-4b0e-a23f-0fa2afc10327">
+									<propertyExpression name="net.sf.jasperreports.export.xls.sheet.name"><![CDATA["Analisa Ratio Lead Report"]]></propertyExpression>
+								</reportElement>
+								<text><![CDATA[]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter height="0" rowSpan="1"/>
+						<jr:detailCell height="30" rowSpan="1"/>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement key="textField" mode="Transparent" x="0" y="140" width="555" height="13" forecolor="#000000" backcolor="#FFFFFF" uuid="af4a806d-d58f-49a9-a287-b037ce7aebe5">
+					<propertyExpression name="net.sf.jasperreports.export.xls.sheet.name"><![CDATA["Analisa Ratio Lead Report"]]></propertyExpression>
+					<printWhenExpression><![CDATA[$F{count}.equals("0")]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top" rotation="None">
+					<font fontName="SansSerif" size="10" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[No record available for selection criteria. Please make another selection.]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

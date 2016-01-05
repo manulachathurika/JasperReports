@@ -1,0 +1,3532 @@
+{
+  "policyDTOList": [
+    {
+      "policyNumber": "00157405",
+      "customerName": "Astra Life Direct PFC 1",
+      "pfc": "A1000001",
+      "product": "AVA iSmart                    ",
+      "status": "SUBMITTED",
+      "dmuDate": "2015-09-20 00:00:00.0",
+      "inforceDate": "2015-01-27 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "1000000000",
+      "topUp": "10000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "1000000000",
+      "topUpIDR": "10000000",
+      "adHocTopUpIDR": "0",
+      "ape": "12012000000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "policyNumber": "41016437",
+      "customerName": "Astra Life Direct PFC 3",
+      "pfc": "A1000003",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-20 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "25000000",
+      "topUp": "5000000",
+      "adHocTopUp": "5000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "25000000",
+      "topUpIDR": "5000000",
+      "adHocTopUpIDR": "5000000",
+      "ape": "25500000",
+      "apeAdHoc": "500000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016545",
+      "customerName": "Astra Life Direct PFC - Senior",
+      "pfc": "A1251111",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-24 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "12500000",
+      "topUp": "2500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "12500000",
+      "topUpIDR": "2500000",
+      "adHocTopUpIDR": "0",
+      "ape": "25500000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016344",
+      "customerName": "Astra Life Direct PFC - Senior",
+      "pfc": "A1251111",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-12 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "25000000",
+      "topUp": "5000000",
+      "adHocTopUp": "5000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "25000000",
+      "topUpIDR": "5000000",
+      "adHocTopUpIDR": "5000000",
+      "ape": "25500000",
+      "apeAdHoc": "500000",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "UR2A8000108150901190258",
+      "policyNumber": "41016966",
+      "customerName": "PFC PRD 1 ",
+      "pfc": "A8000108",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-01 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "10000000",
+      "topUp": "10000000",
+      "adHocTopUp": "10000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "10000000",
+      "topUpIDR": "10000000",
+      "adHocTopUpIDR": "10000000",
+      "ape": "132000000",
+      "apeAdHoc": "1000000",
+      "rider": "1"
+    },
+    {
+      "eREFNumber": "US1A8000110150903164524",
+      "policyNumber": "41017550",
+      "customerName": "PFC PRD 3 ",
+      "pfc": "A8000110",
+      "product": "AVA iPrime                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "200000000",
+      "topUp": "200000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "200000000",
+      "topUpIDR": "200000000",
+      "adHocTopUpIDR": "0",
+      "ape": "40000000",
+      "apeAdHoc": "0",
+      "rider": "1"
+    },
+    {
+      "eREFNumber": "UR1A8000110150903152330",
+      "policyNumber": "41017519",
+      "customerName": "PFC PRD 3 ",
+      "pfc": "A8000110",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "30000",
+      "topUp": "30000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "378750000",
+      "topUpIDR": "378750000",
+      "adHocTopUpIDR": "0",
+      "ape": "4999500000",
+      "apeAdHoc": "0",
+      "rider": "2"
+    },
+    {
+      "eREFNumber": "US1A8000115150904142904",
+      "policyNumber": "41017654",
+      "customerName": "PFC PRD 8 ",
+      "pfc": "A8000115",
+      "product": "AVA iPrime                    ",
+      "status": "Approved by DMU",
+      "dmuDate": "2015-09-07 00:00:00.0",
+      "inforceDate": "2015-09-04 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "100000000",
+      "topUp": "100000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "100000000",
+      "topUpIDR": "100000000",
+      "adHocTopUpIDR": "0",
+      "ape": "20000000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "policyNumber": "41016504",
+      "customerName": "Astra Life Direct PFC 3",
+      "pfc": "A1000003",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-24 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "12500000",
+      "topUp": "2500000",
+      "adHocTopUp": "2500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "12500000",
+      "topUpIDR": "2500000",
+      "adHocTopUpIDR": "2500000",
+      "ape": "25500000",
+      "apeAdHoc": "250000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016334",
+      "customerName": "Astra Life Direct PFC 3",
+      "pfc": "A1000003",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-12 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "12500000",
+      "topUp": "2500000",
+      "adHocTopUp": "2500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "12500000",
+      "topUpIDR": "2500000",
+      "adHocTopUpIDR": "2500000",
+      "ape": "25500000",
+      "apeAdHoc": "250000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41017087",
+      "customerName": "Astra Life Direct PFC 13",
+      "pfc": "A8000006",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-14 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "50000",
+      "topUp": "50000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "631250000",
+      "topUpIDR": "631250000",
+      "adHocTopUpIDR": "0",
+      "ape": "694375000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "policyNumber": "41018341",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-16 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2000000",
+      "topUp": "2000000",
+      "adHocTopUp": "30000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2000000",
+      "topUpIDR": "2000000",
+      "adHocTopUpIDR": "30000000",
+      "ape": "8800000",
+      "apeAdHoc": "3000000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41017009",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-02 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2500000",
+      "topUp": "2000000",
+      "adHocTopUp": "2000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2500000",
+      "topUpIDR": "2000000",
+      "adHocTopUpIDR": "2000000",
+      "ape": "32400000",
+      "apeAdHoc": "200000",
+      "rider": "4"
+    },
+    {
+      "policyNumber": "41016296",
+      "customerName": "Astra Life Direct PFC 9",
+      "pfc": "A3450987",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-12 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "12500000",
+      "topUp": "2500000",
+      "adHocTopUp": "2500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "12500000",
+      "topUpIDR": "2500000",
+      "adHocTopUpIDR": "2500000",
+      "ape": "25500000",
+      "apeAdHoc": "250000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016209",
+      "customerName": "Astra Life Direct PFC 9",
+      "pfc": "A3450987",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-02 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "7000000",
+      "topUp": "3000000",
+      "adHocTopUp": "3000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "7000000",
+      "topUpIDR": "3000000",
+      "adHocTopUpIDR": "3000000",
+      "ape": "29200000",
+      "apeAdHoc": "300000",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "UR1A7011111150903201619",
+      "policyNumber": "41017608",
+      "customerName": "PFC ASTRA ",
+      "pfc": "A7011111",
+      "product": "AVA iSmart                    ",
+      "status": "SUBMITTED",
+      "dmuDate": "2015-09-25 00:00:00.0",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "1000000",
+      "topUp": "1000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "1000000",
+      "topUpIDR": "1000000",
+      "adHocTopUpIDR": "0",
+      "ape": "13200000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "eREFNumber": "US1A8000109150903133911",
+      "policyNumber": "41017448",
+      "customerName": "PFC PRD 2 ",
+      "pfc": "A8000109",
+      "product": "AVA iPrime                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "10000",
+      "topUp": "10000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "126250000",
+      "topUpIDR": "126250000",
+      "adHocTopUpIDR": "0",
+      "ape": "25250000",
+      "apeAdHoc": "0",
+      "rider": "1"
+    },
+    {
+      "policyNumber": "41016517",
+      "customerName": "Fxdhxllxh Fxjrx Xfxf ",
+      "pfc": "A0921114",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-24 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "25000000",
+      "topUp": "5000000",
+      "adHocTopUp": "5000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "25000000",
+      "topUpIDR": "5000000",
+      "adHocTopUpIDR": "5000000",
+      "ape": "25500000",
+      "apeAdHoc": "500000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016184",
+      "customerName": "Astra Life Direct PFC 3",
+      "pfc": "A1000003",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-02 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "25000000",
+      "topUp": "5000000",
+      "adHocTopUp": "5000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "25000000",
+      "topUpIDR": "5000000",
+      "adHocTopUpIDR": "5000000",
+      "ape": "25500000",
+      "apeAdHoc": "500000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016447",
+      "customerName": "Astra Life Direct PFC - Senior",
+      "pfc": "A1251111",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-20 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2500000",
+      "topUp": "1500000",
+      "adHocTopUp": "1500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2500000",
+      "topUpIDR": "1500000",
+      "adHocTopUpIDR": "1500000",
+      "ape": "31800000",
+      "apeAdHoc": "150000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41017064",
+      "customerName": "Astra Life Direct PFC - Senior",
+      "pfc": "A2150088",
+      "product": "AVA iPrime                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-14 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "13000000",
+      "topUp": "2000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "13000000",
+      "topUpIDR": "2000000",
+      "adHocTopUpIDR": "0",
+      "ape": "1500000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "eREFNumber": "UR1A8000109150903132645",
+      "policyNumber": "41017439",
+      "customerName": "PFC PRD 2 ",
+      "pfc": "A8000109",
+      "product": "AVA iSmart                    ",
+      "status": "Pending DMU",
+      "dmuDate": "2015-09-04 00:00:00.0",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "10000000",
+      "topUp": "10000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "10000000",
+      "topUpIDR": "10000000",
+      "adHocTopUpIDR": "0",
+      "ape": "132000000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "eREFNumber": "UR1A8000113150903195941",
+      "policyNumber": "41017574",
+      "customerName": "PFC PRD 6 ",
+      "pfc": "A8000113",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "3000",
+      "topUp": "3000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "37875000",
+      "topUpIDR": "37875000",
+      "adHocTopUpIDR": "0",
+      "ape": "499950000",
+      "apeAdHoc": "0",
+      "rider": "2"
+    },
+    {
+      "eREFNumber": "UR1A8000114150903210623",
+      "policyNumber": "41017612",
+      "customerName": "PFC PRD 7 ",
+      "pfc": "A8000114",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "20000000",
+      "topUp": "20000000",
+      "adHocTopUp": "40000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "20000000",
+      "topUpIDR": "20000000",
+      "adHocTopUpIDR": "40000000",
+      "ape": "264000000",
+      "apeAdHoc": "4000000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016311",
+      "customerName": "Fxdhxllxh Fxjrx Xfxf ",
+      "pfc": "A0921114",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-12 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2500000",
+      "topUp": "1500000",
+      "adHocTopUp": "1500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2500000",
+      "topUpIDR": "1500000",
+      "adHocTopUpIDR": "1500000",
+      "ape": "31800000",
+      "apeAdHoc": "150000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016536",
+      "customerName": "Astra Life Direct PFC 3",
+      "pfc": "A1000003",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-24 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "7000000",
+      "topUp": "3000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "7000000",
+      "topUpIDR": "3000000",
+      "adHocTopUpIDR": "0",
+      "ape": "29200000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "US1A8000108150901175715",
+      "policyNumber": "41016934",
+      "customerName": "PFC PRD 1 ",
+      "pfc": "A8000108",
+      "product": "AVA iPrime                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-01 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "100000000",
+      "topUp": "100000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "100000000",
+      "topUpIDR": "100000000",
+      "adHocTopUpIDR": "0",
+      "ape": "20000000",
+      "apeAdHoc": "0",
+      "rider": "2"
+    },
+    {
+      "eREFNumber": "US1A8000110150903185132",
+      "policyNumber": "41017564",
+      "customerName": "PFC PRD 3 ",
+      "pfc": "A8000110",
+      "product": "AVA iPrime                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "300000000",
+      "topUp": "300000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "300000000",
+      "topUpIDR": "300000000",
+      "adHocTopUpIDR": "0",
+      "ape": "60000000",
+      "apeAdHoc": "0",
+      "rider": "2"
+    },
+    {
+      "policyNumber": "41016174",
+      "customerName": "Astra Life Direct PFC 2",
+      "pfc": "A1000002",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-02 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "12500000",
+      "topUp": "2500000",
+      "adHocTopUp": "2500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "12500000",
+      "topUpIDR": "2500000",
+      "adHocTopUpIDR": "2500000",
+      "ape": "25500000",
+      "apeAdHoc": "250000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41019119",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-02 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "1500000",
+      "topUp": "2000000",
+      "adHocTopUp": "10000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "1500000",
+      "topUpIDR": "2000000",
+      "adHocTopUpIDR": "10000000",
+      "ape": "20400000",
+      "apeAdHoc": "1000000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41018430",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-16 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2000000",
+      "topUp": "3000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2000000",
+      "topUpIDR": "3000000",
+      "adHocTopUpIDR": "0",
+      "ape": "27600000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41018248",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-16 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2000000",
+      "topUp": "2000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2000000",
+      "topUpIDR": "2000000",
+      "adHocTopUpIDR": "0",
+      "ape": "26400000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41018239",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-16 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2000000",
+      "topUp": "3000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2000000",
+      "topUpIDR": "3000000",
+      "adHocTopUpIDR": "0",
+      "ape": "27600000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41017022",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-02 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "7500000",
+      "topUp": "2000000",
+      "adHocTopUp": "2000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "7500000",
+      "topUpIDR": "2000000",
+      "adHocTopUpIDR": "2000000",
+      "ape": "30800000",
+      "apeAdHoc": "200000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016998",
+      "customerName": "Astra Life Direct PFC - Senior",
+      "pfc": "A1251111",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-02 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "15000",
+      "topUp": "3500",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "189375000",
+      "topUpIDR": "44187500",
+      "adHocTopUpIDR": "0",
+      "ape": "387587500",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "policyNumber": "41016989",
+      "customerName": "Astra Life Direct PFC - Senior",
+      "pfc": "A2150088",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-02 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "125000000",
+      "topUp": "25000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "125000000",
+      "topUpIDR": "25000000",
+      "adHocTopUpIDR": "0",
+      "ape": "510000000",
+      "apeAdHoc": "0",
+      "rider": "1"
+    },
+    {
+      "policyNumber": "41016910",
+      "customerName": "Astra Life Direct PFC - Senior",
+      "pfc": "A2150088",
+      "product": "AVA iPrime                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-01 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "55000000",
+      "topUp": "45000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "55000000",
+      "topUpIDR": "45000000",
+      "adHocTopUpIDR": "0",
+      "ape": "10000000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "policyNumber": "41017869",
+      "customerName": "PFC 2 ",
+      "pfc": "A7000007",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-11 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2500000",
+      "topUp": "2500000",
+      "adHocTopUp": "2500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2500000",
+      "topUpIDR": "2500000",
+      "adHocTopUpIDR": "2500000",
+      "ape": "33000000",
+      "apeAdHoc": "250000",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "US1A8000113150903202517",
+      "policyNumber": "41017597",
+      "customerName": "PFC PRD 6 ",
+      "pfc": "A8000113",
+      "product": "AVA iPrime                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "300000000",
+      "topUp": "300000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "300000000",
+      "topUpIDR": "300000000",
+      "adHocTopUpIDR": "0",
+      "ape": "60000000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "UR1A8000113150903201142",
+      "policyNumber": "41017587",
+      "customerName": "PFC PRD 6 ",
+      "pfc": "A8000113",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "1000",
+      "topUp": "1000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "12625000",
+      "topUpIDR": "12625000",
+      "adHocTopUpIDR": "0",
+      "ape": "166650000",
+      "apeAdHoc": "0",
+      "rider": "1"
+    },
+    {
+      "policyNumber": "41018421",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-16 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "3000000",
+      "topUp": "3000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "3000000",
+      "topUpIDR": "3000000",
+      "adHocTopUpIDR": "0",
+      "ape": "39600000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "UR1A8000012150811110809",
+      "policyNumber": "41015089",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iSmart                    ",
+      "status": "SUBMITTED",
+      "dmuDate": "2015-09-04 00:00:00.0",
+      "inforceDate": "2015-08-11 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "12000000",
+      "topUp": "12000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "12000000",
+      "topUpIDR": "12000000",
+      "adHocTopUpIDR": "0",
+      "ape": "158400000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "policyNumber": "41016559",
+      "customerName": "Astra Life Direct PFC 9",
+      "pfc": "A3450987",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-24 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "25000000",
+      "topUp": "5000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "25000000",
+      "topUpIDR": "5000000",
+      "adHocTopUpIDR": "0",
+      "ape": "25500000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016367",
+      "customerName": "Astra Life Direct PFC 9",
+      "pfc": "A3450987",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-20 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2500000",
+      "topUp": "1500000",
+      "adHocTopUp": "1500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2500000",
+      "topUpIDR": "1500000",
+      "adHocTopUpIDR": "1500000",
+      "ape": "31800000",
+      "apeAdHoc": "150000",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "US1A8000108150901185039",
+      "policyNumber": "41016957",
+      "customerName": "PFC PRD 1 ",
+      "pfc": "A8000108",
+      "product": "AVA iPrime                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-01 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "300000000",
+      "topUp": "300000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "300000000",
+      "topUpIDR": "300000000",
+      "adHocTopUpIDR": "0",
+      "ape": "60000000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "UR1A8000108150901170100",
+      "policyNumber": "41016924",
+      "customerName": "PFC PRD 1 ",
+      "pfc": "A8000108",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-01 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "20000000",
+      "topUp": "20000000",
+      "adHocTopUp": "10000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "20000000",
+      "topUpIDR": "20000000",
+      "adHocTopUpIDR": "10000000",
+      "ape": "264000000",
+      "apeAdHoc": "1000000",
+      "rider": "1"
+    },
+    {
+      "eREFNumber": "US1A8000109150903135736",
+      "policyNumber": "41017461",
+      "customerName": "PFC PRD 2 ",
+      "pfc": "A8000109",
+      "product": "AVA iPrime                    ",
+      "status": "Approved by DMU",
+      "dmuDate": "2015-09-04 00:00:00.0",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "30000",
+      "topUp": "30000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "378750000",
+      "topUpIDR": "378750000",
+      "adHocTopUpIDR": "0",
+      "ape": "75750000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "eREFNumber": "UR1A8000110150903154559",
+      "policyNumber": "41017528",
+      "customerName": "PFC PRD 3 ",
+      "pfc": "A8000110",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "10000",
+      "topUp": "10000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "126250000",
+      "topUpIDR": "126250000",
+      "adHocTopUpIDR": "0",
+      "ape": "1666500000",
+      "apeAdHoc": "0",
+      "rider": "1"
+    },
+    {
+      "eREFNumber": "UR1A8000110150903151442",
+      "policyNumber": "41017505",
+      "customerName": "PFC PRD 3 ",
+      "pfc": "A8000110",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "20000000",
+      "topUp": "20000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "20000000",
+      "topUpIDR": "20000000",
+      "adHocTopUpIDR": "0",
+      "ape": "264000000",
+      "apeAdHoc": "0",
+      "rider": "1"
+    },
+    {
+      "eREFNumber": "UR1A8000114150903211357",
+      "policyNumber": "41017621",
+      "customerName": "PFC PRD 7 ",
+      "pfc": "A8000114",
+      "product": "AVA iSmart                    ",
+      "status": "Approved by DMU",
+      "dmuDate": "2015-09-07 00:00:00.0",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "2000",
+      "topUp": "2000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "25250000",
+      "topUpIDR": "25250000",
+      "adHocTopUpIDR": "0",
+      "ape": "333300000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "eREFNumber": "UR1A8000115150904140745",
+      "policyNumber": "41017630",
+      "customerName": "PFC PRD 8 ",
+      "pfc": "A8000115",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-04 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "3000",
+      "topUp": "3000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "37875000",
+      "topUpIDR": "37875000",
+      "adHocTopUpIDR": "0",
+      "ape": "499950000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "policyNumber": "41018444",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-16 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "1000000",
+      "topUp": "3000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "1000000",
+      "topUpIDR": "3000000",
+      "adHocTopUpIDR": "0",
+      "ape": "15600000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41018252",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-16 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2000000",
+      "topUp": "2000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2000000",
+      "topUpIDR": "2000000",
+      "adHocTopUpIDR": "0",
+      "ape": "26400000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016895",
+      "customerName": "Astra Life Direct PFC - Senior",
+      "pfc": "A1251111",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-01 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "3000000",
+      "topUp": "20000000",
+      "adHocTopUp": "13000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "3000000",
+      "topUpIDR": "20000000",
+      "adHocTopUpIDR": "13000000",
+      "ape": "5000000",
+      "apeAdHoc": "1300000",
+      "rider": "0"
+    },
+    {
+      "policyNumber": "41016287",
+      "customerName": "Astra Life Direct PFC - Senior",
+      "pfc": "A1251111",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-12 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "7000000",
+      "topUp": "3000000",
+      "adHocTopUp": "3000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "7000000",
+      "topUpIDR": "3000000",
+      "adHocTopUpIDR": "3000000",
+      "ape": "29200000",
+      "apeAdHoc": "300000",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "US1A8000109150903134825",
+      "policyNumber": "41017452",
+      "customerName": "PFC PRD 2 ",
+      "pfc": "A8000109",
+      "product": "AVA iPrime                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "200000000",
+      "topUp": "200000000",
+      "adHocTopUp": "200000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "200000000",
+      "topUpIDR": "200000000",
+      "adHocTopUpIDR": "200000000",
+      "ape": "40000000",
+      "apeAdHoc": "20000000",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "UR1A8000109150903131441",
+      "policyNumber": "41017425",
+      "customerName": "PFC PRD 2 ",
+      "pfc": "A8000109",
+      "product": "AVA iSmart                    ",
+      "status": "Approved by DMU",
+      "dmuDate": "2015-09-04 00:00:00.0",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "3000",
+      "topUp": "3000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "37875000",
+      "topUpIDR": "37875000",
+      "adHocTopUpIDR": "0",
+      "ape": "499950000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "eREFNumber": "UR1A8000110150903155759",
+      "policyNumber": "41017532",
+      "customerName": "PFC PRD 3 ",
+      "pfc": "A8000110",
+      "product": "AVA iSmart                    ",
+      "status": "Approved by DMU",
+      "dmuDate": "2015-09-04 00:00:00.0",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "20000000",
+      "topUp": "20000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "20000000",
+      "topUpIDR": "20000000",
+      "adHocTopUpIDR": "0",
+      "ape": "264000000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "policyNumber": "41016160",
+      "customerName": "Fxdhxllxh Fxjrx Xfxf ",
+      "pfc": "A0921114",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-02 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "7000000",
+      "topUp": "3000000",
+      "adHocTopUp": "3000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "7000000",
+      "topUpIDR": "3000000",
+      "adHocTopUpIDR": "3000000",
+      "ape": "29200000",
+      "apeAdHoc": "300000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016527",
+      "customerName": "Astra Life Direct PFC 2",
+      "pfc": "A1000002",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-24 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2500000",
+      "topUp": "1500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2500000",
+      "topUpIDR": "1500000",
+      "adHocTopUpIDR": "0",
+      "ape": "31800000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016320",
+      "customerName": "Astra Life Direct PFC 2",
+      "pfc": "A1000002",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-12 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "7000000",
+      "topUp": "3000000",
+      "adHocTopUp": "3000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "7000000",
+      "topUpIDR": "3000000",
+      "adHocTopUpIDR": "3000000",
+      "ape": "29200000",
+      "apeAdHoc": "300000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41016277",
+      "customerName": "Astra Life Direct PFC 3",
+      "pfc": "A1000003",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-12 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2500000",
+      "topUp": "1500000",
+      "adHocTopUp": "1500000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2500000",
+      "topUpIDR": "1500000",
+      "adHocTopUpIDR": "1500000",
+      "ape": "31800000",
+      "apeAdHoc": "150000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41018305",
+      "customerName": "Astra Life Direct PFC 17",
+      "pfc": "A8000012",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-16 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "2000000",
+      "topUp": "2000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "2000000",
+      "topUpIDR": "2000000",
+      "adHocTopUpIDR": "0",
+      "ape": "26400000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41017031",
+      "customerName": "Astra Life Direct PFC - Senior",
+      "pfc": "A1251111",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-09 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "750000000",
+      "topUp": "500000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "750000000",
+      "topUpIDR": "500000000",
+      "adHocTopUpIDR": "0",
+      "ape": "9600000000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "policyNumber": "41016456",
+      "customerName": "Astra Life Direct PFC 9",
+      "pfc": "A3450987",
+      "product": "AVA iFuture                   ",
+      "status": "IF",
+      "inforceDate": "2015-09-20 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "7000000",
+      "topUp": "3000000",
+      "adHocTopUp": "3000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "7000000",
+      "topUpIDR": "3000000",
+      "adHocTopUpIDR": "3000000",
+      "ape": "29200000",
+      "apeAdHoc": "300000",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "00158152",
+      "customerName": "PFC ASTRA ",
+      "pfc": "A7011111",
+      "product": "AVA iSmart                    ",
+      "status": "SUBMITTED",
+      "dmuDate": "2015-09-25 00:00:00.0",
+      "inforceDate": "2015-02-03 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "10000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "10000000",
+      "topUpIDR": "0",
+      "adHocTopUpIDR": "0",
+      "ape": "120000000",
+      "apeAdHoc": "0",
+      "rider": "0"
+    },
+    {
+      "eREFNumber": "US1A8000108150901181527",
+      "policyNumber": "41016947",
+      "customerName": "PFC PRD 1 ",
+      "pfc": "A8000108",
+      "product": "AVA iPrime                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-01 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "20000",
+      "topUp": "20000",
+      "adHocTopUp": "10000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "252500000",
+      "topUpIDR": "252500000",
+      "adHocTopUpIDR": "126250000",
+      "ape": "50500000",
+      "apeAdHoc": "12625000",
+      "rider": "2"
+    },
+    {
+      "eREFNumber": "UR1A8000109150903130228",
+      "policyNumber": "41017416",
+      "customerName": "PFC PRD 2 ",
+      "pfc": "A8000109",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-03 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "2000",
+      "topUp": "2000",
+      "adHocTopUp": "30000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "25250000",
+      "topUpIDR": "25250000",
+      "adHocTopUpIDR": "378750000",
+      "ape": "333300000",
+      "apeAdHoc": "37875000",
+      "rider": "2"
+    },
+    {
+      "eREFNumber": "UR1A8000115150904141817",
+      "policyNumber": "41017644",
+      "customerName": "PFC PRD 8 ",
+      "pfc": "A8000115",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-04 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "10000000",
+      "topUp": "10000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "10000000",
+      "topUpIDR": "10000000",
+      "adHocTopUpIDR": "0",
+      "ape": "132000000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "eREFNumber": "UR1A8000116150907163139",
+      "policyNumber": "41017724",
+      "customerName": "PFC PRD 9 ",
+      "pfc": "A8000116",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-07 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "1000",
+      "topUp": "1000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "12625000",
+      "topUpIDR": "12625000",
+      "adHocTopUpIDR": "0",
+      "ape": "166650000",
+      "apeAdHoc": "0",
+      "rider": "2"
+    },
+    {
+      "eREFNumber": "UR1A8000116150907155902",
+      "policyNumber": "41017710",
+      "customerName": "PFC PRD 9 ",
+      "pfc": "A8000116",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-07 00:00:00.0",
+      "currency": "IDR",
+      "basicPremium": "30000000",
+      "topUp": "30000000",
+      "exchangeRate": "1",
+      "basicPremiumIDR": "30000000",
+      "topUpIDR": "30000000",
+      "adHocTopUpIDR": "0",
+      "ape": "396000000",
+      "apeAdHoc": "0",
+      "rider": "3"
+    },
+    {
+      "policyNumber": "41018678",
+      "customerName": "PFC PRD 10 ",
+      "pfc": "A8000117",
+      "product": "AVA iSmart                    ",
+      "status": "IF",
+      "inforceDate": "2015-09-22 00:00:00.0",
+      "currency": "USD",
+      "basicPremium": "3000",
+      "topUp": "3000",
+      "exchangeRate": "12625",
+      "basicPremiumIDR": "37875000",
+      "topUpIDR": "37875000",
+      "adHocTopUpIDR": "0",
+      "ape": "499950000",
+      "apeAdHoc": "0",
+      "rider": "2"
+    }
+  ],
+  "leadsDTOList": [
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150716_101253",
+      "customerName": "Tpd sa test",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150716_110025",
+      "customerName": "Tpd test sa",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150716_113100",
+      "customerName": "Tfcvugbuh",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150716_114845",
+      "customerName": "Cftvyg",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150805_100628",
+      "customerName": "Uguhcju",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150806_091715",
+      "customerName": "Crdvtfybyij",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150806_093805",
+      "customerName": "Cygubhonk",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150806_094628",
+      "customerName": "Ycgyubhiu",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150806_095259",
+      "customerName": "Trdvtybui",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150806_103717",
+      "customerName": "Fctvgyunu",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150812_083951",
+      "customerName": "Rfctfvyvf",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150812_090022",
+      "customerName": "Ctfuvguby",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150812_090939",
+      "customerName": "Fctvygbuh",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150820_164531",
+      "customerName": "Dxtvyghuh",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150820_171550",
+      "customerName": "Chghgjjhi",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150821_093419",
+      "customerName": "Tcftyvbuh",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150827_100245",
+      "customerName": "Ctfubginj",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150827_133943",
+      "customerName": "F tvgyybh",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150828_101140",
+      "customerName": "Tcfcugiub",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150915_131335",
+      "customerName": "Rfvftvyg",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150915_151215",
+      "customerName": "Fcyvgujbh",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A0000020",
+      "leadsNumber": "A0000020_150915_152622",
+      "customerName": "Hvgbjh",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_150903_201151",
+      "customerName": "Test orng ketiga",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151001_101416",
+      "customerName": "TEST ANB 6",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151001_154109",
+      "customerName": "TEST ANB 1",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151001_174901",
+      "customerName": "TEST ANB 2",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151002_095819",
+      "customerName": "TEST ANB 3",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151002_100557",
+      "customerName": "TEST ANB 4",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151002_101046",
+      "customerName": "TEST ANB 5",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151002_162027",
+      "customerName": "TEST FLOW 1",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151005_141138",
+      "customerName": "Gyf",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151005_164530",
+      "customerName": "TEST FLOW 2",
+      "status": "submit",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151006_182526",
+      "customerName": "Ghfctdx",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151009_101321",
+      "customerName": "Gjgcfd",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151019_181421",
+      "customerName": "TEST FNA 1",
+      "status": "submit",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151019_182930",
+      "customerName": "TEST FNA 2",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7011111",
+      "leadsNumber": "A7011111_151019_183042",
+      "customerName": "TEST FNA 3",
+      "status": "contact",
+      "leadsMonth": "October"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150713_193834",
+      "customerName": "Check lms 3",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150713_194724",
+      "customerName": "Check lms 4",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150713_195912",
+      "customerName": "Check lms 5",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_000203",
+      "customerName": "Check lms 7",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_000455",
+      "customerName": "Check lms 8",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_015836",
+      "customerName": "Check lms 1",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_025859",
+      "customerName": "Check lms 1",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_113001",
+      "customerName": "Check va 1",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_135316",
+      "customerName": "Check va 2",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_141727",
+      "customerName": "Check va 4",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_145317",
+      "customerName": "Check va 4",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_150437",
+      "customerName": "Check lms 6",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_151340",
+      "customerName": "Check va 2",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_153148",
+      "customerName": "Check va 1",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_155100",
+      "customerName": "Qq",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150714_170150",
+      "customerName": "Check compare 1",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_135020",
+      "customerName": "Winarto",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_144550",
+      "customerName": "Wins",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_145654",
+      "customerName": "Winarto",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_150748",
+      "customerName": "Dndji",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_151458",
+      "customerName": "Djdi",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_152253",
+      "customerName": "Winarto",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_153238",
+      "customerName": "Fndjd",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_155043",
+      "customerName": "Unjkom",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_161316",
+      "customerName": "Djdk",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_163439",
+      "customerName": "Ndj",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150719_173450",
+      "customerName": "Cndjd",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150720_094726",
+      "customerName": "Cndj",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150720_095833",
+      "customerName": "Mcskk",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150917_102150",
+      "customerName": "Windjs",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A7066666",
+      "leadsNumber": "A7066666_150919_112827",
+      "customerName": "Test netagitve",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150707_192355",
+      "customerName": "Savanna satu",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150708_023213",
+      "customerName": "Savanna gendut",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150709_221339",
+      "customerName": "Savanna ganteng",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150730_101946",
+      "customerName": "Test ifuture 1",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150730_141157",
+      "customerName": "Test ifuture 1",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150730_150634",
+      "customerName": "Test ismart 1",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150730_153340",
+      "customerName": "Test ifuture 1",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150730_190806",
+      "customerName": "Test ifuture 1",
+      "status": "submit",
+      "leadsMonth": "July"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150803_142457",
+      "customerName": "Customer 60",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150805_105458",
+      "customerName": "Customer 60",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_105111",
+      "customerName": "Customer 18",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_151009",
+      "customerName": "Testing demo ipad",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_175424",
+      "customerName": "Customer 25",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_181922",
+      "customerName": "Customer 20",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_183509",
+      "customerName": "Customer 30",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_185908",
+      "customerName": "customer 35",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_190949",
+      "customerName": "Customer 40",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_191907",
+      "customerName": "Customer 40",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_200054",
+      "customerName": "Customer 25",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_201702",
+      "customerName": "Customer 20",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_202528",
+      "customerName": "Customer 35",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150811_203315",
+      "customerName": "Customer 40",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000012",
+      "leadsNumber": "A8000012_150812_095728",
+      "customerName": "Customer 18",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_110630",
+      "customerName": "TEST PRD 1",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_131810",
+      "customerName": "TEST PRD 2",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_131856",
+      "customerName": "TEST PRD 3",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_131931",
+      "customerName": "TEST PRD 4",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132002",
+      "customerName": "TEST PRD 5",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132023",
+      "customerName": "TEST PRD 63",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132248",
+      "customerName": "TEST PRD 64",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132344",
+      "customerName": "TEST PRD 65",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132406",
+      "customerName": "TEST PRD 66",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132433",
+      "customerName": "TEST PRD 67",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132458",
+      "customerName": "TEST PRD 68",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132523",
+      "customerName": "TEST PRD 69",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132554",
+      "customerName": "TEST PRD 70",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132650",
+      "customerName": "TEST PRD 71",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132717",
+      "customerName": "TEST PRD 72",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132748",
+      "customerName": "TEST PRD 73",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132844",
+      "customerName": "TEST PRD 74",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132916",
+      "customerName": "TEST PRD 75",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132937",
+      "customerName": "TEST PRD 76",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_132958",
+      "customerName": "TEST PRD 77",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133021",
+      "customerName": "TEST PRD 78",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133046",
+      "customerName": "TEST PRD 79",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133110",
+      "customerName": "TEST PRD 80",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133142",
+      "customerName": "TEST PRD 81",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133215",
+      "customerName": "TEST PRD 82",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133236",
+      "customerName": "TEST PRD 83",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133258",
+      "customerName": "TEST PRD 84",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133320",
+      "customerName": "TEST PRD 85",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133341",
+      "customerName": "TEST PRD 86",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133413",
+      "customerName": "TEST PRD 87",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133505",
+      "customerName": "TEST PRD 88",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133708",
+      "customerName": "TEST PRD 89",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_133801",
+      "customerName": "TEST PRD 90",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_134058",
+      "customerName": "TEST PRD 91",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000108",
+      "leadsNumber": "A8000108_150901_134146",
+      "customerName": "TEST PRD 92",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150820_095449",
+      "customerName": "TEST PRD 10",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150820_095749",
+      "customerName": "TEST PRD 124",
+      "status": "contact",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150820_095846",
+      "customerName": "TEST PRD 141",
+      "status": "proposal",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_101501",
+      "customerName": "TEST PRD 6",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_101818",
+      "customerName": "TEST PRD 7",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_101913",
+      "customerName": "TEST PRD 8",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_101934",
+      "customerName": "TEST PRD 9",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102158",
+      "customerName": "TEST PRD 109",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102224",
+      "customerName": "TEST PRD 110",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102253",
+      "customerName": "TEST PRD 111",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102317",
+      "customerName": "TEST PRD 112",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102340",
+      "customerName": "TEST PRD 113",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102405",
+      "customerName": "TEST PRD 114",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102427",
+      "customerName": "TEST PRD 115",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102451",
+      "customerName": "TEST PRD 116",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102514",
+      "customerName": "TEST PRD 117",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102535",
+      "customerName": "TEST PRD 118",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102556",
+      "customerName": "TEST PRD 119",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102632",
+      "customerName": "TEST PRD 120",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102703",
+      "customerName": "TEST PRD 121",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102726",
+      "customerName": "TEST PRD 122",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102754",
+      "customerName": "TEST PRD 123",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102826",
+      "customerName": "TEST PRD 125",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102847",
+      "customerName": "TEST PRD 126",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102913",
+      "customerName": "TEST PRD 127",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_102959",
+      "customerName": "TEST PRD 128",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103025",
+      "customerName": "TEST PRD 129",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103047",
+      "customerName": "TEST PRD 130",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103115",
+      "customerName": "TEST PRD 131",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103142",
+      "customerName": "TEST PRD 132",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103205",
+      "customerName": "TEST PRD 133",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103232",
+      "customerName": "TEST PRD 134",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103258",
+      "customerName": "TEST PRD 135",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103323",
+      "customerName": "TEST PRD 136",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103348",
+      "customerName": "TEST PRD 137",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103409",
+      "customerName": "TEST PRD 138",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103430",
+      "customerName": "TEST PRD 139",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103456",
+      "customerName": "TEST PRD 140",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150902_103521",
+      "customerName": "TEST PRD 142",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150903_104919",
+      "customerName": "TEST PRD 390",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000109",
+      "leadsNumber": "A8000109_150903_105041",
+      "customerName": "TEST PRD 391",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150820_145711",
+      "customerName": "TEST PRD 16",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150820_145752",
+      "customerName": "TEST PRD 182",
+      "status": "meeting",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150820_145820",
+      "customerName": "TEST PRD 187",
+      "status": "proposal",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142252",
+      "customerName": "TEST PRD 11",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142315",
+      "customerName": "TEST PRD 12",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142405",
+      "customerName": "TEST PRD 13",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142427",
+      "customerName": "TEST PRD 14",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142449",
+      "customerName": "TEST PRD 15",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142514",
+      "customerName": "TEST PRD 17",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142534",
+      "customerName": "TEST PRD 18",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142601",
+      "customerName": "TEST PRD 143",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142636",
+      "customerName": "TEST PRD 144",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142656",
+      "customerName": "TEST PRD 145",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142720",
+      "customerName": "TEST PRD 146",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142744",
+      "customerName": "TEST PRD 147",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142807",
+      "customerName": "TEST PRD 148",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142839",
+      "customerName": "TEST PRD 149",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142903",
+      "customerName": "TEST PRD 150",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142924",
+      "customerName": "TEST PRD 151",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_142943",
+      "customerName": "TEST PRD 152",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_143001",
+      "customerName": "TEST PRD 153",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_143027",
+      "customerName": "TEST PRD 154",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_143052",
+      "customerName": "TEST PRD 155",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_143115",
+      "customerName": "TEST PRD 156",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_143139",
+      "customerName": "TEST PRD 157",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_143223",
+      "customerName": "TEST PRD 158",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_143248",
+      "customerName": "TEST PRD 159",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_143311",
+      "customerName": "TEST PRD 160",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_143348",
+      "customerName": "TEST PRD 161",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_143420",
+      "customerName": "TEST PRD 162",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_144559",
+      "customerName": "TEST PRD 163",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_144717",
+      "customerName": "TEST PRD 164",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_144740",
+      "customerName": "TEST PRD 165",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_144805",
+      "customerName": "TEST PRD 166",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_144826",
+      "customerName": "TEST PRD 167",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_144846",
+      "customerName": "TEST PRD 168",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_144905",
+      "customerName": "TEST PRD 169",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_144927",
+      "customerName": "TEST PRD 170",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_144948",
+      "customerName": "TEST PRD 171",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145007",
+      "customerName": "TEST PRD 172",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145040",
+      "customerName": "TEST PRD 173",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145104",
+      "customerName": "TEST PRD 174",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145127",
+      "customerName": "TEST PRD 175",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145149",
+      "customerName": "TEST PRD 176",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145219",
+      "customerName": "TEST PRD 177",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145241",
+      "customerName": "TEST PRD 178",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145302",
+      "customerName": "TEST PRD 179",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145327",
+      "customerName": "TEST PRD 180",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145351",
+      "customerName": "TEST PRD 181",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145418",
+      "customerName": "TEST PRD 183",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145440",
+      "customerName": "TEST PRD 184",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145502",
+      "customerName": "TEST PRD 185",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000110",
+      "leadsNumber": "A8000110_150903_145525",
+      "customerName": "TEST PRD 186",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150820_194314",
+      "customerName": "TEST PRD 29",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150820_194356",
+      "customerName": "TEST PRD 276",
+      "status": "meeting",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150820_194426",
+      "customerName": "TEST PRD 281",
+      "status": "meeting",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193250",
+      "customerName": "TEST PRD 27",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193401",
+      "customerName": "TEST PRD 28",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193425",
+      "customerName": "TEST PRD 264",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193517",
+      "customerName": "TEST PRD 265",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193546",
+      "customerName": "TEST PRD 266",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193609",
+      "customerName": "TEST PRD 267",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193635",
+      "customerName": "TEST PRD 268",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193713",
+      "customerName": "TEST PRD 269",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193739",
+      "customerName": "TEST PRD 270",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193826",
+      "customerName": "TEST PRD 271",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193854",
+      "customerName": "TEST PRD 272",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_193916",
+      "customerName": "TEST PRD 273",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_194001",
+      "customerName": "TEST PRD 274",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_194028",
+      "customerName": "TEST PRD 275",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_194052",
+      "customerName": "TEST PRD 277",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_194123",
+      "customerName": "TEST PRD 278",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_194148",
+      "customerName": "TEST PRD 279",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000113",
+      "leadsNumber": "A8000113_150903_194233",
+      "customerName": "TEST PRD 280",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150820_205019",
+      "customerName": "TEST PRD 35",
+      "status": "contact",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150820_205054",
+      "customerName": "TEST PRD 297",
+      "status": "proposal",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_203704",
+      "customerName": "TEST PRD 30",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_203744",
+      "customerName": "TEST PRD 31",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_203849",
+      "customerName": "TEST PRD 32",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_203914",
+      "customerName": "TEST PRD 33",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_203942",
+      "customerName": "TEST PRD 34",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204018",
+      "customerName": "TEST PRD 282",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204044",
+      "customerName": "TEST PRD 283",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204121",
+      "customerName": "TEST PRD 284",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204144",
+      "customerName": "TEST PRD 285",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204212",
+      "customerName": "TEST PRD 286",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204236",
+      "customerName": "TEST PRD 287",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204312",
+      "customerName": "TEST PRD 288",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204334",
+      "customerName": "TEST PRD 289",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204356",
+      "customerName": "TEST PRD 290",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204417",
+      "customerName": "TEST PRD 291",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204443",
+      "customerName": "TEST PRD 292",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204509",
+      "customerName": "TEST PRD 293",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204533",
+      "customerName": "TEST PRD 294",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204613",
+      "customerName": "TEST PRD 295",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204637",
+      "customerName": "TEST PRD 296",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000114",
+      "leadsNumber": "A8000114_150903_204700",
+      "customerName": "TEST PRD 298",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150820_101318",
+      "customerName": "TEST PRD 40",
+      "status": "submit",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_095050",
+      "customerName": "TEST PRD 36",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_095124",
+      "customerName": "TEST PRD 37",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_095221",
+      "customerName": "TEST PRD 38",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_095244",
+      "customerName": "TEST PRD 39",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_095311",
+      "customerName": "TEST PRD 299",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_095336",
+      "customerName": "TEST PRD 300",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_095401",
+      "customerName": "TEST PRD 301",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100234",
+      "customerName": "TEST PRD 302",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100258",
+      "customerName": "TEST PRD 303",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100319",
+      "customerName": "TEST PRD 304",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100341",
+      "customerName": "TEST PRD 305",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100418",
+      "customerName": "TEST PRD 306",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100441",
+      "customerName": "TEST PRD 307",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100502",
+      "customerName": "TEST PRD 308",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100529",
+      "customerName": "TEST PRD 309",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100601",
+      "customerName": "TEST PRD 310",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100624",
+      "customerName": "TEST PRD 311",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100648",
+      "customerName": "TEST PRD 312",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100709",
+      "customerName": "TEST PRD 313",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100734",
+      "customerName": "TEST PRD 314",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100803",
+      "customerName": "TEST PRD 315",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100828",
+      "customerName": "TEST PRD 316",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100852",
+      "customerName": "TEST PRD 317",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000115",
+      "leadsNumber": "A8000115_150904_100915",
+      "customerName": "TEST PRD 318",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000116",
+      "leadsNumber": "A8000116_150904_155847",
+      "customerName": "TEST PRD 41",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000116",
+      "leadsNumber": "A8000116_150904_155947",
+      "customerName": "TEST PRD 42",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150820_162718",
+      "customerName": "TEST PRD 50",
+      "status": "contact",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150820_162805",
+      "customerName": "TEST PRD 341",
+      "status": "contact",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150820_162835",
+      "customerName": "TEST PRD 347",
+      "status": "proposal",
+      "leadsMonth": "August"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_160555",
+      "customerName": "TEST PRD 46",
+      "status": "submit",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_160627",
+      "customerName": "TEST PRD 47",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_160830",
+      "customerName": "TEST PRD 48",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_160853",
+      "customerName": "TEST PRD 49",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_161222",
+      "customerName": "TEST PRD 336",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_161714",
+      "customerName": "TEST PRD 337",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_161739",
+      "customerName": "TEST PRD 338",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_161841",
+      "customerName": "TEST PRD 339",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_161906",
+      "customerName": "TEST PRD 340",
+      "status": "contact",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_161933",
+      "customerName": "TEST PRD 342",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_161959",
+      "customerName": "TEST PRD 343",
+      "status": "meeting",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_162051",
+      "customerName": "TEST PRD  344",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_162128",
+      "customerName": "TEST PRD 345",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_162155",
+      "customerName": "TEST PRD 346",
+      "status": "proposal",
+      "leadsMonth": "September"
+    },
+    {
+      "pfc": "A8000117",
+      "leadsNumber": "A8000117_150928_162302",
+      "customerName": "TEST PRD 348",
+      "status": "cancel",
+      "leadsMonth": "September"
+    }
+  ]
+}

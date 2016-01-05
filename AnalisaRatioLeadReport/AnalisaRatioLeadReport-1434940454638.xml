@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analisaRatioReportXML>
+    <leadReportHeader>
+        <count>1</count>
+        <generatedBy>Astra Life Direct              Regional Sales Manager                  </generatedBy>
+        <id>A3000111</id>
+        <period>2015-06-22T10:34:14.638+08:00</period>
+        <reportName>Analisa Ratio Lead Report</reportName>
+        <role>RSM</role>
+    </leadReportHeader>
+    <analisaRatioReportDTOList>
+        <asm>5</asm>
+        <cancel>0</cancel>
+        <cancelSys>0</cancelSys>
+        <contact>0</contact>
+        <leads>0</leads>
+        <meet>0</meet>
+        <pfc>26</pfc>
+        <proposal>0</proposal>
+        <rsmAgntNum>A3000111</rsmAgntNum>
+        <rsmClntNum>00012248</rsmClntNum>
+        <rsmName>Astra Life DirectRegional Sales Manager</rsmName>
+        <submit>0</submit>
+    </analisaRatioReportDTOList>
+</analisaRatioReportXML>

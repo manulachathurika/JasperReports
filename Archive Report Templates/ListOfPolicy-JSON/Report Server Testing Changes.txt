@@ -1,0 +1,46 @@
+((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("policyReportDTOs")
+
+reportInfoMap.put(BaseConstants.REPORT_XML_DATA_FILE, PolicyConstants.POLICY_LIST_REPORT_NAME + "." + "json");
+
+public InputStream xlsReportGen(String xml, String reportTemplate, String reportPath, Map<String,Object> reportParams) throws Exception {
+	
+	ByteArrayOutputStream _out = new ByteArrayOutputStream();
+	LOGGER.info("********** Inside XLS Report Gen");
+	//JRDataSource datasource = new JRXmlDataSource(new File(xml));
+	JRDataSource datasource = new JsonDataSource(new File(xml));
+	LOGGER.info("********** Load Object from file");
+	JasperReport jasperReport = (JasperReport)JRLoader.loadObjectFromFile(reportPath + reportTemplate);
+	LOGGER.info("********** Fill Report Start");
+
+	// creating the virtualizer
+	//LOGGER.info("********** Virtualization starts");
+	//JRSwapFile swapFile = new JRSwapFile(reportPath, 4096, 100);
+	//LOGGER.info("********** Virtualization swap file");
+	//JRAbstractLRUVirtualizer virtualizer = new JRSwapFileVirtualizer(250, swapFile);
+	//LOGGER.info("********** Virtualization virtualizer");
+	//reportParams.put(JRParameter.REPORT_VIRTUALIZER, virtualizer);	
+	//LOGGER.info("********** Virtualization ends");
+	
+	// Ignore pagination
+	//reportParams.put(JRParameter.IS_IGNORE_PAGINATION, false);
+	
+	JasperPrint _print = JasperFillManager.fillReport(jasperReport,  reportParams, datasource);
+	LOGGER.info("********** Fill Report finish");
+	
+	//if (virtualizer != null)
+	//{
+	//	virtualizer.cleanup();
+	//}
+	
+	JRXlsExporter exporter = new JRXlsExporter();
+	LOGGER.info("********** Setting parameters");
+	exporter.setParameter(JRExporterParameter.JASPER_PRINT, _print);
+	exporter.setParameter(JRExporterParameter.OUTPUT_STREAM, _out);
+	
+	exporter.setParameter(JRXlsExporterParameter.IS_REMOVE_EMPTY_SPACE_BETWEEN_ROWS,Boolean.TRUE);
+	LOGGER.info("********** Exporting report");
+	exporter.exportReport();
+	LOGGER.info("********** Export finish");
+
+	return new ByteArrayInputStream(_out.toByteArray());
+}

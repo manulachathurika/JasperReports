@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSMRSummaryReportXML>
+	<summaryPBDTOList>
+		<region>Region 1 </region>
+		<area>Jakartha 1 </area>
+		<csHeadCountHC>12</csHeadCountHC>
+		<csHeadCountActiveHC>5</csHeadCountActiveHC>
+		<csReferralTarget>10</csReferralTarget>
+		<csReferralActual>10</csReferralActual>
+		<csSubmitHCSubmit>10</csSubmitHCSubmit>
+		<csSubmitCaseSubmit>10</csSubmitCaseSubmit>
+		<csInforceHCInforce>10</csInforceHCInforce>
+		<csInforceCaseInforce>10</csInforceCaseInforce>
+		
+		<rmFundingHeadCountHC>12</rmFundingHeadCountHC>
+		<rmFundingHeadCountActiveHC>5</rmFundingHeadCountActiveHC>
+		<rmFundingReferralTarget>10</rmFundingReferralTarget>
+		<rmFundingReferralActual>10</rmFundingReferralActual>
+		<rmFundingSubmitHCSubmit>10</rmFundingSubmitHCSubmit>
+		<rmFundingSubmitCaseSubmit>10</rmFundingSubmitCaseSubmit>
+		<rmFundingInforceHCInforce>10</rmFundingInforceHCInforce>
+		<rmFundingInforceCaseInforce>10</rmFundingInforceCaseInforce>
+		
+		<rmHeadCountHC>12</rmHeadCountHC>
+		<rmHeadCountActiveHC>5</rmHeadCountActiveHC>
+		<rmReferralTarget>10</rmReferralTarget>
+		<rmReferralActual>10</rmReferralActual>
+		<rmSubmitHCSubmit>10</rmSubmitHCSubmit>
+		<rmSubmitCaseSubmit>10</rmSubmitCaseSubmit>
+		<rmInforceHCInforce>10</rmInforceHCInforce>
+		<rmInforceCaseInforce>10</rmInforceCaseInforce>
+		
+		<rmpHeadCountHC>12</rmpHeadCountHC>
+		<rmpHeadCountActiveHC>5</rmpHeadCountActiveHC>
+		<rmpReferralTarget>10</rmpReferralTarget>
+		<rmpReferralActual>10</rmpReferralActual>
+		<rmpSubmitHCSubmit>10</rmpSubmitHCSubmit>
+		<rmpSubmitCaseSubmit>10</rmpSubmitCaseSubmit>
+		<rmpInforceHCInforce>10</rmpInforceHCInforce>
+		<rmpInforceCaseInforce>10</rmpInforceCaseInforce>
+		
+		<rmSmeMeHeadCountHC>12</rmSmeMeHeadCountHC>
+		<rmSmeMeHeadCountActiveHC>5</rmSmeMeHeadCountActiveHC>
+		<rmSmeMeReferralTarget>10</rmSmeMeReferralTarget>
+		<rmSmeMeReferralActual>10</rmSmeMeReferralActual>
+		<rmSmeMeSubmitHCSubmit>10</rmSmeMeSubmitHCSubmit>
+		<rmSmeMeSubmitCaseSubmit>10</rmSmeMeSubmitCaseSubmit>
+		<rmSmeMeInforceHCInforce>10</rmSmeMeInforceHCInforce>
+		<rmSmeMeInforceCaseInforce>10</rmSmeMeInforceCaseInforce>
+		
+		<rmSmeSbHeadCountHC>12</rmSmeSbHeadCountHC>
+		<rmSmeSbHeadCountActiveHC>5</rmSmeSbHeadCountActiveHC>
+		<rmSmeSbReferralTarget>10</rmSmeSbReferralTarget>
+		<rmSmeSbReferralActual>10</rmSmeSbReferralActual>
+		<rmSmeSbSubmitHCSubmit>10</rmSmeSbSubmitHCSubmit>
+		<rmSmeSbSubmitCaseSubmit>10</rmSmeSbSubmitCaseSubmit>
+		<rmSmeSbInforceHCInforce>10</rmSmeSbInforceHCInforce>
+		<rmSmeSbInforceCaseInforce>10</rmSmeSbInforceCaseInforce>
+		
+		<totalAllHeadCountHC>12</totalAllHeadCountHC>
+		<totalAllHeadCountActiveHC>5</totalAllHeadCountActiveHC>
+		<totalAllReferralTarget>10</totalAllReferralTarget>
+		<totalAllReferralActual>10</totalAllReferralActual>
+		<totalAllSubmitHCSubmit>10</totalAllSubmitHCSubmit>
+		<totalAllSubmitCaseSubmit>10</totalAllSubmitCaseSubmit>
+		<totalAllInforceHCInforce>10</totalAllInforceHCInforce>
+		<totalAllInforceCaseInforce>10</totalAllInforceCaseInforce>
+		
+		<totalAllNetworkHeadCountHC>12</totalAllNetworkHeadCountHC>
+		<totalAllNetworkHeadCountActiveHC>5</totalAllNetworkHeadCountActiveHC>
+		<totalAllNetworkReferralTarget>10</totalAllNetworkReferralTarget>
+		<totalAllNetworkReferralActual>10</totalAllNetworkReferralActual>
+		<totalAllNetworkSubmitHCSubmit>10</totalAllNetworkSubmitHCSubmit>
+		<totalAllNetworkSubmitCaseSubmit>10</totalAllNetworkSubmitCaseSubmit>
+		<totalAllNetworkInforceHCInforce>10</totalAllNetworkInforceHCInforce>
+		<totalAllNetworkInforceCaseInforce>10</totalAllNetworkInforceCaseInforce>
+		
+		<totalNetworkHeadCountHC>12</totalNetworkHeadCountHC>
+		<totalNetworkHeadCountActiveHC>5</totalNetworkHeadCountActiveHC>
+		<totalNetworkReferralTarget>10</totalNetworkReferralTarget>
+		<totalNetworkReferralActual>10</totalNetworkReferralActual>
+		<totalNetworkSubmitHCSubmit>10</totalNetworkSubmitHCSubmit>
+		<totalNetworkSubmitCaseSubmit>10</totalNetworkSubmitCaseSubmit>
+		<totalNetworkInforceHCInforce>10</totalNetworkInforceHCInforce>
+		<totalNetworkInforceCaseInforce>10</totalNetworkInforceCaseInforce>
+		
+		<totalSMEHeadCountHC>12</totalSMEHeadCountHC>
+		<totalSMEHeadCountActiveHC>5</totalSMEHeadCountActiveHC>
+		<totalSMEReferralTarget>10</totalSMEReferralTarget>
+		<totalSMEReferralActual>10</totalSMEReferralActual>
+		<totalSMESubmitHCSubmit>10</totalSMESubmitHCSubmit>
+		<totalSMESubmitCaseSubmit>10</totalSMESubmitCaseSubmit>
+		<totalSMEInforceHCInforce>10</totalSMEInforceHCInforce>
+		<totalSMEInforceCaseInforce>10</totalSMEInforceCaseInforce>
+		
+	</summaryPBDTOList>
+	<summaryPBDTOList>
+		<region>Region 2 </region>
+		<area>Jakartha 2 </area>
+		<csHeadCountHC>12</csHeadCountHC>
+		<csHeadCountActiveHC>5</csHeadCountActiveHC>
+		<csReferralTarget>10</csReferralTarget>
+		<csReferralActual>10</csReferralActual>
+		<csSubmitHCSubmit>10</csSubmitHCSubmit>
+		<csSubmitCaseSubmit>10</csSubmitCaseSubmit>
+		<csInforceHCInforce>10</csInforceHCInforce>
+		<csInforceCaseInforce>10</csInforceCaseInforce>
+		
+		<rmFundingHeadCountHC>12</rmFundingHeadCountHC>
+		<rmFundingHeadCountActiveHC>5</rmFundingHeadCountActiveHC>
+		<rmFundingReferralTarget>10</rmFundingReferralTarget>
+		<rmFundingReferralActual>10</rmFundingReferralActual>
+		<rmFundingSubmitHCSubmit>10</rmFundingSubmitHCSubmit>
+		<rmFundingSubmitCaseSubmit>10</rmFundingSubmitCaseSubmit>
+		<rmFundingInforceHCInforce>10</rmFundingInforceHCInforce>
+		<rmFundingInforceCaseInforce>10</rmFundingInforceCaseInforce>
+		
+		<rmHeadCountHC>12</rmHeadCountHC>
+		<rmHeadCountActiveHC>5</rmHeadCountActiveHC>
+		<rmReferralTarget>10</rmReferralTarget>
+		<rmReferralActual>10</rmReferralActual>
+		<rmSubmitHCSubmit>10</rmSubmitHCSubmit>
+		<rmSubmitCaseSubmit>10</rmSubmitCaseSubmit>
+		<rmInforceHCInforce>10</rmInforceHCInforce>
+		<rmInforceCaseInforce>10</rmInforceCaseInforce>
+		
+		<rmpHeadCountHC>12</rmpHeadCountHC>
+		<rmpHeadCountActiveHC>5</rmpHeadCountActiveHC>
+		<rmpReferralTarget>10</rmpReferralTarget>
+		<rmpReferralActual>10</rmpReferralActual>
+		<rmpSubmitHCSubmit>10</rmpSubmitHCSubmit>
+		<rmpSubmitCaseSubmit>10</rmpSubmitCaseSubmit>
+		<rmpInforceHCInforce>10</rmpInforceHCInforce>
+		<rmpInforceCaseInforce>10</rmpInforceCaseInforce>
+		
+		<rmSmeMeHeadCountHC>12</rmSmeMeHeadCountHC>
+		<rmSmeMeHeadCountActiveHC>5</rmSmeMeHeadCountActiveHC>
+		<rmSmeMeReferralTarget>10</rmSmeMeReferralTarget>
+		<rmSmeMeReferralActual>10</rmSmeMeReferralActual>
+		<rmSmeMeSubmitHCSubmit>10</rmSmeMeSubmitHCSubmit>
+		<rmSmeMeSubmitCaseSubmit>10</rmSmeMeSubmitCaseSubmit>
+		<rmSmeMeInforceHCInforce>10</rmSmeMeInforceHCInforce>
+		<rmSmeMeInforceCaseInforce>10</rmSmeMeInforceCaseInforce>
+		
+		<rmSmeSbHeadCountHC>12</rmSmeSbHeadCountHC>
+		<rmSmeSbHeadCountActiveHC>5</rmSmeSbHeadCountActiveHC>
+		<rmSmeSbReferralTarget>10</rmSmeSbReferralTarget>
+		<rmSmeSbReferralActual>10</rmSmeSbReferralActual>
+		<rmSmeSbSubmitHCSubmit>10</rmSmeSbSubmitHCSubmit>
+		<rmSmeSbSubmitCaseSubmit>10</rmSmeSbSubmitCaseSubmit>
+		<rmSmeSbInforceHCInforce>10</rmSmeSbInforceHCInforce>
+		<rmSmeSbInforceCaseInforce>10</rmSmeSbInforceCaseInforce>
+		
+		<totalAllHeadCountHC>12</totalAllHeadCountHC>
+		<totalAllHeadCountActiveHC>5</totalAllHeadCountActiveHC>
+		<totalAllReferralTarget>10</totalAllReferralTarget>
+		<totalAllReferralActual>10</totalAllReferralActual>
+		<totalAllSubmitHCSubmit>10</totalAllSubmitHCSubmit>
+		<totalAllSubmitCaseSubmit>10</totalAllSubmitCaseSubmit>
+		<totalAllInforceHCInforce>10</totalAllInforceHCInforce>
+		<totalAllInforceCaseInforce>10</totalAllInforceCaseInforce>
+		
+		<totalAllNetworkHeadCountHC>12</totalAllNetworkHeadCountHC>
+		<totalAllNetworkHeadCountActiveHC>5</totalAllNetworkHeadCountActiveHC>
+		<totalAllNetworkReferralTarget>10</totalAllNetworkReferralTarget>
+		<totalAllNetworkReferralActual>10</totalAllNetworkReferralActual>
+		<totalAllNetworkSubmitHCSubmit>10</totalAllNetworkSubmitHCSubmit>
+		<totalAllNetworkSubmitCaseSubmit>10</totalAllNetworkSubmitCaseSubmit>
+		<totalAllNetworkInforceHCInforce>10</totalAllNetworkInforceHCInforce>
+		<totalAllNetworkInforceCaseInforce>10</totalAllNetworkInforceCaseInforce>
+		
+		<totalNetworkHeadCountHC>12</totalNetworkHeadCountHC>
+		<totalNetworkHeadCountActiveHC>5</totalNetworkHeadCountActiveHC>
+		<totalNetworkReferralTarget>10</totalNetworkReferralTarget>
+		<totalNetworkReferralActual>10</totalNetworkReferralActual>
+		<totalNetworkSubmitHCSubmit>10</totalNetworkSubmitHCSubmit>
+		<totalNetworkSubmitCaseSubmit>10</totalNetworkSubmitCaseSubmit>
+		<totalNetworkInforceHCInforce>10</totalNetworkInforceHCInforce>
+		<totalNetworkInforceCaseInforce>10</totalNetworkInforceCaseInforce>
+		
+		<totalSMEHeadCountHC>12</totalSMEHeadCountHC>
+		<totalSMEHeadCountActiveHC>5</totalSMEHeadCountActiveHC>
+		<totalSMEReferralTarget>10</totalSMEReferralTarget>
+		<totalSMEReferralActual>10</totalSMEReferralActual>
+		<totalSMESubmitHCSubmit>10</totalSMESubmitHCSubmit>
+		<totalSMESubmitCaseSubmit>10</totalSMESubmitCaseSubmit>
+		<totalSMEInforceHCInforce>10</totalSMEInforceHCInforce>
+		<totalSMEInforceCaseInforce>10</totalSMEInforceCaseInforce>
+		
+	</summaryPBDTOList>
+</RSMRSummaryReportXML>

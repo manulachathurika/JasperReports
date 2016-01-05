@@ -1,0 +1,2920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ListOfPolicies" pageWidth="595" pageHeight="675675" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="585a06d7-3765-41d6-b069-a4ffcd246b48">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="net.sf.jasperreports.export.xls.one.page.per.sheet" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.detect.cell.type" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
+	<property name="net.sf.jasperreports.export.xls.remove.empty.space.between.columns" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.remove.empty.space.between.rows" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.ignore.graphics" value="true"/>
+	<import value="net.sf.jasperreports.engine.data.*"/>
+	<subDataset name="policies_xml_ds" uuid="6e73546a-4ee0-47a4-b8fb-6dfedadd5292">
+		<queryString language="json">
+			<![CDATA[policyReportDTOList.policyReportDTOs]]>
+		</queryString>
+		<field name="adviserName" class="java.lang.String">
+			<fieldDescription><![CDATA[adviserName]]></fieldDescription>
+		</field>
+		<field name="ape" class="java.lang.String">
+			<fieldDescription><![CDATA[ape]]></fieldDescription>
+		</field>
+		<field name="billFrequency" class="java.lang.String">
+			<fieldDescription><![CDATA[billFrequency]]></fieldDescription>
+		</field>
+		<field name="inceptionDate" class="java.lang.String">
+			<fieldDescription><![CDATA[inceptionDate]]></fieldDescription>
+		</field>
+		<field name="issuanceDate" class="java.lang.String">
+			<fieldDescription><![CDATA[issuanceDate]]></fieldDescription>
+		</field>
+		<field name="lifeAssuredID" class="java.lang.String">
+			<fieldDescription><![CDATA[lifeAssuredID]]></fieldDescription>
+		</field>
+		<field name="lifeAssuredName" class="java.lang.String">
+			<fieldDescription><![CDATA[lifeAssuredName]]></fieldDescription>
+		</field>
+		<field name="ownerID" class="java.lang.String">
+			<fieldDescription><![CDATA[ownerID]]></fieldDescription>
+		</field>
+		<field name="ownerName" class="java.lang.String">
+			<fieldDescription><![CDATA[ownerName]]></fieldDescription>
+		</field>
+		<field name="paymentMethod" class="java.lang.String">
+			<fieldDescription><![CDATA[paymentMethod]]></fieldDescription>
+		</field>
+		<field name="policyName" class="java.lang.String">
+			<fieldDescription><![CDATA[policyName]]></fieldDescription>
+		</field>
+		<field name="policyNo" class="java.lang.String">
+			<fieldDescription><![CDATA[policyNo]]></fieldDescription>
+		</field>
+		<field name="policyStatus" class="java.lang.String">
+			<fieldDescription><![CDATA[policyStatus]]></fieldDescription>
+		</field>
+		<field name="premiumAmount" class="java.lang.String">
+			<fieldDescription><![CDATA[premiumAmount]]></fieldDescription>
+		</field>
+		<field name="premiumDueDate" class="java.lang.String">
+			<fieldDescription><![CDATA[premiumDueDate]]></fieldDescription>
+		</field>
+		<field name="statusEffectiveDate" class="java.lang.String">
+			<fieldDescription><![CDATA[statusEffectiveDate]]></fieldDescription>
+		</field>
+		<field name="region" class="java.lang.String">
+			<fieldDescription><![CDATA[region]]></fieldDescription>
+		</field>
+		<field name="areaCode" class="java.lang.String">
+			<fieldDescription><![CDATA[areaCode]]></fieldDescription>
+		</field>
+		<field name="areaName" class="java.lang.String">
+			<fieldDescription><![CDATA[areaName]]></fieldDescription>
+		</field>
+		<field name="branchCode" class="java.lang.String">
+			<fieldDescription><![CDATA[branchCode]]></fieldDescription>
+		</field>
+		<field name="branchName" class="java.lang.String">
+			<fieldDescription><![CDATA[branchName]]></fieldDescription>
+		</field>
+		<field name="adviserCode" class="java.lang.String">
+			<fieldDescription><![CDATA[adviserCode]]></fieldDescription>
+		</field>
+		<field name="ownerPermataCif" class="java.lang.String">
+			<fieldDescription><![CDATA[ownerPermataCif]]></fieldDescription>
+		</field>
+		<field name="dob" class="java.lang.String">
+			<fieldDescription><![CDATA[dob]]></fieldDescription>
+		</field>
+		<field name="gender" class="java.lang.String">
+			<fieldDescription><![CDATA[gender]]></fieldDescription>
+		</field>
+		<field name="maritalStatus" class="java.lang.String">
+			<fieldDescription><![CDATA[maritalStatus]]></fieldDescription>
+		</field>
+		<field name="nationality" class="java.lang.String">
+			<fieldDescription><![CDATA[nationality]]></fieldDescription>
+		</field>
+		<field name="homeNo" class="java.lang.String">
+			<fieldDescription><![CDATA[homeNo]]></fieldDescription>
+		</field>
+		<field name="mobileNo" class="java.lang.String">
+			<fieldDescription><![CDATA[mobileNo]]></fieldDescription>
+		</field>
+		<field name="officeNo" class="java.lang.String">
+			<fieldDescription><![CDATA[officeNo]]></fieldDescription>
+		</field>
+		<field name="faxNo" class="java.lang.String">
+			<fieldDescription><![CDATA[faxNo]]></fieldDescription>
+		</field>
+		<field name="email" class="java.lang.String">
+			<fieldDescription><![CDATA[email]]></fieldDescription>
+		</field>
+		<field name="residentialAddress" class="java.lang.String">
+			<fieldDescription><![CDATA[residentialAddress]]></fieldDescription>
+		</field>
+		<field name="country" class="java.lang.String">
+			<fieldDescription><![CDATA[country]]></fieldDescription>
+		</field>
+		<field name="postalCode" class="java.lang.String">
+			<fieldDescription><![CDATA[postalCode]]></fieldDescription>
+		</field>
+		<field name="mailAddress" class="java.lang.String">
+			<fieldDescription><![CDATA[mailAddress]]></fieldDescription>
+		</field>
+		<field name="mailCountry" class="java.lang.String">
+			<fieldDescription><![CDATA[mailCountry]]></fieldDescription>
+		</field>
+		<field name="mailPostalCode" class="java.lang.String">
+			<fieldDescription><![CDATA[mailPostalCode]]></fieldDescription>
+		</field>
+		<field name="lifeAssuredCif" class="java.lang.String">
+			<fieldDescription><![CDATA[lifeAssuredCif]]></fieldDescription>
+		</field>
+		<field name="lifeAssuredDob" class="java.lang.String">
+			<fieldDescription><![CDATA[lifeAssuredDob]]></fieldDescription>
+		</field>
+		<field name="currency" class="java.lang.String">
+			<fieldDescription><![CDATA[currency]]></fieldDescription>
+		</field>
+		<field name="netSurrenderValue" class="java.lang.String">
+			<fieldDescription><![CDATA[netSurrenderValue]]></fieldDescription>
+		</field>
+		<field name="maturityValue" class="java.lang.String">
+			<fieldDescription><![CDATA[maturityValue]]></fieldDescription>
+		</field>
+		<field name="fua" class="java.lang.String">
+			<fieldDescription><![CDATA[fua]]></fieldDescription>
+		</field>
+		<field name="policyDocDelStatus" class="java.lang.String">
+			<fieldDescription><![CDATA[policyDocDelStatus]]></fieldDescription>
+		</field>
+		<field name="policyDocDelDate" class="java.lang.String">
+			<fieldDescription><![CDATA[policyDocDelDate]]></fieldDescription>
+		</field>
+		<field name="policyDocDelReason" class="java.lang.String">
+			<fieldDescription><![CDATA[policyDocDelReason]]></fieldDescription>
+		</field>
+		<field name="permataAgentFlag" class="java.lang.String">
+			<fieldDescription><![CDATA[permataAgentFlag]]></fieldDescription>
+		</field>
+		<field name="permataPFCAgentFlag" class="java.lang.String">
+			<fieldDescription><![CDATA[permataPFCAgentFlag]]></fieldDescription>
+		</field>
+		<field name="submittedDate" class="java.lang.String">
+			<fieldDescription><![CDATA[submittedDateVal]]></fieldDescription>
+		</field>
+		<field name="uwAprovedDate" class="java.lang.String">
+			<fieldDescription><![CDATA[uwAprovedDate]]></fieldDescription>
+		</field>
+		<field name="regularTopup" class="java.lang.String">
+			<fieldDescription><![CDATA[regularTopup]]></fieldDescription>
+		</field>
+		<field name="basicPremium" class="java.lang.String">
+			<fieldDescription><![CDATA[basicPremium]]></fieldDescription>
+		</field>
+		<field name="singleTopup" class="java.lang.String">
+			<fieldDescription><![CDATA[singleTopup]]></fieldDescription>
+		</field>
+		<field name="productCode" class="java.lang.String">
+			<fieldDescription><![CDATA[productCode]]></fieldDescription>
+		</field>
+		<field name="agntName" class="java.lang.String">
+			<fieldDescription><![CDATA[agntName]]></fieldDescription>
+		</field>
+		<field name="agntType" class="java.lang.String">
+			<fieldDescription><![CDATA[agntType]]></fieldDescription>
+		</field>
+		<field name="agntNum" class="java.lang.String">
+			<fieldDescription><![CDATA[agntNum]]></fieldDescription>
+		</field>
+		<field name="rsmName" class="java.lang.String">
+			<fieldDescription><![CDATA[rsmName]]></fieldDescription>
+		</field>
+		<field name="rsmCode" class="java.lang.String">
+			<fieldDescription><![CDATA[rsmCode]]></fieldDescription>
+		</field>
+		<field name="fyp" class="java.lang.String">
+			<fieldDescription><![CDATA[fyp]]></fieldDescription>
+		</field>
+		<field name="asmName" class="java.lang.String">
+			<fieldDescription><![CDATA[asmName]]></fieldDescription>
+		</field>
+		<field name="asmCode" class="java.lang.String">
+			<fieldDescription><![CDATA[asmCode]]></fieldDescription>
+		</field>
+		<field name="erefNo" class="java.lang.String">
+			<fieldDescription><![CDATA[erefNo]]></fieldDescription>
+		</field>
+		<field name="ahTopup" class="java.lang.String">
+			<fieldDescription><![CDATA[ahTopup]]></fieldDescription>
+		</field>
+		<field name="ahApe" class="java.lang.String">
+			<fieldDescription><![CDATA[ahApe]]></fieldDescription>
+		</field>
+		<field name="ahFyp" class="java.lang.String">
+			<fieldDescription><![CDATA[ahFyp]]></fieldDescription>
+		</field>
+		<field name="ahTopupDate" class="java.lang.String">
+			<fieldDescription><![CDATA[ahTopupDate]]></fieldDescription>
+		</field>
+		<field name="ahFilter" class="java.lang.String">
+			<property name="net.sf.jasperreports.export.xls.sheet.name" value="$F{ahFilter}"/>
+			<fieldDescription><![CDATA[ahFilter]]></fieldDescription>
+		</field>
+		<field name="uwAprovedDateVal" class="java.lang.String">
+			<fieldDescription><![CDATA[uwAprovedDateVal]]></fieldDescription>
+		</field>
+		<field name="exchangeRate" class="java.lang.String">
+			<fieldDescription><![CDATA[exchangeRate]]></fieldDescription>
+		</field>
+		<field name="totalPremium" class="java.lang.String">
+			<fieldDescription><![CDATA[totalPremium]]></fieldDescription>
+		</field>
+		<field name="convertedBasicPremium" class="java.lang.String">
+			<fieldDescription><![CDATA[convertedBasicPremium]]></fieldDescription>
+		</field>
+		<field name="convertedSingleTopup" class="java.lang.String">
+			<fieldDescription><![CDATA[convertedSingleTopup]]></fieldDescription>
+		</field>
+		<field name="convertedRegularTopup" class="java.lang.String">
+			<fieldDescription><![CDATA[convertedRegularTopup]]></fieldDescription>
+		</field>
+		<field name="convertedTotalPremium" class="java.lang.String">
+			<fieldDescription><![CDATA[convertedTotalPremium]]></fieldDescription>
+		</field>
+		<field name="convertedAdhocTopup" class="java.lang.String">
+			<fieldDescription><![CDATA[convertedAdhocTopup]]></fieldDescription>
+		</field>
+		<field name="convertedApe" class="java.lang.String">
+			<fieldDescription><![CDATA[convertedApe]]></fieldDescription>
+		</field>
+		<field name="convertedFyp" class="java.lang.String">
+			<fieldDescription><![CDATA[convertedFyp]]></fieldDescription>
+		</field>
+		<field name="grossRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[grossRevenue]]></fieldDescription>
+		</field>
+		<field name="nettRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[nettRevenue]]></fieldDescription>
+		</field>
+		<field name="vat" class="java.lang.String">
+			<fieldDescription><![CDATA[vat]]></fieldDescription>
+		</field>
+		<field name="inforceMonth" class="java.lang.String">
+			<fieldDescription><![CDATA[inforceMonth]]></fieldDescription>
+		</field>
+		<field name="ahConvApe" class="java.lang.String">
+			<fieldDescription><![CDATA[ahConvApe]]></fieldDescription>
+		</field>
+		<field name="ahConvFup" class="java.lang.String">
+			<fieldDescription><![CDATA[ahConvFup]]></fieldDescription>
+		</field>
+		<field name="acknowledgementDt" class="java.lang.String">
+			<fieldDescription><![CDATA[acknowledgementDt]]></fieldDescription>
+		</field>
+		<field name="recipientName" class="java.lang.String">
+			<fieldDescription><![CDATA[recipientName]]></fieldDescription>
+		</field>
+		<field name="relation" class="java.lang.String">
+			<fieldDescription><![CDATA[relation]]></fieldDescription>
+		</field>
+		<field name="airbillNum" class="java.lang.String">
+			<fieldDescription><![CDATA[airbillNum]]></fieldDescription>
+		</field>
+		<field name="topupGrossRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[topupGrossRevenue]]></fieldDescription>
+		</field>
+		<field name="topupNettRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[topupNettRevenue]]></fieldDescription>
+		</field>
+		<field name="ahGrossRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[ahGrossRevenue]]></fieldDescription>
+		</field>
+		<field name="ahNettRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[ahNettRevenue]]></fieldDescription>
+		</field>
+		<field name="ahVat" class="java.lang.String">
+			<fieldDescription><![CDATA[ahVat]]></fieldDescription>
+		</field>
+		<field name="ahConvGrossRev" class="java.lang.String">
+			<fieldDescription><![CDATA[ahConvGrossRev]]></fieldDescription>
+		</field>
+		<field name="ahConvNettRev" class="java.lang.String">
+			<fieldDescription><![CDATA[ahConvNettRev]]></fieldDescription>
+		</field>
+		<field name="ahConvVat" class="java.lang.String">
+			<fieldDescription><![CDATA[ahConvVat]]></fieldDescription>
+		</field>
+		<field name="convGrossRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[convGrossRevenue]]></fieldDescription>
+		</field>
+		<field name="convNettRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[convNettRevenue]]></fieldDescription>
+		</field>
+		<field name="convertedVat" class="java.lang.String">
+			<fieldDescription><![CDATA[convertedVat]]></fieldDescription>
+		</field>
+		<field name="convTopupGrossRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[convTopupGrossRevenue]]></fieldDescription>
+		</field>
+		<field name="convTopupNettRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[convTopupNettRevenue]]></fieldDescription>
+		</field>
+		<group name="group1" isStartNewPage="true" isReprintHeaderOnEachPage="true">
+			<groupExpression><![CDATA[$F{ahFilter}]]></groupExpression>
+		</group>
+	</subDataset>
+	<queryString language="json">
+		<![CDATA[policyReportDTOList.policyReportDTOs]]>
+	</queryString>
+	<field name="count" class="java.lang.String">
+		<fieldDescription><![CDATA[count]]></fieldDescription>
+	</field>
+	<field name="lvlFlag" class="java.lang.String">
+		<fieldDescription><![CDATA[lvlFlag]]></fieldDescription>
+	</field>
+	<field name="permataAgentFlag" class="java.lang.String">
+		<fieldDescription><![CDATA[permataAgentFlag]]></fieldDescription>
+	</field>
+	<field name="permataPFCAgentFlag" class="java.lang.String">
+		<fieldDescription><![CDATA[permataPFCAgentFlag]]></fieldDescription>
+	</field>
+	<pageHeader>
+		<band height="13" splitType="Stretch">
+			<staticText>
+				<reportElement key="textField" mode="Transparent" x="70" y="0" width="70" height="13" forecolor="#000000" backcolor="#FFFFFF" uuid="b3192da7-75d5-439c-aa41-191ea7b4c8ee">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top" rotation="None">
+					<font fontName="Arial" size="10" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[As at]]></text>
+			</staticText>
+			<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+				<reportElement x="140" y="0" width="70" height="13" isRemoveLineWhenBlank="true" uuid="c7911f6f-d5d6-4228-b3b2-f6bd7ab2dc62">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" uuid="01b9c48e-ffbe-44b9-bf0d-9fe9e060f813">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new String("List of Policies") + "\n"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="0" width="100" height="13" uuid="abc8fead-1b24-4db1-aebb-05941c9f50a2"/>
+				<textFieldExpression><![CDATA[$F{count}.equals("6217") ? "Yes" : "No"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<summary>
+		<band height="980" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table 3" stretchType="RelativeToTallestObject" isPrintRepeatedValues="false" x="0" y="0" width="70" height="908" isRemoveLineWhenBlank="true" uuid="088847ea-3aa0-432e-85a5-9aa7f6fa3a42">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					<printWhenExpression><![CDATA[!$F{count}.equals("0")]]></printWhenExpression>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="AllSectionsNoDetail">
+					<datasetRun subDataset="policies_xml_ds" uuid="c862a2cb-542d-41c5-b29a-f40bda8d70fa">
+						<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("policyReportDTOs")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="70" uuid="f0d41d93-07d1-4897-99d4-c6beb7aaa779">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="ccae1055-d48f-4bd7-9391-5f1f1398d565">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Region]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:groupFooter groupName="group1">
+							<jr:cell height="30" rowSpan="1">
+								<staticText>
+									<reportElement key="textField" positionType="Float" mode="Transparent" x="0" y="0" width="70" height="30" forecolor="#000000" backcolor="#FFFFFF" uuid="5aee6464-3f44-49a3-9e20-a2b9b2e3a2aa">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<property name="net.sf.jasperreports.export.xls.wrap.text" value="false"/>
+										<property name="net.sf.jasperreports.export.xls.ignore.graphics" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement textAlignment="Left" verticalAlignment="Top" rotation="None">
+										<font fontName="Arial" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+										<paragraph lineSpacing="Single"/>
+									</textElement>
+									<text><![CDATA[* Surrender Value belum termasuk Pajak (jika ada).]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupFooter>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="20139de9-4b7c-43e7-a0aa-4edde8d42fc9">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{region}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="dd06de28-92fa-411d-b890-672a8f7ddd80">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="0f482722-80b2-4bb4-a73c-41290199ab11">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Area Code]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="bc7d4f5e-9350-4f28-89e3-7877e7400940">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{areaCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="558f5f92-fab9-47f1-8d42-0b40ee484250">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="7129952b-ad30-483f-af51-7ce50639c566">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Area Name]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="94aa50c4-d407-4ab2-82ef-64c319bae189">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{areaName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="16b9a010-7857-4bcb-9369-b6e74e1742d1">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Advisor Name / PFC Name]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="c4767fd5-26ab-443f-bd6b-5c2f793e1f73">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{adviserName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="186" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="186" height="16" uuid="9cced244-19e4-4e05-8034-5475b387489c">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Distribution Agent Code  / PFC Code]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="186" height="13" uuid="95a0d03b-37b5-4963-8af4-f4a1e8ef50cf">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{adviserCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="7a3cf733-adea-4983-a9d8-92f4de40b9e9">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="d2e1d689-b24b-4760-9a85-a799e7897ad7">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[ASM Code]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="eba88e22-113e-4588-8434-3648c73b17bd"/>
+								<textFieldExpression><![CDATA[$F{asmCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="03832147-8f76-4531-ad68-65e272e5e698">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="130" height="16" isPrintWhenDetailOverflows="true" uuid="bb33c11f-ca3b-4a45-92ec-e01a76ca90db">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[ASM Name]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isPrintWhenDetailOverflows="true" uuid="668ed927-cecd-4ffe-af35-d74d8090ec39"/>
+								<textFieldExpression><![CDATA[$F{asmName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="5f419e49-4d5e-48c3-b994-3a67025355aa">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="821e8db5-5860-4ba4-b8ed-283ce55a44cb">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[RSM Code]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="07ef903f-4704-417a-ba9b-4e43fe9452b4"/>
+								<textFieldExpression><![CDATA[$F{rsmCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="d3410645-7fa7-416e-a882-4ae4cb27d8e3">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="130" height="16" uuid="c88fc43e-ce6f-4a9e-8b95-3ec71a931195">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[RSM Name]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isPrintWhenDetailOverflows="true" uuid="7d450213-7828-42a0-9774-68471288628a"/>
+								<textFieldExpression><![CDATA[$F{rsmName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="606513ec-6c2c-4744-9ac5-469aec0f2c98">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="c02e4a42-7d8f-409f-bdb4-80c952e65549">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Branch Code]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="0da48071-e246-4378-8c58-c41ee9543859">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{branchCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="dc4d4a76-b0a5-4bf7-b69f-eacae1322f2e">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="9bc913da-933f-4a9c-b6f7-d9a8ed37c388">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Branch Name]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="6eb6471c-1a96-4cfb-a955-19b41569a2f6">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{branchName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="c6b50edf-ea24-4437-8ebb-95be3b7f04bf">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="7dfae661-cba7-4368-9238-1be3124de988">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[NPK Bank Staff]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="8814b967-dffa-482c-9c26-1331a1de8ca9"/>
+								<textFieldExpression><![CDATA[$F{agntNum}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="166" uuid="f2ac411b-27df-414c-baea-7671c78da274">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="166" height="16" uuid="53f1802d-be38-40a8-b3eb-a2c91c762b3e">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Bank Staff Name]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="166" height="13" uuid="be3e28e4-8030-4be9-9628-6228827ba6bd">
+									<property name="net.sf.jasperreports.export.xls.wrap.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{agntName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="168" uuid="8014085c-f375-4a22-b762-0f0fa6c774dd">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="168" height="16" uuid="6627c631-f614-4bf0-9c89-3d2b49b15b2a">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Bank Staff Level (Jabatan)]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="168" height="13" uuid="f07eb634-b6f3-4c85-b56d-14c065666027">
+									<property name="net.sf.jasperreports.export.xls.wrap.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{agntType}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="1537384d-d0fd-4f85-9c0d-6a1282834a93">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="ed3a19ea-86a5-4416-8398-3aa92122864b">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Policy Number]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="39bf8f82-0c6c-441d-9f0f-a817bbad68cc">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{policyNo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="115" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="115" height="16" uuid="2f86b9cb-0c05-42b7-851f-c8dd84f0ac6b">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Policy Owner Name]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="115" height="13" uuid="00613012-7d1a-41c2-9360-c582c5c35e6b">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ownerName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<printWhenExpression><![CDATA[$F{permataPFCAgentFlag}.equalsIgnoreCase( "Y" )]]></printWhenExpression>
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="f7859d93-1a80-4f7c-b6e2-d53e2a5fc1a2">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Permata CIF	]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="7407aa39-c61e-40de-873b-f82eb5a2007d">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase("Y") || $F{permataPFCAgentFlag}.equalsIgnoreCase("Y")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ownerPermataCif}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="fd5dce46-6086-4fde-9001-b210a9dbd31d">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="9ecd4663-8839-4e27-aff5-002e844944a5">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Life Assured Name]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="9318fb34-f96a-4fcf-b5f0-c738962b5635">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{lifeAssuredName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="1f91c525-1a53-4b62-b753-e9560031866e">
+						<printWhenExpression><![CDATA[$F{permataPFCAgentFlag}.equalsIgnoreCase( "Y" )]]></printWhenExpression>
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="8278403b-ba8a-4291-9539-170f43d7cf9f">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Permata CIF]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="fb605a10-a2b6-420b-9a61-27f958e9cbc2">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{lifeAssuredCif}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="0eef98bf-3aa8-4b43-bb31-4d13b347f7b8">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="e86b1586-715b-49e2-8ead-bf1b339075c3">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Contract Currency]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="ef03d10e-319c-44ad-93a1-bb77f035967e">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{currency}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="07e5efdd-e5d9-4333-9669-d0158815cc45">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="a534f89c-b203-4226-988e-7043ce1f1d5b">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Kurs Issued]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="70163043-1d31-40f9-a5e8-68d97ce0e0e8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{exchangeRate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="144" uuid="0a693ca8-ee62-44b0-98ad-364bc9b4a03e">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="144" height="16" isRemoveLineWhenBlank="true" uuid="cc0fa744-fea6-4d69-a052-6213504232d7">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Ad Hoc Top Up Date]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="144" height="13" isRemoveLineWhenBlank="true" uuid="e4e429a2-c2e4-4eba-b443-60aa09d72654">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahTopupDate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="656c23f6-8fe3-4cd9-a84b-e8faecdba273">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" isRemoveLineWhenBlank="true" uuid="08bb201c-7167-4645-8cee-b4d4539405d5">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Ad Hoc Top Up Original]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="b589aef9-69a1-429e-bc7b-cc1d78b1d31d">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahTopup}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="129" uuid="7345e34b-c283-439c-97c1-2f7f6bedc86e">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="129" height="16" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="b2097e8c-6518-41b7-94ef-b8cdf826ba8a">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Ad Hoc Top Up IDR  (Convert IDR)]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="129" height="13" isPrintWhenDetailOverflows="true" uuid="bf199926-dbd1-4909-8290-14a7ee3ba46e">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{convertedAdhocTopup}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{convertedAdhocTopup}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="987b108d-43fd-4d54-afff-28855cc9af8d">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="98788298-2cc5-494a-9740-e8b06e9faee8">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Basic Premium]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="b6948f6c-d34e-4a0e-ad12-fdc4df8f6f79">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{basicPremium}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="95d58281-5844-4f03-a5e5-a7a9933fa212">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="f18ebfb2-df02-4250-9d3c-e7b0368c25e5">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Basic Premium IDR  (Convert IDR)]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="c4ff8beb-6977-4a3c-b336-b04497df036f">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{convertedBasicPremium}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="d91d55d1-fb09-4148-a15c-5b9ee53b6b44">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="d0c56634-75d7-4d8b-a0cf-de78838e68f1">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Regular Top Up ]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="42abc8fe-c44d-4cb3-8449-eb1a0a1415ec">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{regularTopup}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="128" uuid="f3b42a03-053d-4e88-b7bb-9f3964464806">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="77374939-7924-464c-95b9-d2a472ab1f01">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Regular Top Up IDR  (Convert IDR)]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="8c20843e-b73a-4cd8-87b0-a724472eabc0">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" ) && !$F{convertedRegularTopup}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{convertedRegularTopup}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="e2a323ce-5852-4cf5-b984-627a162d5fd0">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="29973b13-2115-4557-b87c-2768d1afe879">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Single Top Up]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="105b79cf-66ca-449b-8757-93a2c0db63d6">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{singleTopup}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="14af2847-f4d3-4f39-b4df-191293826515">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="46e63c03-c190-4b89-8629-95c929f669f8">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Single Top Up IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="3996cc14-6845-4abc-a616-0486221737b4">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" ) && !$F{convertedSingleTopup}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{convertedSingleTopup}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="49e957a3-f02f-40fc-811a-eca07193c39e">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="4bccadb5-0a9a-4f1c-adce-89b584ea2274">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Total Premium]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="6f3e72f9-ca65-48d3-b727-e98bcfd72893">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{totalPremium}== null ? null : $F{totalPremium}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="410d3470-5710-418c-9f4c-ee98b88241f1">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="22e1aa17-b42d-4d55-9fdc-d0f405bd8e65">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Total Premium IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="24d08b32-d695-44b4-b054-51e523d5bb91">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convertedTotalPremium}== null ? null : $F{convertedTotalPremium}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="6324086b-1496-4512-a798-f1612cc58dfe">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="673fb9e8-a779-4009-a42a-0d25bc123760">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Basic Premium Gross]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="cd97e5c2-463a-4db7-9ae5-1af1e41d3caf">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{grossRevenue}.equals("0") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{grossRevenue}== null ? null : $F{grossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="128" uuid="6022b876-0723-4b53-8da0-09d41e22ddd4">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="37262a10-7dbe-4a7c-a7cb-3713506d256d">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Basic Premium Gross IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="7c86f392-5340-4a36-8a7e-27483767941a">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convGrossRevenue}.equals("0") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convGrossRevenue}== null ? null : $F{convGrossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="28b3b221-1828-4b01-8b60-d89909a0e69b">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="c2fd617e-0787-4b26-8d53-dd440e56f33e">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Regular Top up Gross]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="8e18686c-8fe4-45ad-9064-a541709bcd4d">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{topupGrossRevenue}.equals("0") && !$F{productCode}.equals("US1") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{topupGrossRevenue}== null ? null : $F{topupGrossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="b9d23b34-1443-4f8c-b7fe-c991dbbf8a3a">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="130" height="16" uuid="1eff9fd0-180c-46d1-921e-5236b7ee5e37">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Regular Top up Gross IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" uuid="7df94132-290c-40b2-8f5d-53909febdbaf">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convTopupGrossRevenue}.equals("0") && !$F{productCode}.equals("US1") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convTopupGrossRevenue}== null ? null : $F{convTopupGrossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="128" uuid="1fa1a182-1727-4f79-9601-354622897f45">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="5f79a953-9113-4ee5-82a5-f098930d9378">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Single Top up Gross]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="00fda172-d960-4d6d-ac03-cc29ea8d1edf">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{topupGrossRevenue}.equals("0") && $F{productCode}.equals("US1") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{topupGrossRevenue}== null ? null : $F{topupGrossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="82e755bd-08f6-4e61-98b4-631d77efddb0">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="130" height="16" uuid="0b4ea7b9-a008-477d-b9a8-f980f81d1fce">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Single Top up Gross IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" uuid="3255300d-1839-48e0-8198-5d8677265f33">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convTopupGrossRevenue}.equals("0") && $F{productCode}.equals("US1") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convTopupGrossRevenue}== null ? null : $F{convTopupGrossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="128" uuid="4aedd2e7-f3e7-4f57-933a-832de39ea484">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="61657e00-e5ce-426c-b027-95227dee87ea">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Basic Premium Nett]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="d8df4b1d-38a1-4ffa-958e-79391753467c">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{nettRevenue}.equals("0") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{nettRevenue}== null ? null : $F{nettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="06175ba5-3c32-4531-a314-53420309bfed">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="130" height="16" uuid="4b4bbc87-aa4a-4ee3-93e2-8feed01a927c">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Basic Premium Nett IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" uuid="f7a83c37-ce40-4c3f-869b-c6ff30bffa3e">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convNettRevenue}.equals("0") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convNettRevenue}== null ? null : $F{convNettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="3adfcf00-17a2-454c-bc88-3f877626a08f">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="79e94b9d-3569-44f1-81d3-eaee051c05c9">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Regular Top up Nett]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="a8620f4e-b386-4a03-866c-4c812370d961">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{topupNettRevenue}.equals("0") && !$F{productCode}.equals("US1") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{topupNettRevenue}== null ? null : $F{topupNettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="09a2a6fa-98fb-4e42-a135-4be93e413836">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="130" height="16" uuid="1296bfbc-c6be-4d16-92b5-0bc76420d7f2">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Regular Top up Nett IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" uuid="9e1d892a-f1be-4c08-96a3-59ad613110f2">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convTopupNettRevenue}.equals("0") && !$F{productCode}.equals("US1") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convTopupNettRevenue}== null ? null : $F{convTopupNettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="73a7fb5e-a226-4721-b239-a93ab9935880">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="855b8283-7a6e-4b3e-8cd5-8752469304aa">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Single Top up Nett]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="55bd0ea7-4126-4b46-a347-58b5ed6c24cb">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{topupNettRevenue}.equals("0") && $F{productCode}.equals("US1") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{topupNettRevenue}== null ? null : $F{topupNettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="72f3859b-4301-4332-98d6-a5200c855f23">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="130" height="16" uuid="1cc9eb0d-a7c2-4092-9e07-1772cdc92ed2">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Single Top up Nett IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" uuid="8422af9c-cb03-4500-b502-3a5aa67ef502">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convTopupNettRevenue}.equals("0") && $F{productCode}.equals("US1") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convTopupNettRevenue}== null ? null : $F{convTopupNettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="e335d01b-76d2-4e99-b121-42f451ae6977">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="b9374712-d80c-48db-b7c8-abacb806ee1d">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[VAT]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="53e06834-f3c0-48b4-8095-176d00087a2d">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{vat}.equals("0") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{vat}== null ? null : $F{vat}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="131" uuid="ae55a5fc-69d3-4b5d-87cf-ba75f853a7ce">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="130" height="16" uuid="2ff192e1-2d7f-4907-9180-8375022dcf2f">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[VAT IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" uuid="de7c6f67-d99f-4947-8d13-ab2c64ef411f">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convertedVat}.equals("0") && $F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convertedVat}== null ? null : $F{convertedVat}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="128" uuid="78e738c3-a9c8-47d7-9469-d78d55f8eaf3">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="aefbc71f-3359-481d-8a81-e69a22d67c21">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[APE]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="7e533992-7e28-4913-ba4e-8fb3b415f770">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" ) && !$F{ape}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{ape}== null ? null : $F{ape}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="acabe14b-e00e-4ed1-a476-c38a1dfa94b0">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="f43c1790-17b4-46e8-9c63-2510df6204b8">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[APE IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" uuid="96af154d-2c63-49fd-9810-a11de3c3e7b3">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" ) && !$F{convertedApe}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convertedApe}== null ? null : $F{convertedApe}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="dda45843-638a-4a91-a7c0-c1d2eedaa151">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="ce6e26fb-2914-45fa-a161-62bf352a786f">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Policy Status]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="0670a0bf-cf30-4ad7-80ad-2040a96b52f7">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{policyStatus}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="725aaff6-3b30-44c6-82ae-44111e00bfe6">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="1aed3883-d603-4e64-a24a-c1ad7775df20">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Submission Date]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="d96513a5-bd46-466f-9667-6f8f3ca9298b">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{submittedDate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="4e4c9d59-0673-434d-839b-adf53634e61e">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="cbf8eccf-e075-44df-984b-5a5ef601a657">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[UW Approved Date]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="fa77beb4-e015-4643-8e38-b302900e02a7">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{uwAprovedDateVal}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="23414eed-4479-4e16-aff4-fc703dfd3b53">
+						<printWhenExpression><![CDATA[true == false]]></printWhenExpression>
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="4175d565-a001-4833-8de6-dce1bf03b33e">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Issuance Date]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="4d9b9a2d-07b9-48a0-a092-2ef1b8472115">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[(($F{issuanceDate} != null && !$F{issuanceDate}.equals("")) ? new SimpleDateFormat("yyyyMMdd").parse($F{issuanceDate}) :"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="7b81cd90-0e81-4990-8e6b-c33a01011b13">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="2daa047d-0b7f-40de-80c7-d8a3c60573c1">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[SPAJ No / E-Sub No]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="ad1b2407-02c9-4ee6-a229-9417615860da">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{erefNo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="cfffb5bc-3bf3-411c-b2d1-dca7769e9ffe">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="cfdceae5-4745-4915-b99a-3795a4f266ef">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[FYP]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="29e585c1-292d-4b00-ab2a-e4a5434ab9b8">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )  && !$F{fyp}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{fyp}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="d5108287-c030-4e48-84a7-387de487a738">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="2748c29d-dcac-49ca-8f84-587301abd1a7">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[FYP IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="f8df2ba6-4f96-42e7-aa8d-5755365c2792">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" ) && !$F{convertedFyp}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{convertedFyp}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="9f568fc4-c3cf-4196-b2da-8e817c9258b5">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="9b2061ba-37ec-44ea-80fe-f019f2456830">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Payment Method]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="7d070bbc-7c49-4764-a1ee-6d83c102bfbe">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{paymentMethod}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="4cb4af05-eeff-4008-90aa-80cc358825b7">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="5aba68ec-fa70-455a-881d-ee4464a6154f">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Billing Frequency]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="02796b21-2e1a-4144-bc28-938da6af0735">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{billFrequency}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="f97af582-fbbc-4bda-849b-65199313ac55">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="c72fd3b5-f7fc-4fc2-8e33-4d57fd8f6826">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Product Code]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="b8b40fe8-69ff-4927-aadd-94b5b673282b"/>
+								<textFieldExpression><![CDATA[$F{productCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="194963ef-e87a-4c79-99b5-4c4633b17bd6">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="de3617b7-6ba8-4afc-ae85-5f27fa32e5c4">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Product Name]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="ea57afea-3daa-48bc-9398-c71e35a78dda">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{policyName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="b40fee6a-871a-464c-b6be-b44ca03a7fa0">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Date of Birth]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="289918d9-acb3-4783-9f97-e9b44f44cdf1">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[(($F{dob} != null && !$F{dob}.equals("")) ? new SimpleDateFormat("yyyyMMdd").parse($F{dob}):"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="19c2ee6a-5033-462f-a675-b67a1f4487ab">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Gender]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="0f85c530-dde7-4424-9faf-68aeb769f786">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{gender}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="79" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="79" height="16" uuid="a85983d6-6c77-41be-b6ea-2e5428bde4b0">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Marital Status]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="79" height="13" uuid="a84915c2-f5cc-4b96-ac90-90dc321cba08">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{maritalStatus}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="3e4caa8a-2af3-40a6-915a-fabc36eaf50d">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Nationality]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="37f34585-ec1f-4312-98f1-950a6dc2a288">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{nationality}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="f511473b-3c28-4c29-800b-4839c7279188">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Home Number]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="d11d7ef7-7012-4cbe-b6f6-f1a03167ac18">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{homeNo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="15aa759e-6b24-4021-8db8-24bbba44eb1c">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Mobile Number]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="51459d9e-051e-42ca-90fa-2205d75a2678">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{mobileNo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="ae7fc0b9-dab3-44d4-bd00-873407547908">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Office Number]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="af947e74-f227-4269-be08-448d0161242c">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{officeNo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="2e1754aa-ea02-4e9c-bf5a-0ffe65c91bea">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Fax Number]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="80411695-0e01-48d9-ad55-d4f263fce4b0">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{faxNo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="b8358cd0-cf94-4cec-a6d8-eef9ab78f812">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="3c6aa976-098a-4034-88c3-c2729ea14c93">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Email Address]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="0eacc5c4-8970-451b-91d8-6544c59a550d">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="a7d098f7-a531-4926-8593-3ceab5045fd6">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="9bf645dd-fa1e-4ef8-940b-246c9d24865c">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Residential Address ]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="138ff70c-0a7b-4c20-8c08-d0b9fe49ddd0">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{residentialAddress}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="36adce04-e705-4463-9ac6-e53d110163d3">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="98a14bd9-8f2d-47c8-9988-33221067c7a7">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Residential Address – Country]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="50ee4cd5-b0c5-401b-898b-a884ad989301">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{country}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="141" uuid="e9d6d5f2-c918-44e2-9c7f-258526c2e558">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="141" height="16" uuid="f5e0ea2a-b743-4e06-9194-1e487a3f6d04">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Residential Address – Postal Code]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="141" height="13" uuid="f53a8f82-f1d7-48c4-92ad-a69f5d7760d6">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{postalCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="cfe47f3c-62b9-4430-8c02-666ea0bbe6d9">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="d70e194a-2460-403b-b994-b45df21826f2">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Mailing Address]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="12791962-0c56-4665-b01c-e381ee1b53af">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{mailAddress}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="3a4f688d-29da-4fba-b4c7-57a31911983e">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="bbe0e2e5-c58c-4d8d-ba73-96c5529ad035">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Mailing Address - Country]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="12466538-e70c-4c2a-a9cf-0224bfcf4e05">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{mailCountry}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="e3116803-23b4-4cff-a1c2-f661f7808766">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="8b777e70-a8ad-4e60-b51a-40baadc32277">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Mailing Address - Postal Code]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="f97916cd-f1cc-4567-aad9-b920847f080e">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{mailPostalCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="70" height="16" uuid="65cdcec6-fd79-4b00-afbb-b3747443af09">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[ID No. Policy Owner]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" uuid="01ffad69-7297-4aff-8f84-7ea888e00a18">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ownerID}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="af2ef48e-44df-4ad0-bbf5-d6e7b1f6fb9b">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="9e80c298-0891-4317-9af4-ac9e2f357c57">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[ID No. Life Assured]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="06559a91-7e2c-4ab8-80b8-fe229f146951">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{lifeAssuredID}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="b5ac3316-fe38-4250-a7f7-dc684c06376c">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="3c3aa210-484d-48db-a98a-de58dd188785">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Life Assured – Date of Birth]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="fa204617-d0c1-4694-9bc3-c48f0d93be17">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[(( $F{lifeAssuredDob} != null && !$F{lifeAssuredDob}.equals("") ) ?new SimpleDateFormat("yyyyMMdd").parse($F{lifeAssuredDob}):"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="f8bedcd9-5961-49e0-b0b3-84d504bbf5ed">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="3ec46f3a-da74-475f-91c4-eda1109381e6">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Inception Date]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="1722ca10-efe5-4ccf-aaaf-9c2773cf8303">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[(($F{inceptionDate} != null && !$F{inceptionDate}.equals("")) ? new SimpleDateFormat("yyyyMMdd").parse($F{inceptionDate}) :"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="b1c06371-401f-4d1b-a416-5e09eb46c826">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="852582be-31fb-4aff-a790-584683d31f42">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Status Effective Date]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="7248fb7d-d926-49dd-82a3-798ef6bc3c1c">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[( ($F{statusEffectiveDate} != null && !$F{statusEffectiveDate}.equals("")) ? new SimpleDateFormat("yyyyMMdd").parse($F{statusEffectiveDate}) :"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="24b94827-9fe3-45c3-b5c5-4457d554b32b">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="76390e37-73b8-4088-b20c-9f4dce94ef37">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Inforce Month]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="a3e7cd71-694a-41d1-bb50-201aad79af32">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[( ($F{inforceMonth} != null && !$F{inforceMonth}.equals("")) ? $F{inforceMonth} :"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="7a46f13c-96c6-475b-82ab-af0cd9165cd4">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="5db14c57-fe34-451c-8595-b635932cf485">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Premium Due Date]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="c2d28f55-6e9d-40dc-8c60-81f0c98547d9">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[(($F{premiumDueDate} != null && !$F{premiumDueDate}.equals("")) ? new SimpleDateFormat("yyyyMMdd").parse($F{premiumDueDate}) :"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="c6f76cad-dda1-495e-b46e-3a7ee7458c58">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="925067f0-2175-4759-80b1-46e6233a9f5f">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Surrender Value *]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="757ce5ba-6dc4-4b31-bece-bd1d9a542e21">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{netSurrenderValue}== null ? null : $F{netSurrenderValue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="8aba7689-7b77-4b27-b55f-21203c00da34">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="5fb247f4-19c0-4396-9034-ed2512e29869"/>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Maturity Value ]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="b0186922-78e2-4d51-86f9-0f61400c6da7">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{maturityValue}== null ? null : $F{maturityValue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="1a6c3d80-ea4a-4233-b9cf-9925db7e84de">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" uuid="0f8eaf8e-bb90-436c-a970-fa081e719fba">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[FUA]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" uuid="e8920a81-3ee7-42f3-9f9c-f7a3d1926e12">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" ) && !$F{fua}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{fua}== null ? null : $F{fua}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="139" uuid="3dfce337-82ab-40a7-9aa4-3417485b525c">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="139" height="16" uuid="a728328d-2e59-45a5-a5cf-8f97fec4c77c">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Policy Doc Delivery Status]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="139" height="13" uuid="231c3acf-b917-458d-952c-628fafd945b7">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{policyDocDelStatus}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="150" uuid="383f26a9-8deb-448a-a58a-ff7d7dc40426">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="150" height="16" uuid="0fdfdf84-09bd-4e87-9189-3e814ee1e7b8">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Policy Doc Delivery Date]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="150" height="13" uuid="c6b762b4-6fbd-402b-bf2a-2b0d6c0bbc10">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[(($F{policyDocDelDate} != null && !$F{policyDocDelDate}.equals("")) ? new SimpleDateFormat("yyyyMMdd").parse($F{policyDocDelDate}) :"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="135" uuid="266d4211-7c6f-44f1-9448-a34c019b6ffb">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="135" height="16" uuid="d30b6f00-29db-4917-b483-60608fc2def8">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Policy Doc Delivery Reason]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="135" height="13" uuid="e23db9c4-aebe-4e19-bf7c-983460e12524">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{policyDocDelReason}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="150" uuid="bb42ae69-3b15-414f-a3a9-a88f3854e6d3">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="150" height="16" uuid="a15190ff-b52e-46f9-909f-ac6f08db64db">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Acknowledgement Date]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="150" height="13" uuid="7314e39a-6ba3-4d15-ab84-470e45226af9">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[(($F{acknowledgementDt} != null && !$F{acknowledgementDt}.equals("")) ? new SimpleDateFormat("yyyyMMdd").parse($F{acknowledgementDt}) :"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="150" uuid="c006ef5d-e934-48fb-8bc0-51e54cfdbf00">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="150" height="16" uuid="d33e05a9-6f28-4b71-b52e-94e2c6d012fe">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Recipient Name]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="150" height="13" uuid="f81b31f8-2614-4557-a80f-72659d48502c">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{recipientName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="150" uuid="784c33b2-105e-4548-880e-8fa2a038f913">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="150" height="16" uuid="0450c870-f3d6-466d-9ac8-b51e485a0a45">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Relationship to PH]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="150" height="13" uuid="1363ffd5-f224-4c35-ad81-11ad56890f61">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{relation}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="150" uuid="8778f8e3-4610-4aaa-a556-271f6518fd1c">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="150" height="16" uuid="620e7a5a-44bf-4c53-934f-0e69486f5b23">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Air Bill Number]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="150" height="13" uuid="f74ff9c5-fd8d-44ce-bbe2-9fc8293d5107">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "POLICY_REPORT" )]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{airbillNum}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="2da3b395-c6b7-4429-b6a4-7120c33d5dfb">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="0245ddac-dacd-45bd-9ca6-588190f5ba30">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[ Ad Hoc Top Up Gross]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" uuid="b2f682ae-ed52-4a4b-9c06-631ae5f8e3cb">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{ahGrossRevenue}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahGrossRevenue}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="c1ee68a0-da14-4ab7-bef5-f05ffd352011">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="130" height="16" uuid="e6bfc744-45b5-4f24-b420-fdca455830c6">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Ad Hoc Top Up Gross IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="47af8293-8674-4bc2-92df-f2b367f69309">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{ahConvGrossRev}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahConvGrossRev}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="72fd69f5-ff51-48ee-bca2-045d8de5f43b">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="7e7b92f1-82bd-4330-a920-38adc435c061">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Ad Hoc Top Up Nett]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" uuid="6236ad8a-6824-4fa7-b49e-a6de0e677612">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{ahNettRevenue}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahNettRevenue}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="131" uuid="3c8772c9-6ac9-438e-bd0f-3999c0833c21">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="130" height="16" uuid="2c9a9600-4aa5-4a0b-8c92-ddbffc21975f">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Ad Hoc Top Up Nett IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="13acd0b5-6d84-4e69-a387-38d18fab8a35">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{ahConvNettRev}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahConvNettRev}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="b09b74ad-b66a-4cbe-8048-1f17e237d90b">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="127" height="16" uuid="321d4fbb-0763-4dd2-9006-d39894b5b383">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[VAT]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" uuid="39ee2d2b-9ef8-44e6-ba35-608ddcea5451">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{ahVat}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahVat}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="aaa2cf1e-9a3f-40ab-be77-e378866b41c0">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="130" height="16" uuid="3f91deea-dfd3-47d4-b697-183e90cef75a">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[VAT IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="86b09230-cf1d-4613-8ec8-b0df050f3798">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{ahConvVat}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahConvVat}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="41f598c8-a31f-4a39-9d8b-29c089c00373">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" isRemoveLineWhenBlank="true" uuid="a427886e-4636-4be6-a118-2dc1d3447c8b">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[APE]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="1e525fb8-1336-4f46-be40-6c040307a909">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{ahApe}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahApe}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="268825f0-0b84-46f8-a723-a4ec5faeb306">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" isRemoveLineWhenBlank="true" uuid="5175581c-0032-42c6-a158-8c9b16b1d389">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[APE IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="29b8faf3-8bd7-4b15-b673-f3fd4eb56b63">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{ahConvApe}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahConvApe}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="e8db871e-0384-4a0c-a86f-f19fc15f6aef">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" isRemoveLineWhenBlank="true" uuid="38d7e580-bcb7-4b67-9265-c034afaf2b30">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[FYP]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="dc737212-652b-4cf7-ab29-58077f66b4b4">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{ahFyp}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahFyp}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="e7a8b0cc-c3bb-4bcf-9477-2ee88c030d72">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="16" isRemoveLineWhenBlank="true" uuid="2ab1cfb2-b323-4ee9-badf-f4fb7f33cc31">
+										<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+										<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" )]]></printWhenExpression>
+									</reportElement>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[FYP IDR]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="3b6153dc-d2a1-4eb3-8415-e870e73fc436">
+									<printWhenExpression><![CDATA[$F{ahFilter}.equalsIgnoreCase( "ADHOC_REPORT" ) && !$F{ahConvFup}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahConvFup}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="3dfb76a4-ac49-4842-b683-fd6d72fde95b">
+						<jr:groupHeader groupName="group1">
+							<jr:cell height="16" rowSpan="1">
+								<staticText>
+									<reportElement isPrintRepeatedValues="false" x="0" y="0" width="90" height="16" isRemoveLineWhenBlank="true" forecolor="#FFFFFF" uuid="e1aa6913-709f-47e9-9fdc-b2c2eb775d89"/>
+									<textElement markup="none">
+										<font fontName="Arial"/>
+									</textElement>
+									<text><![CDATA[Filter]]></text>
+								</staticText>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement isPrintRepeatedValues="false" x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" forecolor="#FFFFFF" uuid="81b10b0a-6575-42ae-acd4-95496278faec">
+									<propertyExpression name="net.sf.jasperreports.export.xls.sheet.name"><![CDATA[$F{ahFilter}]]></propertyExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{ahFilter}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement key="textField" mode="Transparent" x="0" y="919" width="350" height="13" isRemoveLineWhenBlank="true" forecolor="#000000" backcolor="#FFFFFF" uuid="60fb5331-ae56-46ba-a08d-a63ccd78360d">
+					<printWhenExpression><![CDATA[$F{count}.equals("0")]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top" rotation="None">
+					<font fontName="Arial" size="10" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[No record available for selection criteria. Please make another selection.]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

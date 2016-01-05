@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSMRReportXML>
+    <RSMRDTOList>
+        <region>01</region>
+        <area>Jakarta 1</area>
+        <namaCabang>Arion Building</namaCabang>
+        <name>Manula</name>
+        <jabatan>AB</jabatan>
+        <npk>100</npk>
+        <referralTarget>10</referralTarget>
+        <referralActual>10</referralActual>
+        <submissionCase>10</submissionCase>
+        <submissionAPE>10</submissionAPE>
+        <submissionRevenue>10</submissionRevenue>
+        <inforceCase>10</inforceCase>
+        <inforceAPE>10</inforceAPE>
+        <inforceRevenue>10</inforceRevenue>
+    </RSMRDTOList>
+	<RSMRDTOList>
+        <region>01</region>
+        <area>Jakarta 1</area>
+        <namaCabang>Arion Building 1</namaCabang>
+        <name>Manula 1</name>
+        <jabatan>AB</jabatan>
+        <npk>100</npk>
+        <referralTarget>10</referralTarget>
+        <referralActual>10</referralActual>
+        <submissionCase>10</submissionCase>
+        <submissionAPE>10</submissionAPE>
+        <submissionRevenue>10</submissionRevenue>
+        <inforceCase>10</inforceCase>
+        <inforceAPE>10</inforceAPE>
+        <inforceRevenue>10</inforceRevenue>
+    </RSMRDTOList>
+	<RSMRDTOList>
+        <region>01</region>
+        <area>Jakarta 2</area>
+        <namaCabang>Arion Building</namaCabang>
+        <name>Manula</name>
+        <jabatan>AB</jabatan>
+        <npk>100</npk>
+        <referralTarget>10</referralTarget>
+        <referralActual>10</referralActual>
+        <submissionCase>10</submissionCase>
+        <submissionAPE>10</submissionAPE>
+        <submissionRevenue>10</submissionRevenue>
+        <inforceCase>10</inforceCase>
+        <inforceAPE>10</inforceAPE>
+        <inforceRevenue>10</inforceRevenue>
+    </RSMRDTOList>
+ </RSMRReportXML>

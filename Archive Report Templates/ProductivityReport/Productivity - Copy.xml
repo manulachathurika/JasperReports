@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<productivityReportXML>
+	<productivityDTO>
+		<rsmName>Daniel Wang</rsmName>
+		<asmName>Amanda Vyatalely</asmName>
+		<pfcCode>A0321114</pfcCode>
+		<pfcName>Harun Taraja</pfcName>
+		<batch>Batch1</batch>
+		<appointedDate>2015.01.01</appointedDate>
+		<level>Level1</level>
+		
+		<leadsTarget>1</leadsTarget>
+		<leadsContactMade>1</leadsContactMade>
+		<leadsMeetingComplete>1</leadsMeetingComplete>
+		<leadsProposalMade>1</leadsProposalMade>
+		<leadsSubmitted>1</leadsSubmitted>
+		<leadsCancelled>1</leadsCancelled>
+		<leadsTotalActual>10</leadsTotalActual>
+		
+		<totalLeadsContactMade>1</totalLeadsContactMade>
+		<totalLeadsMeetingComplete>1</totalLeadsMeetingComplete>
+		<totalLeadsProposalMade>1</totalLeadsProposalMade>
+		<totalLeadsSubmitted>1</totalLeadsSubmitted>
+		<totalLeadsCancelled>1</totalLeadsCancelled>
+		<totalLeadsTotal>1</totalLeadsTotal>
+		
+		<targetAPEMPSCase>1</targetAPEMPSCase>
+		<targetAPEMPSAPE>1</targetAPEMPSAPE>
+		<targetAPEOTECase>1</targetAPEOTECase>
+		<targetAPEOTEAPE>1</targetAPEOTEAPE>
+		
+		<submissionIsmartCase>1</submissionIsmartCase>
+		<submissionIsmartAPE>1</submissionIsmartAPE>
+		<submissionIprimeCase>1</submissionIprimeCase>
+		<submissionIprimeAPE>1</submissionIprimeAPE>
+		<submissionIfutureCase>1</submissionIfutureCase>
+		<submissionIfutureAPE>1</submissionIfutureAPE>
+
+		<inforceIsmartCase>1</inforceIsmartCase>
+		<inforceIsmartAPENonAdHoc>1</inforceIsmartAPENonAdHoc>
+		<inforceIsmartAPEAdHoc>1</inforceIsmartAPEAdHoc>
+				
+		<inforceIprimeCase>1</inforceIprimeCase>
+		<inforceIprimeAPENonAdHoc>1</inforceIprimeAPENonAdHoc>
+		<inforceIprimeAPEAdHoc>1</inforceIprimeAPEAdHoc>
+				
+		<inforceIfutureCase>1</inforceIfutureCase>
+		<inforceIfutureAPENonAdHoc>1</inforceIfutureAPENonAdHoc>
+		<inforceIfutureAPEAdHoc>1</inforceIfutureAPEAdHoc>
+		
+		<rider>1</rider>
+	</productivityDTO>
+	<productivityDTO>
+		<rsmName>Daniel Wang</rsmName>
+		<asmName>Amanda Vyatalely1</asmName>
+		<pfcCode>A0321112</pfcCode>
+		<pfcName>Harun Taraja</pfcName>
+		<batch>Batch1</batch>
+		<appointedDate>2015.01.01</appointedDate>
+		<level>Level1</level>
+		
+		<leadsTarget>1</leadsTarget>
+		<leadsContactMade>1</leadsContactMade>
+		<leadsMeetingComplete>1</leadsMeetingComplete>
+		<leadsProposalMade>1</leadsProposalMade>
+		<leadsSubmitted>1</leadsSubmitted>
+		<leadsCancelled>1</leadsCancelled>
+		<leadsTotalActual>10</leadsTotalActual>
+		
+		<totalLeadsContactMade>1</totalLeadsContactMade>
+		<totalLeadsMeetingComplete>1</totalLeadsMeetingComplete>
+		<totalLeadsProposalMade>1</totalLeadsProposalMade>
+		<totalLeadsSubmitted>1</totalLeadsSubmitted>
+		<totalLeadsCancelled>1</totalLeadsCancelled>
+		<totalLeadsTotal>1</totalLeadsTotal>
+		
+		<targetAPEMPSCase>1</targetAPEMPSCase>
+		<targetAPEMPSAPE>1</targetAPEMPSAPE>
+		<targetAPEOTECase>1</targetAPEOTECase>
+		<targetAPEOTEAPE>1</targetAPEOTEAPE>
+		
+		<submissionIsmartCase>1</submissionIsmartCase>
+		<submissionIsmartAPE>1</submissionIsmartAPE>
+		<submissionIprimeCase>1</submissionIprimeCase>
+		<submissionIprimeAPE>1</submissionIprimeAPE>
+		<submissionIfutureCase>1</submissionIfutureCase>
+		<submissionIfutureAPE>1</submissionIfutureAPE>
+
+		<inforceIsmartCase>2</inforceIsmartCase>
+		<inforceIsmartAPENonAdHoc>1</inforceIsmartAPENonAdHoc>
+		<inforceIsmartAPEAdHoc>1</inforceIsmartAPEAdHoc>
+				
+		<inforceIprimeCase>2</inforceIprimeCase>
+		<inforceIprimeAPENonAdHoc>1</inforceIprimeAPENonAdHoc>
+		<inforceIprimeAPEAdHoc>1</inforceIprimeAPEAdHoc>
+				
+		<inforceIfutureCase>2</inforceIfutureCase>
+		<inforceIfutureAPENonAdHoc>1</inforceIfutureAPENonAdHoc>
+		<inforceIfutureAPEAdHoc>1</inforceIfutureAPEAdHoc>
+
+		<rider>2</rider>
+	</productivityDTO>
+	<RSMRankSubmissionDTO>
+		<rank>1</rank>
+		<rsmName>Manula</rsmName>
+		<submissionIsmartCase>1</submissionIsmartCase>
+		<submissionIsmartAPE>1</submissionIsmartAPE>
+		<submissionIprimeCase>1</submissionIprimeCase>
+		<submissionIprimeAPE>1</submissionIprimeAPE>
+		<submissionTotalsubmissionCase>1</submissionTotalsubmissionCase>
+		<submissionTotalsubmissionAPE>1</submissionTotalsubmissionAPE>
+	</RSMRankSubmissionDTO>
+	<RSMRankSubmissionDTO>
+		<rank>2</rank>
+		<rsmName>Shashi</rsmName>
+		<submissionIsmartCase>1</submissionIsmartCase>
+		<submissionIsmartAPE>1</submissionIsmartAPE>
+		<submissionIprimeCase>1</submissionIprimeCase>
+		<submissionIprimeAPE>1</submissionIprimeAPE>
+		<submissionTotalsubmissionCase>1</submissionTotalsubmissionCase>
+		<submissionTotalsubmissionAPE>1</submissionTotalsubmissionAPE>
+	</RSMRankSubmissionDTO>
+	<ASMRankSubmissionDTO>
+		<rank>1</rank>
+		<asmName>Hi</asmName>
+		<submissionIsmartCase>3</submissionIsmartCase>
+		<submissionIsmartAPE>4</submissionIsmartAPE>
+		<submissionIprimeCase>5</submissionIprimeCase>
+		<submissionIprimeAPE>6</submissionIprimeAPE>
+		<submissionTotalsubmissionCase>7</submissionTotalsubmissionCase>
+		<submissionTotalsubmissionAPE>8</submissionTotalsubmissionAPE>
+	</ASMRankSubmissionDTO>
+	<ASMRankSubmissionDTO>
+		<rank>1</rank>
+		<asmName>Hi</asmName>
+		<submissionIsmartCase>3</submissionIsmartCase>
+		<submissionIsmartAPE>10</submissionIsmartAPE>
+		<submissionIprimeCase>5</submissionIprimeCase>
+		<submissionIprimeAPE>6</submissionIprimeAPE>
+		<submissionTotalsubmissionCase>7</submissionTotalsubmissionCase>
+		<submissionTotalsubmissionAPE>8</submissionTotalsubmissionAPE>
+	</ASMRankSubmissionDTO>
+	<RSMRankInforceDTO>
+		<rank>1</rank>
+		<rsmName>Manula</rsmName>
+		<inforceIsmartCase>1</inforceIsmartCase>
+		<inforceIsmartAPENonAdHoc>1</inforceIsmartAPENonAdHoc>
+		<inforceIsmartAPEAdHoc>1</inforceIsmartAPEAdHoc>
+		<inforceIsmartAPETotal>1</inforceIsmartAPETotal>
+		<inforceIprimeCase>1</inforceIprimeCase>
+		<inforceIprimeAPENonAdHoc>1</inforceIprimeAPENonAdHoc>
+		<inforceIprimeAPEAdHoc>1</inforceIprimeAPEAdHoc>
+		<inforceIprimeAPETotal>1</inforceIprimeAPETotal>
+		<inforceTotalInforceCase>2</inforceTotalInforceCase>
+		<inforceTotalInforceAPENonAdHoc>1</inforceTotalInforceAPENonAdHoc>
+		<inforceTotalInforceAPEAdHoc>1</inforceTotalInforceAPEAdHoc>
+		<inforceTotalInforceAPETotal>4</inforceTotalInforceAPETotal>
+		<target>12</target>
+		<gapTarget></gapTarget>
+	</RSMRankInforceDTO>
+	<ASMRankInforceDTO>
+		<rank>1</rank>
+		<asmName>Manula</asmName>
+		<inforceIsmartCase>1</inforceIsmartCase>
+		<inforceIsmartAPENonAdHoc>1</inforceIsmartAPENonAdHoc>
+		<inforceIsmartAPEAdHoc>1</inforceIsmartAPEAdHoc>
+		<inforceIsmartAPETotal>1</inforceIsmartAPETotal>
+		<inforceIprimeCase>1</inforceIprimeCase>
+		<inforceIprimeAPENonAdHoc>1</inforceIprimeAPENonAdHoc>
+		<inforceIprimeAPEAdHoc>1</inforceIprimeAPEAdHoc>
+		<inforceIprimeAPETotal>1</inforceIprimeAPETotal>
+		<inforceTotalInforceCase>2</inforceTotalInforceCase>
+		<inforceTotalInforceAPENonAdHoc>1</inforceTotalInforceAPENonAdHoc>
+		<inforceTotalInforceAPEAdHoc>1</inforceTotalInforceAPEAdHoc>
+		<inforceTotalInforceAPETotal>10</inforceTotalInforceAPETotal>
+		<target>12</target>
+		<gapTarget></gapTarget>
+	</ASMRankInforceDTO>
+</productivityReportXML>

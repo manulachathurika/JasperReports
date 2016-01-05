@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<performance>
+    <performanceReportHeader>
+        <count>2</count>
+    </performanceReportHeader>
+    <performanceDTOList>
+        <month>January  </month>
+        <newLeads>60</newLeads>
+		<outstandingLeads>20</outstandingLeads>
+		<cancelLeads>0</cancelLeads>
+        <submitNew>50</submitNew>
+        <submitRecurring>0</submitRecurring>
+        <totalPolicyInforce>30</totalPolicyInforce>
+        <totalPolicyPending>19</totalPolicyPending>
+		<totalPolicyCancle>1</totalPolicyCancle>
+    </performanceDTOList>
+    <performanceDTOList>
+        <month>February</month>
+        <newLeads>70</newLeads>
+		<outstandingLeads>30</outstandingLeads>
+		<cancelLeads>15</cancelLeads>
+        <submitNew>60</submitNew>
+        <submitRecurring>19</submitRecurring>
+        <totalPolicyInforce>50</totalPolicyInforce>
+        <totalPolicyPending>25</totalPolicyPending>
+		<totalPolicyCancle>4</totalPolicyCancle>
+    </performanceDTOList>
+	<performanceDTOList>
+        <month>March</month>
+        <newLeads>80</newLeads>
+		<outstandingLeads>25</outstandingLeads>
+		<cancelLeads>5</cancelLeads>
+        <submitNew>70</submitNew>
+        <submitRecurring>25</submitRecurring>
+        <totalPolicyInforce>65</totalPolicyInforce>
+        <totalPolicyPending>22</totalPolicyPending>
+		<totalPolicyCancle>8</totalPolicyCancle>
+    </performanceDTOList>
+</performance>

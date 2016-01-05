@@ -1,0 +1,2226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ListOfProposals" pageWidth="595" pageHeight="842" whenNoDataType="NoDataSection" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="585a06d7-3765-41d6-b069-a4ffcd246b48">
+	<property name="ireport.scriptlethandling" value="0"/>
+	<property name="ireport.encoding" value="UTF-8"/>
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.remove.empty.space.between.columns" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.remove.empty.space.between.rows" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.ignore.graphics" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.one.page.per.sheet" value="false"/>
+	<property name="net.sf.jasperreports.export.xls.detect.cell.type" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
+	<property name="net.sf.jasperreports.export.xls.wrap.text" value="false"/>
+	<import value="net.sf.jasperreports.engine.*"/>
+	<import value="net.sf.jasperreports.engine.data.*"/>
+	<subDataset name="outstandingProposalDS" uuid="c5e77f2b-2e58-4ab4-ac00-2be9be1717bc">
+		<queryString language="json">
+			<![CDATA[]]>
+		</queryString>
+		<field name="adviserCode" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.adviserCode]]></fieldDescription>
+		</field>
+		<field name="adviserName" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.adviserName]]></fieldDescription>
+		</field>
+		<field name="ape" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.ape]]></fieldDescription>
+		</field>
+		<field name="areaCode" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.areaCode]]></fieldDescription>
+		</field>
+		<field name="areaName" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.areaName]]></fieldDescription>
+		</field>
+		<field name="billFrequency" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.billFrequency]]></fieldDescription>
+		</field>
+		<field name="branchCode" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.branchCode]]></fieldDescription>
+		</field>
+		<field name="branchName" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.branchName]]></fieldDescription>
+		</field>
+		<field name="currency" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.currency]]></fieldDescription>
+		</field>
+		<field name="ERefNo" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.ERefNo]]></fieldDescription>
+		</field>
+		<field name="id" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.id]]></fieldDescription>
+		</field>
+		<field name="lifeAssuredID" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.lifeAssuredID]]></fieldDescription>
+		</field>
+		<field name="lifeAssuredName" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.lifeAssuredName]]></fieldDescription>
+		</field>
+		<field name="lifeAssuredCif" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.lifeAssuredCif]]></fieldDescription>
+		</field>
+		<field name="ownerID" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.ownerID]]></fieldDescription>
+		</field>
+		<field name="ownerName" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.ownerName]]></fieldDescription>
+		</field>
+		<field name="ownerPermataCif" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.ownerPermataCif]]></fieldDescription>
+		</field>
+		<field name="paymentMethod" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.paymentMethod]]></fieldDescription>
+		</field>
+		<field name="policyName" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.policyName]]></fieldDescription>
+		</field>
+		<field name="policyNo" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.policyNo]]></fieldDescription>
+		</field>
+		<field name="policyStatus" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.policyStatus]]></fieldDescription>
+		</field>
+		<field name="premiumAmount" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.premiumAmount]]></fieldDescription>
+		</field>
+		<field name="premiumCollected" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.premiumCollected]]></fieldDescription>
+		</field>
+		<field name="receivedDate" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.receivedDate]]></fieldDescription>
+		</field>
+		<field name="region" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.region]]></fieldDescription>
+		</field>
+		<field name="requirements" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.requirements]]></fieldDescription>
+		</field>
+		<field name="statusOfRequirements" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.statusOfRequirements]]></fieldDescription>
+		</field>
+		<field name="failedLodgement" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.failedLodgement]]></fieldDescription>
+		</field>
+		<field name="permataPFCAgentFlag" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.permataPFCAgentFlag]]></fieldDescription>
+		</field>
+		<field name="asmCode" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.asmCode]]></fieldDescription>
+		</field>
+		<field name="asmName" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.asmName]]></fieldDescription>
+		</field>
+		<field name="fyp" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.fyp]]></fieldDescription>
+		</field>
+		<field name="rsmCode" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.rsmCode]]></fieldDescription>
+		</field>
+		<field name="rsmName" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.rsmName]]></fieldDescription>
+		</field>
+		<field name="agntNum" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.agntNum]]></fieldDescription>
+		</field>
+		<field name="agntType" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.agntType]]></fieldDescription>
+		</field>
+		<field name="agntName" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.agntName]]></fieldDescription>
+		</field>
+		<field name="productCode" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.productCode]]></fieldDescription>
+		</field>
+		<field name="singleTopup" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.singleTopup]]></fieldDescription>
+		</field>
+		<field name="basicPremium" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.basicPremium]]></fieldDescription>
+		</field>
+		<field name="regularTopup" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.regularTopup]]></fieldDescription>
+		</field>
+		<field name="uwAprovedDate" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.uwAprovedDateVal]]></fieldDescription>
+		</field>
+		<field name="submittedDate" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.submittedDateVal]]></fieldDescription>
+		</field>
+		<field name="combinedRequirementsAndStateOfRequirements" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.combinedRequirementsAndStateOfRequirements]]></fieldDescription>
+		</field>
+		<field name="uwAprovedDateVal" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.uwAprovedDateVal]]></fieldDescription>
+		</field>
+		<field name="dob" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.dob]]></fieldDescription>
+		</field>
+		<field name="gender" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.gender]]></fieldDescription>
+		</field>
+		<field name="maritalStatus" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.maritalStatus]]></fieldDescription>
+		</field>
+		<field name="nationality" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.nationality]]></fieldDescription>
+		</field>
+		<field name="homeNo" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.homeNo]]></fieldDescription>
+		</field>
+		<field name="mobileNo" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.mobileNo]]></fieldDescription>
+		</field>
+		<field name="officeNo" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.officeNo]]></fieldDescription>
+		</field>
+		<field name="faxNo" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.faxNo]]></fieldDescription>
+		</field>
+		<field name="email" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.email]]></fieldDescription>
+		</field>
+		<field name="residentialAddress" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.residentialAddress]]></fieldDescription>
+		</field>
+		<field name="country" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.country]]></fieldDescription>
+		</field>
+		<field name="postalCode" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.postalCode]]></fieldDescription>
+		</field>
+		<field name="mailAddress" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.mailAddress]]></fieldDescription>
+		</field>
+		<field name="mailCountry" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.mailCountry]]></fieldDescription>
+		</field>
+		<field name="mailPostalCode" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.mailPostalCode]]></fieldDescription>
+		</field>
+		<field name="lifeAssuredDob" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.lifeAssuredDob]]></fieldDescription>
+		</field>
+		<field name="maturityValue" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.maturityValue]]></fieldDescription>
+		</field>
+		<field name="fua" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.fua]]></fieldDescription>
+		</field>
+		<field name="exchangeRate" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.exchangeRate]]></fieldDescription>
+		</field>
+		<field name="convertedBasicPremium" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convertedBasicPremium]]></fieldDescription>
+		</field>
+		<field name="convertedSingleTopup" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convertedSingleTopup]]></fieldDescription>
+		</field>
+		<field name="convertedRegularTopup" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convertedRegularTopup]]></fieldDescription>
+		</field>
+		<field name="convertedTotalPremium" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convertedTotalPremium]]></fieldDescription>
+		</field>
+		<field name="totalPremium" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.totalPremium]]></fieldDescription>
+		</field>
+		<field name="grossRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.grossRevenue]]></fieldDescription>
+		</field>
+		<field name="nettRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.nettRevenue]]></fieldDescription>
+		</field>
+		<field name="vat" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.vat]]></fieldDescription>
+		</field>
+		<field name="convertedApe" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convertedApe]]></fieldDescription>
+		</field>
+		<field name="convertedFyp" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convertedFyp]]></fieldDescription>
+		</field>
+		<field name="inforceMonth" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.inforceMonth]]></fieldDescription>
+		</field>
+		<field name="topupGrossRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.topupGrossRevenue]]></fieldDescription>
+		</field>
+		<field name="topupNettRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.topupNettRevenue]]></fieldDescription>
+		</field>
+		<field name="convGrossRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convGrossRevenue]]></fieldDescription>
+		</field>
+		<field name="convNettRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convNettRevenue]]></fieldDescription>
+		</field>
+		<field name="convertedVat" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convertedVat]]></fieldDescription>
+		</field>
+		<field name="convTopupGrossRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convTopupGrossRevenue]]></fieldDescription>
+		</field>
+		<field name="convTopupNettRevenue" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.convTopupNettRevenue]]></fieldDescription>
+		</field>
+		<field name="permataAgentFlag" class="java.lang.String">
+			<fieldDescription><![CDATA[outstandingProposalDTO.permataAgentFlag]]></fieldDescription>
+		</field>
+	</subDataset>
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<field name="agentName" class="java.lang.String">
+		<fieldDescription><![CDATA[agentName]]></fieldDescription>
+	</field>
+	<field name="count" class="java.lang.String">
+		<fieldDescription><![CDATA[count]]></fieldDescription>
+	</field>
+	<field name="lvlFlag" class="java.lang.String">
+		<fieldDescription><![CDATA[lvlFlag]]></fieldDescription>
+	</field>
+	<field name="permataAgentFlag" class="java.lang.String">
+		<fieldDescription><![CDATA[permataAgentFlag]]></fieldDescription>
+	</field>
+	<field name="permataPFCAgentFlag" class="java.lang.String">
+		<fieldDescription><![CDATA[permataPFCAgentFlag]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="26" splitType="Stretch">
+			<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+				<reportElement x="140" y="0" width="70" height="13" isRemoveLineWhenBlank="true" uuid="5ceaa126-273e-4de8-918b-63b9432fb2a3">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new Date()]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="70" y="13" width="70" height="13" isRemoveLineWhenBlank="true" uuid="d9ada96e-9738-4027-933b-cfa9f4744250">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					<printWhenExpression><![CDATA[!$F{lvlFlag}.equalsIgnoreCase("D")]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agentName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="textField" mode="Transparent" x="0" y="13" width="70" height="13" forecolor="#000000" backcolor="#FFFFFF" uuid="54d02481-755f-44a6-ae91-73c13bd1f8d0">
+					<printWhenExpression><![CDATA[!$F{lvlFlag}.equalsIgnoreCase("D")]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top" rotation="None">
+					<font fontName="Arial" size="10" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Agent :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="textField" mode="Transparent" x="70" y="0" width="70" height="13" forecolor="#000000" backcolor="#FFFFFF" uuid="54d02481-755f-44a6-ae91-73c13bd1f8d0">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top" rotation="None">
+					<font fontName="Arial" size="10" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[As at]]></text>
+			</staticText>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" uuid="ce4b1bda-1983-430f-9bbe-535f9b781b57">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new String("List of Outstanding Proposals - Life & Health") + "\n"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="359" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table 3" x="0" y="13" width="70" height="89" isPrintInFirstWholeBand="true" uuid="088847ea-3aa0-432e-85a5-9aa7f6fa3a42">
+					<printWhenExpression><![CDATA[!$F{count}.equals("0")]]></printWhenExpression>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="AllSectionsNoDetail">
+					<datasetRun subDataset="outstandingProposalDS" uuid="5a65dadc-41d4-4e6f-b589-7ce2d4bc3814">
+						<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("outstandingProposals")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="70" uuid="f0d41d93-07d1-4897-99d4-c6beb7aaa779">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="51fa3fa0-0ada-4570-a90a-4531267874f8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Region]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="014768bd-450c-4ca7-8039-6862a1617046">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{region} != "null" ? $F{region} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="f0d41d93-07d1-4897-99d4-c6beb7aaa779">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="51fa3fa0-0ada-4570-a90a-4531267874f8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Area Code]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="014768bd-450c-4ca7-8039-6862a1617046">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{areaCode} != "null" ? $F{areaCode} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="f0d41d93-07d1-4897-99d4-c6beb7aaa779">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="51fa3fa0-0ada-4570-a90a-4531267874f8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Area Name]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="014768bd-450c-4ca7-8039-6862a1617046">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{areaName} != "null" ? $F{areaName} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="f0d41d93-07d1-4897-99d4-c6beb7aaa779">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="127" height="13" uuid="51fa3fa0-0ada-4570-a90a-4531267874f8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Advisor Name / PFC Name]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="014768bd-450c-4ca7-8039-6862a1617046">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{adviserName} != "null" ? $F{adviserName} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="172" uuid="dd06de28-92fa-411d-b890-672a8f7ddd80">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="172" height="13" uuid="cb133cf2-a9f2-4da8-8ad0-c4817121f18f">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Distribution Agent Code  / PFC Code]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="172" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="7a46b2bc-14ec-49b1-945a-a45f22192977">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{adviserCode} != "null" ? $F{adviserCode} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="0703c033-466f-400f-852a-219d4baec366">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="57841364-e154-4b5d-ba24-e625701fade2">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[ASM Code]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="66905fae-7101-4b54-b3fd-f7e35b0e3d6c"/>
+								<textFieldExpression><![CDATA[$F{asmCode} != "null" ? $F{asmCode} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="f0822f73-b4b2-44f0-ab97-1da345728269">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="c02471b2-a866-4931-846d-6deceffedbc5">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[ASM Name]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="aa55ee5a-ba79-44d0-ba31-0db40b31acbb"/>
+								<textFieldExpression><![CDATA[$F{asmName} != "null" ? $F{asmName} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="0046fe3f-258e-477a-88ec-d6fc1943b9df">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="3b6d89ac-047d-4591-8541-14f6d68fb9c8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[RSM Code]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d2790f3e-3ace-49d4-9592-a304a99eda44"/>
+								<textFieldExpression><![CDATA[$F{rsmCode} != "null" ? $F{rsmCode} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="96453a43-80f2-4da8-84fe-664b8a143d83">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="4019f815-2976-4fcc-b90b-5cd8ca9aa66c">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[RSM Name]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f2f24baf-54d1-4d22-86c4-49a59ed3d85a"/>
+								<textFieldExpression><![CDATA[$F{rsmName} != "null" ? $F{rsmName} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="f0d41d93-07d1-4897-99d4-c6beb7aaa779">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="51fa3fa0-0ada-4570-a90a-4531267874f8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Branch Code]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="014768bd-450c-4ca7-8039-6862a1617046">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{branchCode} != "null" ? $F{branchCode} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="f0d41d93-07d1-4897-99d4-c6beb7aaa779">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="51fa3fa0-0ada-4570-a90a-4531267874f8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Branch Name]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="014768bd-450c-4ca7-8039-6862a1617046">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{branchName} != "null" ? $F{branchName} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="d636b51d-f783-42ca-aad6-f2cde3739b11">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="f8b392d6-b073-4640-8e7c-460365c8c7e8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[NPK Bank Staff]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="69e05c4f-fe99-4f68-9c61-0f3d1812a994"/>
+								<textFieldExpression><![CDATA[$F{agntNum} != "null" ? $F{agntNum} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="139" uuid="c811467a-7470-4151-9749-43f1234679fd">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="139" height="13" isRemoveLineWhenBlank="true" uuid="75706140-38a2-4464-951a-79239e063c15">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Bank Staff Name]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="139" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="9d94a8d7-dac2-4966-8c99-fa3a0e8537ee">
+									<property name="net.sf.jasperreports.export.xls.wrap.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{agntName} != "null" ? $F{agntName} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="148" uuid="5469cb96-e1c2-4d5e-a16b-1478634d8fa1">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="148" height="13" isRemoveLineWhenBlank="true" uuid="2da9b7cd-4450-4566-860f-d960215cdd9e">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Bank Staff Level (Jabatan)]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="148" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="81c5d682-5146-4907-be35-fbe5f2f6e93c">
+									<property name="net.sf.jasperreports.export.xls.wrap.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{agntType} != "null" ? $F{agntType} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="2f86b9cb-0c05-42b7-851f-c8dd84f0ac6b">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Policy Number
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{policyNo} != "null" ? $F{policyNo} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="606513ec-6c2c-4744-9ac5-469aec0f2c98">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="cfdd22d2-b75d-416f-9be7-98cb14bbc2b8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Policy Owner Name]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="df73c04a-59e7-40b2-8d3d-889acd76ea43">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Left">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{ownerName} != "null" ? $F{ownerName} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="dc4d4a76-b0a5-4bf7-b69f-eacae1322f2e">
+						<printWhenExpression><![CDATA[$F{permataPFCAgentFlag}.equalsIgnoreCase( "Y" )]]></printWhenExpression>
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="de749743-6c47-4a93-a149-69319ebf6af8">
+									<printWhenExpression><![CDATA[$F{permataPFCAgentFlag}.equalsIgnoreCase("Y")]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Permata CIF]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="b515fdf0-6545-4224-975d-11f7324d2a18">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataPFCAgentFlag}.equalsIgnoreCase("Y")]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Left">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{ownerPermataCif} != "null" ? $F{ownerPermataCif} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="16b9a010-7857-4bcb-9369-b6e74e1742d1">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Life Assured Name
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Left">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{lifeAssuredName} != "null" ? $F{lifeAssuredName} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="dc4d4a76-b0a5-4bf7-b69f-eacae1322f2e">
+						<printWhenExpression><![CDATA[$F{permataPFCAgentFlag}.equalsIgnoreCase( "Y" )]]></printWhenExpression>
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="de749743-6c47-4a93-a149-69319ebf6af8">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Permata CIF]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="b515fdf0-6545-4224-975d-11f7324d2a18">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Left">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{lifeAssuredCif} != "null" ? $F{lifeAssuredCif} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="19c2ee6a-5033-462f-a675-b67a1f4487ab">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Contract Currency
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{currency} != "null" ? $F{currency} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="ae7fc0b9-dab3-44d4-bd00-873407547908">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Failed Lodgment
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{failedLodgement} != "null" ? $F{failedLodgement} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="63b3815a-ae13-4d94-abf9-9751ca8b49f0">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="a6d3eb6f-0832-415d-93d5-c73bb7da1285">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Kurs Issued
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="276f38fc-b7e3-49e9-a51f-94ff2dcd8b56">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{exchangeRate} != "null" ? $F{exchangeRate} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="91c9359f-7e49-44b1-a820-bb0b61a44c84">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="a4f31c46-e505-4d8b-98bf-24a9ed3dcec1">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Basic Premium]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="19a4970d-b78f-426f-bb7f-842ef3bafc08"/>
+								<textFieldExpression><![CDATA[$F{basicPremium} != "null" ? $F{basicPremium} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="128" uuid="74eb6d55-2899-47d7-b741-00e17b7a36bb">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" uuid="7aba1e2c-9496-42bf-8410-3f6adcd5fe81">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Basic Premium IDR (Convert IDR)]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="6db5581e-5acf-4296-a743-e9f973437840">
+									<printWhenExpression><![CDATA[!$F{convertedBasicPremium}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{convertedBasicPremium} != "null" ? $F{convertedBasicPremium} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="1e99f1bd-dfae-498f-9556-874ec6d181bc">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="761bfe29-abe1-4db8-8538-e609fca81b11">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Regular Top Up ]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="5ad11a25-2d01-4d5f-a9bf-63f3a5b7b973"/>
+								<textFieldExpression><![CDATA[$F{regularTopup} != "null" ? $F{regularTopup} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="ae84ca97-81f2-4a51-aa81-64db3013cb3f">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" uuid="67437640-dcb8-48e2-baec-5fcac3f2ddd2">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Regular Top Up IDR  (Convert IDR)]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="521e4b47-b8c1-4792-8a4b-b9b7a61b3b22">
+									<printWhenExpression><![CDATA[!$F{convertedRegularTopup}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{convertedRegularTopup} != "null" ? $F{convertedRegularTopup} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="a7ebc67d-49a4-46bb-ac52-e3823f41bd0b">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="ac3a88b1-e2c0-40a8-9ba9-ef7f6f96c469">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Single Top Up]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="c1c15449-d729-47ff-9235-d6737bb3f8dc"/>
+								<textFieldExpression><![CDATA[$F{singleTopup} != "null" ? $F{singleTopup} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="128" uuid="a04c444e-1467-4302-8554-afebfb0bb580">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" uuid="4b1a7eaa-4dde-4e3a-8e39-fa4abfbc95c7">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Single Top Up IDR  (Convert IDR)]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e4c1211d-b590-4aae-955a-1631ad4fe74d">
+									<printWhenExpression><![CDATA[!$F{convertedSingleTopup}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{convertedSingleTopup} != "null" ? $F{convertedSingleTopup} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="f075ab86-96de-489a-b255-cf45cf2ad78c">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="a0866e30-813a-4978-8fda-c1884bb0eb9a">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Total Premium]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="3cc6c3a9-3a83-49a9-9c27-c21c114cb9dd"/>
+								<textFieldExpression><![CDATA[$F{totalPremium} != "null" ? $F{totalPremium} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="3a31417e-494e-4e01-95c0-71bc6e743d76">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" uuid="f34fabb1-b68f-40f5-9f12-8837575de8c3">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Total Premium IDR  (Convert IDR)]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="7381c1d7-e672-42b0-a330-cec1eddac986">
+									<printWhenExpression><![CDATA[!$F{convertedTotalPremium}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{convertedTotalPremium} != "null" ? $F{convertedTotalPremium} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="74b5c1b2-df0d-465e-9b09-2d758bcf64cb">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" uuid="97287cf5-5de7-4d6f-9f02-e6ba74651084">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Basic Premium Gross]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="cf58b2b9-2314-4423-a206-09cb0cfb183d">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{grossRevenue}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{grossRevenue}== null || $F{grossRevenue}== "null" ? null : $F{grossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="7e53fe70-a7d4-4178-aece-9842fcf0c947">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="0c9054a5-19b4-4b28-990a-06e66b2c5ac1">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Basic Premium Gross IDR]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="bd831079-a4de-4892-882c-8e276321b8af">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convGrossRevenue}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convGrossRevenue}== null || $F{convGrossRevenue}== "null" ? null : $F{convGrossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="131" uuid="6c1e6e84-1dea-42e7-b1fb-17c63e2c17c1">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="5f448ecc-2771-465c-b7a2-81e9e276e96c">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Regular Top up Gross]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="477d2c70-963b-44fe-9621-00ffe734d68f">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{topupGrossRevenue}.equals("0") && !$F{productCode}.equals("US1")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{topupGrossRevenue}== null || $F{topupGrossRevenue}== "null" ? null : $F{topupGrossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="131" uuid="0d3cccea-7f74-4b35-9b33-904194e14be5">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="31d58066-c305-4bb4-a4c1-d35c4fdc0512">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Regular Top up Gross IDR]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="51b5eda3-7c21-480b-a8f9-6d2e2ed03966">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convTopupGrossRevenue}.equals("0") && !$F{productCode}.equals("US1")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convTopupGrossRevenue}== null || $F{convTopupGrossRevenue}== "null" ? null : $F{convTopupGrossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="131" uuid="746f7df7-787b-4bd8-bd73-1a750dac1ea9">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="8d1c614d-a47b-4b64-847f-69941a812cde">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Single Top up Gross]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="a4d44389-dd8c-40c7-8f59-7a009a33e22e">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{topupGrossRevenue}.equals("0") && $F{productCode}.equals("US1")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{topupGrossRevenue}== null || $F{topupGrossRevenue}== "null" ? null : $F{topupGrossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="131" uuid="b5c32253-434d-400e-a391-13d050ff836f">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="1c3f751d-c631-456a-839b-0cd647ace765">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Single Top up Gross IDR]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="ebb42bc6-e093-4bfd-82cf-63bf3ce048dc">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convTopupGrossRevenue}.equals("0") && $F{productCode}.equals("US1")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convTopupGrossRevenue}== null || $F{convTopupGrossRevenue}== "null" ? null : $F{convTopupGrossRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="cc8052b8-2028-45a8-984e-a6e4bc8006da">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" uuid="9989087f-6d6b-499a-8951-3b2383e25e3d">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[ Basic Premium Nett]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d4882034-94cb-473c-84fb-f80aaff82cc5">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{nettRevenue}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{nettRevenue}== null || $F{nettRevenue}== "null" ? null : $F{nettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="131" uuid="b1f8a74e-a18d-4ccd-a07b-5396e16cd3d7">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="4c25724d-650a-4158-8494-16837e5475a6">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Basic Premium Nett IDR]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="9fe32261-ec6f-419a-93c0-029308431152">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convNettRevenue}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convNettRevenue}== null || $F{convNettRevenue}== "null" ? null : $F{convNettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="131" uuid="7117bb90-75c3-4cda-8f6a-a7a0b6bc8d75">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="d6be0933-4343-46f4-b198-e137465ef4d6">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Regular Top up Nett]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="c37da53c-944f-44db-a042-2ca37cd43696">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{topupNettRevenue}.equals("0") && !$F{productCode}.equals("US1")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{topupNettRevenue}== null || $F{topupNettRevenue}== "null" ? null : $F{topupNettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="131" uuid="7487e205-5cb8-4da9-ae45-0adbb5511d7c">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="acafab77-5dd1-44d6-a0ca-aa8d50234e5b">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Regular Top up Nett IDR]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="6e8f8056-b368-492f-945b-e810a8d48eba">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convTopupNettRevenue}.equals("0") && !$F{productCode}.equals("US1")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convTopupNettRevenue}== null || $F{convTopupNettRevenue}== "null" ? null : $F{convTopupNettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="f0f5a7bb-c3e7-41c1-bfa5-6f1e98df61e4">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="1c0f89b2-7807-4c1b-a1a7-37b3079ef9a9">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Single Top up Nett]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="c122c70a-c580-446c-88c4-ad42c9289d21">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{topupNettRevenue}.equals("0") && $F{productCode}.equals("US1")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{topupNettRevenue}== null || $F{topupNettRevenue}== "null" ? null : $F{topupNettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="1bedd225-01da-4318-9e3f-f40ef2061493">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="fe573c38-130e-4ddd-b83e-96e7a7ef83ed">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Single Top up Nett IDR]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="84f33077-8563-426b-8064-7c32fbf61d1d">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convTopupNettRevenue}.equals("0") && $F{productCode}.equals("US1")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convTopupNettRevenue}== null || $F{convTopupNettRevenue}== "null" ? null : $F{convTopupNettRevenue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="127" uuid="e2d18fdf-f704-4b08-aef5-6dc76246579d">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" uuid="4e96d95b-1f0e-41b6-bcc9-85b60e171fa4">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[VAT]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="127" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="24b3b8dd-6964-4c7e-85f5-a95ebdc8f3f8">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{vat}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{vat}== null || $F{vat}== "null" ? null : $F{vat}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="131" uuid="be28c8f1-821c-49b2-8c8e-3969b642e65b">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" uuid="075bf45b-6a02-4ff8-b491-ecba4588d85a">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[VAT IDR]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="34a01c40-f477-42a9-a4d8-0be565a74167">
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" ) && !$F{convertedVat}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convertedVat}== null || $F{convertedVat}== "null" ? null : $F{convertedVat}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="2e1754aa-ea02-4e9c-bf5a-0ffe65c91bea">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[APE
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[!$F{ape}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{ape}== null || $F{ape}== "null" ? null : $F{ape}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="74beb859-b719-454f-973c-4046e7348a08">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" uuid="d4fa4648-8c75-47ff-80cc-367f54f243fa">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[APE IDR
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f22d32ce-57d8-4560-928a-0d1cdab942af">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[!$F{convertedApe}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Right">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convertedApe}== null || $F{convertedApe}== "null" ? null : $F{convertedApe}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="b40fee6a-871a-464c-b6be-b44ca03a7fa0">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Policy Status
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{policyStatus} != "null" ? $F{policyStatus} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="1236963d-0e74-4a11-804c-17b2bee130bc">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" uuid="ef0131e3-8fa1-4eea-9d55-ca7edf51a537">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Requirement and Status]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="4bc5e134-36d2-4ca6-abf6-cbbfbcc83f88">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textFieldExpression><![CDATA[$F{combinedRequirementsAndStateOfRequirements} != "null" ? $F{combinedRequirementsAndStateOfRequirements} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="f7859d93-1a80-4f7c-b6e2-d53e2a5fc1a2">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Submission Date]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[(($F{receivedDate} != "null" && $F{receivedDate} != null && !$F{receivedDate}.equals("0")) ? new SimpleDateFormat("yyyyMMdd").parse($F{receivedDate}):"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="a85983d6-6c77-41be-b6ea-2e5428bde4b0">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Premium Due
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Right">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{premiumAmount}== null || $F{premiumAmount}== "null" ? null : $F{premiumAmount}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="3e4caa8a-2af3-40a6-915a-fabc36eaf50d">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Premium Collected
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement textAlignment="Right">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{premiumCollected}== null || $F{premiumCollected}== "null" ? null : $F{premiumCollected}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="7dc15f09-03be-455b-8fc1-96b03184058e">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="9f62b2a0-410f-48c1-90a6-7d144e4f9ff2">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[UW Approved Date]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="4715b574-9b12-47cc-8866-8b9e90342799"/>
+								<textFieldExpression><![CDATA[$F{uwAprovedDateVal} != "null" ? $F{uwAprovedDateVal} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="2e1754aa-ea02-4e9c-bf5a-0ffe65c91bea">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[E-reference Number	]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{ERefNo} != "null" ? $F{ERefNo} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="0388e42e-d0f8-43cb-b998-d556e250ae75">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="d8707ae8-a67f-4457-a1c3-4112f29db303">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[FYP]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="bd769907-2152-47d8-890e-6f578951c3e9">
+									<printWhenExpression><![CDATA[!$F{fyp}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{fyp}== null || $F{fyp}== "null" ? null : $F{fyp}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="96bd8705-2863-4683-90d9-009dae9f1010">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="9309e031-e0e4-4cf2-92e9-1c9547586a5e">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[FYP IDR]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="800b0eee-ae48-44aa-9361-03b7e5b640db">
+									<printWhenExpression><![CDATA[!$F{convertedFyp}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{convertedFyp}== null || $F{convertedFyp}== "null" ? null : $F{convertedFyp}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="f511473b-3c28-4c29-800b-4839c7279188">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Payment Method
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{paymentMethod} != "null" ? $F{paymentMethod} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="15aa759e-6b24-4021-8db8-24bbba44eb1c">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Billing Frequency
+]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{billFrequency} != "null" ? $F{billFrequency} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="62e6c5d0-e0aa-4f57-916a-54e314c19647">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" uuid="bed80e8f-cb14-46f5-9379-d8b9ab631fa8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Product Code]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="c2a50e03-699c-4054-a7b9-8e4f53685640"/>
+								<textFieldExpression><![CDATA[$F{productCode} != "null" ? $F{productCode} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="a5c96380-ba6b-4610-8140-e8b672fa60ef">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Product Name ]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{policyName} != "null" ? $F{policyName} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="4c9a06ae-a789-483b-8041-0c68b4a0749b">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="44c0397e-d6d7-421a-8eb9-5e8518111a2f">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Date of Birth]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e379d779-addc-4fc8-b98b-6459c68c67ad">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[(($F{dob} != null && !$F{dob}.equals("0") && $F{dob} != "null") ? new SimpleDateFormat("yyyyMMdd").parse($F{dob}):"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="ae5c784c-8045-4e44-8a31-d4c98f578c01">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="77adb245-520b-4461-b926-81a80dd11145">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Gender]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e1287e77-f5ee-422d-be37-46d206387164">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{gender} != "null" ? $F{gender} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="79" uuid="47122cea-571a-43d3-a537-fbfd72759b65">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="79" height="13" uuid="6224637c-8fd3-4a5d-b37d-34d0b4f7aa94">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Marital Status]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="79" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f20c4f0d-3944-47b4-bce5-3fbb3fb6f647">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{maritalStatus} != "null" ? $F{maritalStatus} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7ed5202a-76b0-45c0-abb7-f9f1b4cf33e8">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="4c5a7333-c908-464e-97ca-d1e1e395e097">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Nationality]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="9876bdd4-5a76-47b2-9028-fecdf51ad5f5">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nationality} != "null" ? $F{nationality} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="ed035805-ee19-4c7b-9d31-62e8577df8f7">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="21ab7705-b453-4388-a3bb-2cae8f231e60">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Home Number]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="819c8bdb-f1cc-4574-8886-d4f07afb730c">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{homeNo} != "null" ? $F{homeNo} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="f0dc2d17-65f7-4f8a-ad2d-c9a8e82e09eb">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="cc777e18-6c15-4e8a-9ee5-b7d1cad54ea1">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Mobile Number]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="ef5f4da1-19b5-427d-ae8c-cf5c2f7065c7">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{mobileNo} != "null" ? $F{mobileNo} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="f46c2960-6112-4671-9057-6818702e5b1e">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="99f2a915-d3a1-4b79-aac1-9f598587d52b">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Office Number]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="7eb3ccca-b649-4371-9a4f-72706a024572">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{officeNo} != "null" ? $F{officeNo} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="3a4e0437-fcaa-4242-844e-e536411ed0ab">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="f6c64ea8-8c3d-487a-a5b7-c16d53b94008">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Fax Number]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="2827bde5-b00c-4d01-9a89-7befb476e271">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{faxNo} != "null" ? $F{faxNo} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="5e168761-bf31-4a71-b4df-04beff63cda8">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="23a982f5-2fa0-4249-ac9c-2309f35aee20">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Email Address]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="3dd039b9-c6ee-4dd4-b29d-c0890c5234a5">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{email} != "null" ? $F{email} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="03e8ae64-1a01-479d-9ca5-d2980a3eb515">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="4bcb9f16-220f-4dbd-8e12-cb32e4b5c08d">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Residential Address]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="78af5eae-e7f0-46e9-9be1-b9ddafa7ed8b">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{residentialAddress} != "null" ? $F{residentialAddress} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="44f0341e-7842-4a64-8636-54039e6cf5e6">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="ca274332-4a68-4d70-aa06-74243f39ee6a">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Residential Address – Country]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="46f29d2b-6eee-4cc1-9de8-77c5cef2042a">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{country} != "null" ? $F{country} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="141" uuid="4fac3ccf-f8cc-40e1-b192-f13fd02f46dc">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="141" height="13" uuid="ae354cdd-03d1-4894-94a7-fd60f634c9a9">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Residential Address – Postal Code]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="141" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e196d7cb-4a9c-4659-9298-2ca8a365586c">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{postalCode} != "null" ? $F{postalCode} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="d1dceb3b-c86f-4fa3-b36f-5012c47592f7">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" uuid="da77f9fd-3fd6-4123-9722-01b9c54d634b">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Mailing Address]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f1df17b9-2354-44f8-b73f-2988af69e49a">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{mailAddress} != "null" ? $F{mailAddress} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="eccd2db4-f55a-454e-92e4-b1ef462c1261">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" uuid="e083ea07-597c-410e-bfbe-a6a8ec7d5e24">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Mailing Address - Country]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="036f567c-0f2f-4e06-a396-fc0ad50bacd4">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{mailCountry} != "null" ? $F{mailCountry} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="38d3b0e3-48cf-4065-bb40-5b6a8e44deb4">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" uuid="ca1055e3-85fb-4a6f-aed0-b54bfcecb4b8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Mailing Address - Postal Code]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="810e5ce0-2a31-48ea-bf18-d5d62f2d8fbc">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{mailPostalCode} != "null" ? $F{mailPostalCode} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="dc4d4a76-b0a5-4bf7-b69f-eacae1322f2e">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="de749743-6c47-4a93-a149-69319ebf6af8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[ID Policy Owner]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="b515fdf0-6545-4224-975d-11f7324d2a18">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement textAlignment="Left">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{ownerID} != "null" ? $F{ownerID} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="7fc82ef6-2cbf-475e-879f-b1a70c9ad068">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="13" uuid="9cced244-19e4-4e05-8034-5475b387489c">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[ID Life Assured]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="70" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d51c8d82-b5b1-495c-98db-323ef7601270">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{lifeAssuredID} != "null" ? $F{lifeAssuredID} : ""]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="9d72dfe6-0169-41c7-8a13-da20a7df7694">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" uuid="53362a87-ff1f-49d0-aaa3-e466741038ea">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Life Assured – Date of Birth]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="80e38582-5958-46d4-8afe-e61ddad84c81">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[$F{permataAgentFlag}.equalsIgnoreCase( "N" )]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[(( $F{lifeAssuredDob} != "null" && $F{lifeAssuredDob} != null && !$F{lifeAssuredDob}.equals("0") ) ?new SimpleDateFormat("yyyyMMdd").parse($F{lifeAssuredDob}):"")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="c2a8e36a-f679-4ba9-8fe5-49f213b16bc2">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" uuid="121fcf86-e8fc-4331-a97f-bdaebd1010d6">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[Maturity Value]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8777393b-188d-4322-9afc-6ffbac9ace69">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{maturityValue}== null || $F{maturityValue}== "null" ? null : $F{maturityValue}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="fc713f41-1251-465b-85a4-a96a366c05ba">
+						<jr:tableHeader height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="13" uuid="4585fe97-646c-4337-9186-a529032617c8">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+								</reportElement>
+								<textElement markup="none">
+									<font fontName="Arial"/>
+								</textElement>
+								<text><![CDATA[FUA]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField pattern="#,##0.00" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="13" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="bf4f07eb-f724-4ab0-856e-92d1828d3f19">
+									<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+									<printWhenExpression><![CDATA[!$F{fua}.equals("0")]]></printWhenExpression>
+								</reportElement>
+								<textElement>
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[Double.parseDouble(($F{fua}== null || $F{fua}== "null" ? null : $F{fua}.trim()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="0" y="0" width="70" height="13" uuid="b303fa71-6b87-4737-be0b-3d75a47444ff"/>
+				<textElement markup="none">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="textField" mode="Transparent" x="0" y="102" width="555" height="13" forecolor="#000000" backcolor="#FFFFFF" uuid="5ec6e289-3b29-466b-b45c-0e0e7a20f6f1">
+					<printWhenExpression><![CDATA[$F{count}.equals("0")]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top" rotation="None">
+					<font fontName="Arial" size="10" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[No record available for selection criteria. Please make another selection.]]></text>
+			</staticText>
+		</band>
+	</summary>
+	<noData>
+		<band height="50">
+			<printWhenExpression><![CDATA[$F{count}.equals("0")]]></printWhenExpression>
+		</band>
+	</noData>
+</jasperReport>

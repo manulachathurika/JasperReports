@@ -1,0 +1,3187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RSMRAalSubReport" pageWidth="6000" pageHeight="675675" columnWidth="5960" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="585a06d7-3765-41d6-b069-a4ffcd246b48">
+	<property name="ireport.scriptlethandling" value="0"/>
+	<property name="ireport.encoding" value="UTF-8"/>
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="219"/>
+	<property name="ireport.y" value="43"/>
+	<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.remove.empty.space.between.columns" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.remove.empty.space.between.rows" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.ignore.graphics" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.one.page.per.sheet" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.detect.cell.type" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
+	<property name="net.sf.jasperreports.export.xls.wrap.text" value="false"/>
+	<import value="net.sf.jasperreports.engine.*"/>
+	<import value="net.sf.jasperreports.engine.data.*"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab Data Text" hAlign="Center"/>
+	<style name="table 9">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<queryString language="json">
+		<![CDATA[rsmrAalDTOList]]>
+	</queryString>
+	<field name="rsmName" class="java.lang.String">
+		<fieldDescription><![CDATA[rsmrAalDTO.rsmName]]></fieldDescription>
+	</field>
+	<field name="asmName" class="java.lang.String">
+		<fieldDescription><![CDATA[rsmrAalDTO.asmName]]></fieldDescription>
+	</field>
+	<field name="pfcCode" class="java.lang.String">
+		<fieldDescription><![CDATA[rsmrAalDTO.pfcCode]]></fieldDescription>
+	</field>
+	<field name="pfcName" class="java.lang.String">
+		<fieldDescription><![CDATA[rsmrAalDTO.pfcName]]></fieldDescription>
+	</field>
+	<field name="batch" class="java.lang.String">
+		<fieldDescription><![CDATA[rsmrAalDTO.batch]]></fieldDescription>
+	</field>
+	<field name="appointedDate" class="java.lang.String">
+		<fieldDescription><![CDATA[rsmrAalDTO.appointedDate]]></fieldDescription>
+	</field>
+	<field name="level" class="java.lang.String">
+		<fieldDescription><![CDATA[rsmrAalDTO.level]]></fieldDescription>
+	</field>
+	<field name="leadsTarget" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.leadsTarget]]></fieldDescription>
+	</field>
+	<field name="leadsContactMade" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.leadsContactMade]]></fieldDescription>
+	</field>
+	<field name="leadsMeetingComplete" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.leadsMeetingComplete]]></fieldDescription>
+	</field>
+	<field name="leadsProposalMade" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.leadsProposalMade]]></fieldDescription>
+	</field>
+	<field name="leadsSubmitted" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.leadsSubmitted]]></fieldDescription>
+	</field>
+	<field name="leadsCancelled" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.leadsCancelled]]></fieldDescription>
+	</field>
+	<field name="leadsTotalActual" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.leadsTotalActual]]></fieldDescription>
+	</field>
+	<field name="totalLeadsContactMade" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.totalLeadsContactMade]]></fieldDescription>
+	</field>
+	<field name="totalLeadsMeetingComplete" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.totalLeadsMeetingComplete]]></fieldDescription>
+	</field>
+	<field name="totalLeadsProposalMade" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.totalLeadsProposalMade]]></fieldDescription>
+	</field>
+	<field name="totalLeadsSubmitted" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.totalLeadsSubmitted]]></fieldDescription>
+	</field>
+	<field name="totalLeadsCancelled" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.totalLeadsCancelled]]></fieldDescription>
+	</field>
+	<field name="totalLeadsTotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.totalLeadsTotal]]></fieldDescription>
+	</field>
+	<field name="targetAPEMPSCase" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.targetAPEMPSCase]]></fieldDescription>
+	</field>
+	<field name="targetAPEMPSAPE" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.targetAPEMPSAPE]]></fieldDescription>
+	</field>
+	<field name="targetAPEOTECase" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.targetAPEOTECase]]></fieldDescription>
+	</field>
+	<field name="targetAPEOTEAPE" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.targetAPEOTEAPE]]></fieldDescription>
+	</field>
+	<field name="submissionIsmartCase" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.submissionIsmartCase]]></fieldDescription>
+	</field>
+	<field name="submissionIsmartAPE" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.submissionIsmartAPE]]></fieldDescription>
+	</field>
+	<field name="submissionIprimeCase" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.submissionIprimeCase]]></fieldDescription>
+	</field>
+	<field name="submissionIprimeAPE" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.submissionIprimeAPE]]></fieldDescription>
+	</field>
+	<field name="inforceIsmartCase" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.inforceIsmartCase]]></fieldDescription>
+	</field>
+	<field name="inforceIsmartAPENonAdHoc" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.inforceIsmartAPENonAdHoc]]></fieldDescription>
+	</field>
+	<field name="inforceIsmartAPEAdHoc" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.inforceIsmartAPEAdHoc]]></fieldDescription>
+	</field>
+	<field name="inforceIprimeCase" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.inforceIprimeCase]]></fieldDescription>
+	</field>
+	<field name="inforceIprimeAPENonAdHoc" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.inforceIprimeAPENonAdHoc]]></fieldDescription>
+	</field>
+	<field name="inforceIprimeAPEAdHoc" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.inforceIprimeAPEAdHoc]]></fieldDescription>
+	</field>
+	<field name="rider1" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.rider1]]></fieldDescription>
+	</field>
+	<field name="rider2" class="java.lang.Double">
+		<fieldDescription><![CDATA[rsmrAalDTO.rider2]]></fieldDescription>
+	</field>
+	<variable name="ASMleadsTarget" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsTarget}]]></variableExpression>
+	</variable>
+	<variable name="ASMleadsContactMade" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsContactMade}]]></variableExpression>
+	</variable>
+	<variable name="ASMleadsMeetingComplete" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsMeetingComplete}]]></variableExpression>
+	</variable>
+	<variable name="ASMleadsProposalMade" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsProposalMade}]]></variableExpression>
+	</variable>
+	<variable name="ASMleadsSubmitted" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsSubmitted}]]></variableExpression>
+	</variable>
+	<variable name="ASMleadsCancelled" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsCancelled}]]></variableExpression>
+	</variable>
+	<variable name="ASMleadsTotalActual" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsTotalActual}]]></variableExpression>
+	</variable>
+	<variable name="ASMleadsPercentage" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[((($V{ASMleadsTotalActual} != null && $V{ASMleadsTotalActual} != 0) && ($V{ASMleadsTarget} != null && $V{ASMleadsTarget} != 0)) ? new BigDecimal((new Double($V{ASMleadsTotalActual}) / new Double($V{ASMleadsTarget}) * 100)).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0)]]></variableExpression>
+	</variable>
+	<variable name="ASMTotalLeadsContactMade" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsContactMade}]]></variableExpression>
+	</variable>
+	<variable name="ASMTotalLeadsMeetingComplete" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsMeetingComplete}]]></variableExpression>
+	</variable>
+	<variable name="ASMTotalLeadsProposalMade" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsProposalMade}]]></variableExpression>
+	</variable>
+	<variable name="ASMTotalLeadsSubmitted" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsSubmitted}]]></variableExpression>
+	</variable>
+	<variable name="ASMTotalLeadsCancelled" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsCancelled}]]></variableExpression>
+	</variable>
+	<variable name="ASMTotalLeadsTotal" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsTotal}]]></variableExpression>
+	</variable>
+	<variable name="ASMtargetAPEMPSCase" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEMPSCase}]]></variableExpression>
+	</variable>
+	<variable name="ASMtargetAPEMPSAPE" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEMPSAPE}]]></variableExpression>
+	</variable>
+	<variable name="ASMtargetAPEOTECase" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEOTECase}]]></variableExpression>
+	</variable>
+	<variable name="ASMtargetAPEOTEAPE" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEOTEAPE}]]></variableExpression>
+	</variable>
+	<variable name="ASMsubmissionIsmartCase" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIsmartCase}]]></variableExpression>
+	</variable>
+	<variable name="ASMsubmissionIsmartAPE" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIsmartAPE}]]></variableExpression>
+	</variable>
+	<variable name="ASMsubmissionIprimeCase" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="ASMsubmissionIprimeAPE" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIprimeAPE}]]></variableExpression>
+	</variable>
+	<variable name="ASMsubmissionTotalCase" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMsubmissionIsmartCase} + $V{ASMsubmissionIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="ASMsubmissionTotalAPE" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMsubmissionIsmartAPE} + $V{ASMsubmissionIprimeAPE}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceIsmartCase" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIsmartCase}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceIsmartAPENonAdHoc" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIsmartAPENonAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceIsmartAPEAdHoc" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIsmartAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceIsmartAPETotal" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMinforceIsmartAPENonAdHoc} + $V{ASMinforceIsmartAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceIprimeCase" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceIprimeAPENonAdHoc" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIprimeAPENonAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceIprimeAPEAdHoc" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIprimeAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceIprimeAPETotal" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMinforceIprimeAPENonAdHoc} + $V{ASMinforceIprimeAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceTotalInforceCase" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMinforceIsmartCase} + $V{ASMinforceIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceTotalInforceAPENonAdHoc" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMinforceIsmartAPENonAdHoc} + $V{ASMinforceIprimeAPENonAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceTotalInforceAPEAdHoc" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMinforceIsmartAPEAdHoc} + $V{ASMinforceIprimeAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="ASMinforceTotalInforceAPETotal" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMinforceTotalInforceAPENonAdHoc} + $V{ASMinforceTotalInforceAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="ASMproductivity" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Average">
+		<variableExpression><![CDATA[$F{inforceIsmartCase} + $F{inforceIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="ASMconversionRatio" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[($V{ASMleadsTotalActual} - $V{ASMleadsCancelled}) > 0 ? new BigDecimal(($V{ASMinforceTotalInforceCase} / ($V{ASMleadsTotalActual} - $V{ASMleadsCancelled})) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue()  : 0]]></variableExpression>
+	</variable>
+	<variable name="ASMavgCaseSize" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMinforceTotalInforceCase} > 0 ? new BigDecimal($V{ASMinforceTotalInforceAPETotal} / $V{ASMinforceTotalInforceCase}).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="ASMputThroughRate" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMsubmissionTotalCase} > 0 ? (new BigDecimal($V{ASMinforceTotalInforceCase} / $V{ASMsubmissionTotalCase}).setScale(4, BigDecimal.ROUND_HALF_UP).doubleValue()) * 100 : 0]]></variableExpression>
+	</variable>
+	<variable name="ASMapeAchievementMPSCase" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMtargetAPEMPSCase} > 0 ? new BigDecimal(($V{ASMinforceTotalInforceCase} / $V{ASMtargetAPEMPSCase} ) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="ASMapeAchievementMPSAPE" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMtargetAPEMPSAPE} > 0 ? new BigDecimal(($V{ASMinforceTotalInforceAPETotal} / $V{ASMtargetAPEMPSAPE}) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="ASMapeAchievementOTECase" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMtargetAPEOTECase} > 0 ? new BigDecimal(($V{ASMinforceTotalInforceCase} / $V{ASMtargetAPEOTECase}) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="ASMapeAchievementOTEAPE" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup">
+		<variableExpression><![CDATA[$V{ASMtargetAPEOTEAPE} > 0 ? new BigDecimal(($V{ASMinforceTotalInforceAPETotal} / $V{ASMtargetAPEOTEAPE} ) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="ASMrider" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{rider1}]]></variableExpression>
+	</variable>
+	<variable name="ASMrider2" class="java.lang.Double" resetType="Group" resetGroup="ASMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{rider2}]]></variableExpression>
+	</variable>
+	<variable name="RSMleadsTarget" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsTarget}]]></variableExpression>
+	</variable>
+	<variable name="RSMleadsContactMade" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsContactMade}]]></variableExpression>
+	</variable>
+	<variable name="RSMleadsMeetingComplete" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsMeetingComplete}]]></variableExpression>
+	</variable>
+	<variable name="RSMleadsProposalMade" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsProposalMade}]]></variableExpression>
+	</variable>
+	<variable name="RSMleadsSubmitted" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsSubmitted}]]></variableExpression>
+	</variable>
+	<variable name="RSMleadsCancelled" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsCancelled}]]></variableExpression>
+	</variable>
+	<variable name="RSMleadsTotalActual" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsTotalActual}]]></variableExpression>
+	</variable>
+	<variable name="RSMleadsPercentage" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[((($V{RSMleadsTotalActual} != null && $V{RSMleadsTotalActual} != 0) && ($V{RSMleadsTarget} != null && $V{RSMleadsTarget} != 0)) ? new BigDecimal((new Double($V{RSMleadsTotalActual}) / new Double($V{RSMleadsTarget}) * 100)).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0)]]></variableExpression>
+	</variable>
+	<variable name="RSMTotalLeadsContactMade" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsContactMade}]]></variableExpression>
+	</variable>
+	<variable name="RSMTotalLeadsMeetingComplete" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsMeetingComplete}]]></variableExpression>
+	</variable>
+	<variable name="RSMTotalLeadsProposalMade" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsProposalMade}]]></variableExpression>
+	</variable>
+	<variable name="RSMTotalLeadsSubmitted" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsSubmitted}]]></variableExpression>
+	</variable>
+	<variable name="RSMTotalLeadsCancelled" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsCancelled}]]></variableExpression>
+	</variable>
+	<variable name="RSMTotalLeadsTotal" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsTotal}]]></variableExpression>
+	</variable>
+	<variable name="RSMtargetAPEMPSCase" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEMPSCase}]]></variableExpression>
+	</variable>
+	<variable name="RSMtargetAPEMPSAPE" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEMPSAPE}]]></variableExpression>
+	</variable>
+	<variable name="RSMtargetAPEOTECase" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEOTECase}]]></variableExpression>
+	</variable>
+	<variable name="RSMtargetAPEOTEAPE" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEOTEAPE}]]></variableExpression>
+	</variable>
+	<variable name="RSMsubmissionIsmartCase" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIsmartCase}]]></variableExpression>
+	</variable>
+	<variable name="RSMsubmissionIsmartAPE" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIsmartAPE}]]></variableExpression>
+	</variable>
+	<variable name="RSMsubmissionIprimeCase" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="RSMsubmissionIprimeAPE" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIprimeAPE}]]></variableExpression>
+	</variable>
+	<variable name="RSMsubmissionTotalCase" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMsubmissionIsmartCase} + $V{RSMsubmissionIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="RSMsubmissionTotalAPE" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMsubmissionIsmartAPE} + $V{RSMsubmissionIprimeAPE}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceIsmartCase" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIsmartCase}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceIsmartAPENonAdHoc" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIsmartAPENonAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceIsmartAPEAdHoc" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIsmartAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceIsmartAPETotal" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMinforceIsmartAPENonAdHoc} + $V{RSMinforceIsmartAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceIprimeCase" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceIprimeAPENonAdHoc" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIprimeAPENonAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceIprimeAPEAdHoc" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIprimeAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceIprimeAPETotal" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMinforceIprimeAPENonAdHoc} + $V{RSMinforceIprimeAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceTotalInforceCase" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMinforceIsmartCase} + $V{RSMinforceIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceTotalInforceAPENonAdHoc" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMinforceIsmartAPENonAdHoc} + $V{RSMinforceIprimeAPENonAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceTotalInforceAPEAdHoc" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMinforceIsmartAPEAdHoc} + $V{RSMinforceIprimeAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="RSMinforceTotalInforceAPETotal" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMinforceTotalInforceAPENonAdHoc} + $V{RSMinforceTotalInforceAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="RSMProductivityCount" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Count">
+		<variableExpression><![CDATA[$F{inforceIsmartCase}]]></variableExpression>
+	</variable>
+	<variable name="RSMproductivity" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMProductivityCount} > 0 ? new BigDecimal(($V{RSMinforceIsmartCase} + $V{RSMinforceIprimeCase} ) / $V{RSMProductivityCount}).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="RSMconversionRatio" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[($V{RSMleadsTotalActual} - $V{RSMleadsCancelled}) > 0 ? new BigDecimal(($V{RSMinforceTotalInforceCase} / ($V{RSMleadsTotalActual} - $V{RSMleadsCancelled})) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="RSMavgCaseSize" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMinforceTotalInforceCase} > 0 ? new BigDecimal($V{RSMinforceTotalInforceAPETotal} / $V{RSMinforceTotalInforceCase}).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="RSMputThroughRate" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMsubmissionTotalCase} > 0 ? (new BigDecimal($V{RSMinforceTotalInforceCase} / $V{RSMsubmissionTotalCase}).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue()) * 100 : 0]]></variableExpression>
+	</variable>
+	<variable name="RSMapeAchievementMPSCase" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMtargetAPEMPSCase} > 0 ? new BigDecimal(($V{RSMinforceTotalInforceCase} / $V{RSMtargetAPEMPSCase} ) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="RSMapeAchievementMPSAPE" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMtargetAPEMPSAPE} > 0 ? new BigDecimal(($V{RSMinforceTotalInforceAPETotal} / $V{RSMtargetAPEMPSAPE}) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="RSMapeAchievementOTECase" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMtargetAPEOTECase} > 0 ? new BigDecimal(($V{RSMinforceTotalInforceCase} / $V{RSMtargetAPEOTECase}) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="RSMapeAchievementOTEAPE" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup">
+		<variableExpression><![CDATA[$V{RSMtargetAPEOTEAPE} > 0 ? new BigDecimal(($V{RSMinforceTotalInforceAPETotal} / $V{RSMtargetAPEOTEAPE} ) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="RSMrider" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{rider1}]]></variableExpression>
+	</variable>
+	<variable name="RSMrider2" class="java.lang.Double" resetType="Group" resetGroup="RSMGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{rider2}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalleadsTarget" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsTarget}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalleadsContactMade" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsContactMade}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalLeadsMeetingComplete" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsMeetingComplete}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalleadsProposalMade" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsProposalMade}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalleadsSubmitted" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsTarget}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalleadsCancelled" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsCancelled}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalleadsTotalActual" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{leadsTotalActual}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalleadsPercentage" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalleadsTarget} > 0 ? new BigDecimal(($V{GrandTotalleadsTotalActual} / $V{GrandTotalleadsTarget} * 100)).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="GrandTotaltotalLeadsContactMade" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsContactMade}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotaltotalLeadsMeetingComplete" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsMeetingComplete}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotaltotalLeadsProposalMade" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsProposalMade}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotaltotalLeadsSubmitted" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsSubmitted}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotaltotalLeadsCancelled" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsCancelled}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotaltotalLeadsTotal" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalLeadsTotal}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotaltargetAPEMPSCase" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEMPSCase}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotaltargetAPEMPSAPE" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEMPSAPE}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotaltargetAPEOTECase" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEOTECase}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotaltargetAPEOTEAPE" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{targetAPEOTEAPE}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalsubmissionIsmartCase" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIsmartCase}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalsubmissionIsmartAPE" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIsmartAPE}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalsubmissionIprimeCase" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalsubmissionIprimeAPE" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{submissionIprimeAPE}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalsubmissionTotalCase" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalsubmissionIsmartCase} + $V{GrandTotalsubmissionIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalsubmissionTotalAPE" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalsubmissionIsmartAPE} + $V{GrandTotalsubmissionIprimeAPE}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceIsmartCase" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIsmartCase}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceIsmartAPENonAdHoc" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIsmartAPENonAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceIsmartAPEAdHoc" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIsmartAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceIsmartAPETotal" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalinforceIsmartAPENonAdHoc} + $V{GrandTotalinforceIsmartAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceIprimeCase" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceIprimeAPENonAdHoc" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIprimeAPENonAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceIprimeAPEAdHoc" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{inforceIprimeAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceIprimeAPETotal" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalinforceIprimeAPENonAdHoc} + $V{GrandTotalinforceIprimeAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceTotalInforceCase" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalinforceIsmartCase} + $V{GrandTotalinforceIprimeCase}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceTotalInforceAPENonAdHoc" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalinforceIsmartAPENonAdHoc} + $V{GrandTotalinforceIprimeAPENonAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceTotalInforceAPEAdHoc" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalinforceIsmartAPEAdHoc} + $V{GrandTotalinforceIprimeAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalinforceTotalInforceAPETotal" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalinforceTotalInforceAPENonAdHoc} + $V{GrandTotalinforceTotalInforceAPEAdHoc}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalProductivityCount" class="java.lang.Double" calculation="Count">
+		<variableExpression><![CDATA[$F{inforceIsmartCase}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalproductivity" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalProductivityCount} > 0 ? new BigDecimal(($V{GrandTotalinforceIsmartCase} + $V{GrandTotalinforceIprimeCase} ) / $V{GrandTotalProductivityCount}).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalconversionRatio" class="java.lang.Double">
+		<variableExpression><![CDATA[($V{GrandTotalleadsTotalActual} - $V{GrandTotalleadsCancelled}) > 0 ? new BigDecimal(($V{GrandTotalinforceTotalInforceCase} / ($V{GrandTotalleadsTotalActual} - $V{GrandTotalleadsCancelled})) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalavgCaseSize" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalinforceTotalInforceCase} > 0 ? new BigDecimal($V{GrandTotalinforceTotalInforceAPETotal} / $V{GrandTotalinforceTotalInforceCase}).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalputThroughRate" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotalsubmissionTotalCase} > 0 ? (new BigDecimal($V{GrandTotalinforceTotalInforceCase} / $V{GrandTotalsubmissionTotalCase}).setScale(4, BigDecimal.ROUND_HALF_UP).doubleValue()) * 100 : 0]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalapeAchievementMPSCase" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotaltargetAPEMPSCase} > 0 ? new BigDecimal(($V{GrandTotalinforceTotalInforceCase} / $V{GrandTotaltargetAPEMPSCase} ) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalapeAchievementMPSAPE" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotaltargetAPEMPSAPE} > 0 ? new BigDecimal(($V{GrandTotalinforceTotalInforceAPETotal} / $V{GrandTotaltargetAPEMPSAPE}) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalapeAchievementOTECase" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotaltargetAPEOTECase} > 0 ? new BigDecimal(($V{GrandTotalinforceTotalInforceCase} / $V{GrandTotaltargetAPEOTECase}) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalapeAchievementOTEAPE" class="java.lang.Double">
+		<variableExpression><![CDATA[$V{GrandTotaltargetAPEOTEAPE} > 0 ? new BigDecimal(($V{GrandTotalinforceTotalInforceAPETotal} / $V{GrandTotaltargetAPEOTEAPE} ) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : 0]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalRider1" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{rider1}]]></variableExpression>
+	</variable>
+	<variable name="GrandTotalRider2" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{rider2}]]></variableExpression>
+	</variable>
+	<group name="RSMGroup">
+		<groupExpression><![CDATA[$F{rsmName}]]></groupExpression>
+		<groupFooter>
+			<band height="45">
+				<textField isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="0" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="849cfd47-2d29-4c40-978c-45e38b6213f6">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{rsmName} + " Total"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="630" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="67ce2fe1-011c-49fc-ab4f-1637a11e3891">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMleadsTarget}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="720" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="88b56878-e601-44ec-9760-25b89e447435">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMleadsContactMade}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="810" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="6366fd6b-8301-4f67-a0a6-cd4dce2fe487">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMleadsMeetingComplete}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="900" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a40f9471-4bf3-42bc-975f-130bf1c8fbb4">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMleadsProposalMade}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="990" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="df78259f-85af-4764-9018-0cd71a15d3fc">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMleadsSubmitted}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1080" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="e5c7320e-17bf-499f-a0fb-b7bcc4a8a605">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMleadsCancelled}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1170" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8297798c-31a8-4282-9c40-9d115221d917">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMleadsTotalActual}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1260" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f2ff6f90-8f16-4300-b508-c15db2fe5d6a">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMleadsPercentage} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1350" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="7e8a2c76-4ee6-4646-9878-4f03ca6a170e">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMTotalLeadsContactMade}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1440" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="63952b1a-cf56-4633-86aa-812eb56d64f4">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMTotalLeadsMeetingComplete}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1530" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8d9f672c-f431-40c4-932a-35f409d7558d">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMTotalLeadsProposalMade}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1620" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="3a77caba-276b-4cac-ae2d-f92fe8a498c4">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMTotalLeadsSubmitted}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1710" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8885a43c-f16c-4f05-8ee1-6c7a2aaad969">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMTotalLeadsCancelled}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1800" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="9b1567ef-3e10-44a8-b7e4-c7e080260756">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMTotalLeadsTotal}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1890" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="376aa988-6fef-4cac-a0e9-49384f9f4aa4">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMtargetAPEMPSCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1980" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="72ce66b7-0bd6-4940-a702-56b96781c9fe">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMtargetAPEMPSAPE}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2070" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f9850560-675e-4302-872c-0dbd77524366">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMtargetAPEOTECase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2160" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="6143f375-995f-4e5d-a7ac-2fed27f4d98b">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMtargetAPEOTEAPE}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2250" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="4ae57bd1-9202-48a3-8d6f-05dcc3b17c30">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMsubmissionIsmartCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2340" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="01dae51b-0c6e-4987-9f74-c9e8f7313394">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMsubmissionIsmartAPE}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2430" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="87a11fc0-7639-4343-b3d2-d24aa5e9307d">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMsubmissionIprimeCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2520" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b5a38125-0db7-4c73-a086-90674f291fe9">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMsubmissionIprimeAPE}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2610" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="22e3d968-475a-4fdd-8b00-306ae22340f7">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMsubmissionTotalCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2700" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="cafa6118-abcf-4b30-8939-dfa7a532b4cb">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMsubmissionTotalAPE}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2790" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a4088f3e-9e69-421e-a2b8-f9e43b71e14f">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceIsmartCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2880" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="24dd62ae-fd1a-48fb-a1e5-618eaff8efaf">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceIsmartAPENonAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2970" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="61d2ea43-aa52-4447-abe8-dc0e3e12dcd4">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceIsmartAPEAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3060" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="aab16e7c-5ab1-41eb-9a5d-a6eba942e9c8">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceIsmartAPETotal}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3150" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="db6bf267-4744-4b22-9329-120f296dda8f">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceIprimeCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3240" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f1abed30-94d3-4c9d-aa2a-8738be26f174">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceIprimeAPENonAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3330" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="6d43ca61-8e05-40f1-928b-853e3d7affb6">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceIprimeAPEAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3420" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="4bb53905-a5e9-4a6e-8fdd-58d20d59c215">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceIprimeAPETotal}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3510" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="808beffe-2202-4ce5-b621-4b80fe59472c">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceTotalInforceCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3600" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="94e70575-ac25-44b3-9556-fb4192f0dcfa">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceTotalInforceAPENonAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3690" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="d9f8dd69-438f-41a1-be4b-8e5a19ad6dc3">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceTotalInforceAPEAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3780" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="fc104da1-6b01-4449-8d10-8faeae5b06c7">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMinforceTotalInforceAPETotal}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3870" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b43986cf-9b49-4d38-b0d4-71b70fb36046">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMproductivity}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3960" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f01428c6-380d-4fa7-8d44-db4bdda6624b">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMconversionRatio} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4050" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="00b5199a-c029-4f5b-ba17-c49f18ea21fd">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMavgCaseSize}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4140" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="900c8bbd-bf1d-4ba7-b43b-f7a598bf11ee">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMputThroughRate} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4230" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="840465d1-0f82-4ef7-993a-25bfcaec4387">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMapeAchievementMPSCase} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4320" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="699fc072-18e0-434e-b5d3-d0b5e996c891">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMapeAchievementMPSAPE} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4410" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="faeaece3-883c-4876-a208-c868e65f2997">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMapeAchievementOTECase} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4500" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8ce6a07f-ce57-45e3-8539-a687a8bc7bf7">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMapeAchievementOTEAPE} + "%"]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4590" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="58ff9d3c-fec2-4a8d-910d-2fe34cf323ac">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMrider}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4680" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8c1864ce-bdbd-4564-af5b-fe6b056218d5">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{RSMrider2}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<group name="ASMGroup">
+		<groupExpression><![CDATA[$F{asmName}]]></groupExpression>
+		<groupFooter>
+			<band height="50">
+				<textField isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="90" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="56f07d33-cc64-49d0-b9fd-044f361121a0">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{asmName} + " Total"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="630" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="ce4bda76-4b01-4a38-a69d-2f0dced1f71e">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMleadsTarget}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="720" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="ee165af2-9f56-4c78-8697-50eef733581b">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMleadsContactMade}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="810" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="11f3a056-69d5-4a6a-aa92-4593340dbc15">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMleadsMeetingComplete}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="900" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="786844bb-2b57-4f71-a9ea-9d6a2aaed11c">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMleadsProposalMade}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="990" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="9eb63335-565b-4804-957d-80485aa0b228">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMleadsSubmitted}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1080" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="2c26e33e-38b1-4c15-88d5-f3ef0f6c33b8">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMleadsCancelled}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1170" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a6d51bdf-abc1-4cb0-b2da-081913d6e925">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMleadsTotalActual}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1260" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f01de14e-142e-4054-b3ec-d2f11efaa809">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMleadsPercentage} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1350" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="7aca7eca-4eb7-4962-9420-a82c3332d345">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMTotalLeadsContactMade}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1440" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="79a7f2e5-f3de-44d9-a417-b35f6a9c1770">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMTotalLeadsMeetingComplete}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1530" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="00e1ae7a-56fc-4a66-ad68-107f2316b3dd">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMTotalLeadsProposalMade}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1620" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="e40dea9c-ad0f-4fb9-8a34-7d2355265144">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMTotalLeadsSubmitted}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1710" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="cdd95fa4-ed04-4695-bab8-07a43b4c9b7d">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMTotalLeadsCancelled}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1800" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="5a74bbf8-48a1-4272-8366-1043256d664f">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMTotalLeadsTotal}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1890" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b6f5b279-7cde-426a-b9ad-1a20a07ffb29">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMtargetAPEMPSCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1980" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="7d564db3-7fb9-46aa-815c-81515976b692">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMtargetAPEMPSAPE}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2070" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="66876198-a4d7-4ac9-a485-598180e3c28a">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMtargetAPEOTECase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2160" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="030e47f5-b17b-4721-ab04-87e7b25b2a3e">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMtargetAPEOTEAPE}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2250" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="71958b7f-eb34-4e65-9e56-249846d43651">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMsubmissionIsmartCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2340" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="dafeb8c3-c3eb-43ab-9b1f-52c0be021300">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMsubmissionIsmartAPE}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2430" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="07453e1a-1625-4f8f-8b71-d561b1bf6b74">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMsubmissionIprimeCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2520" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="ca141dd3-0ba4-42a8-abeb-c4bc8d6b10e4">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMsubmissionIprimeAPE}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2610" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="3ccad878-a1a6-4294-8997-7d57c05da83a">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMsubmissionTotalCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2700" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="283068e6-32a1-4deb-b7ab-1f5f9a737cd6">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMsubmissionTotalAPE}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2790" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="d46da345-4159-4c72-bb3b-b6cedda21973">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceIsmartCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2880" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="12362262-df87-45e8-b540-35c8beddca4b">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceIsmartAPENonAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2970" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a28e98d4-ccc0-4dd1-a8e5-f4f5054f522d">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceIsmartAPEAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3060" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a81ddd8b-c6df-486d-8bec-7bdd1031aace">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceIsmartAPETotal}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3150" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="dfe04065-660d-4559-9c9f-0e8f539053cc">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceIprimeCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3240" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="250e0290-1d03-4b3f-997a-35dfebc11ddc">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceIprimeAPENonAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3330" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="7d186a3e-04b4-4258-a3e8-1fffd83a8b03">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceIprimeAPEAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3420" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="2930e07b-29bf-422f-a62a-b88a9802b4b7">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceIprimeAPETotal}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3510" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="25e5e077-ed5c-441d-a2bd-f5b54ec2d498">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceTotalInforceCase}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3600" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="efd98872-9565-4abf-a109-f757ac01c59d">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceTotalInforceAPENonAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3690" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="3195bf4b-245e-456a-aa30-e717c74a7274">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceTotalInforceAPEAdHoc}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3780" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="3886e711-9686-4f74-a279-258e03856e27">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMinforceTotalInforceAPETotal}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3870" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="5b62d0d2-4630-4184-a68c-c6d9672a8152">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMproductivity}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3960" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="63529c29-a090-4308-b933-143ca9e50d84">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMconversionRatio} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4050" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="530a3d62-a6a3-4ce8-8e2a-32f80f8de991">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMavgCaseSize}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4140" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="cfd8db34-4d0d-4b78-9f3d-dc2c2ab0ebd0">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMputThroughRate} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4230" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="758479d9-cd3d-4c07-aa49-8cf774afa4f0">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMapeAchievementMPSCase} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4320" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="37a6ce59-a13b-4820-8cbd-4b0ad19ab5cb">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMapeAchievementMPSAPE} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4410" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="9ef839d3-2f7a-4b0d-9f6e-7ea6d1cfd140">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMapeAchievementOTECase} + "%"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4500" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="558fae13-c783-4d6c-880b-24aacd284393">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMapeAchievementOTEAPE} + "%"]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4590" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="987eada7-73a6-4aa6-bdd7-73ba0f38b25e">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMrider}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4680" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="ee843e89-7bcb-46a9-9076-c874a14ffaba">
+						<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{ASMrider2}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="24" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="66" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="58">
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="0" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="d13ff8b8-9927-4e3a-83b2-bd23527daf58">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[RSM Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="90" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="2d94550e-b7a1-4bb6-ae2c-2d17369fd556">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[ASM Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="180" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="4e090ffe-8063-4f0d-8eb4-75fda1ffffc4">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[PFC Code]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="270" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="bff3cebb-c8ff-46ac-bbc3-46d5ba6ceef2">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[PFC Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="360" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="fcbefdd7-b3c3-4aa3-abfb-f3f1a2fcd01c">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Batch]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="450" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="b7cd27ec-8104-4d07-8ffd-2d8ac0e51803">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Appointed Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="540" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="352066ba-6560-4280-be3b-41f13180473e">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Level]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="630" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="e0cc8ffd-a6aa-4630-bce0-ad4430191601">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Target]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="720" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="bcfc0efd-ca2f-4c3d-9b09-0b6a1a2cd071">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Contact]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="810" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a205e3f1-cb57-4c11-9aca-2752f016f198">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Meet]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="900" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c3a8b42d-2aa8-4d2e-bf28-9cbc68cab458">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Presentation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="990" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="cbadb1fc-47b8-4037-b3fb-1156075acdc4">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Submit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1080" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="cfa5a428-868b-4a1d-bf04-ceb7d9885ae6">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Rejection]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1170" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c9d617a4-682a-4249-8c21-f82cec61d570">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Total Actual]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1260" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="2852fa35-acee-4cde-9e3c-c631e3e94634">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="630" y="0" width="720" height="26" isPrintWhenDetailOverflows="true" uuid="14573cc7-f39c-4633-9d2e-6f2e004c72f2">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Leads]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1350" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="3ef1d36e-1b2a-457b-a114-4d918ee62f81">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Contact]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1440" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="4f59732b-7cb0-46ed-bb54-65b797a0d21f">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Meet]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1530" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="ab0d4f54-60ad-4d20-9a44-0c8c1a735460">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Presentation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1620" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="92e374d6-8c5b-4d82-bf08-9c4b1c4f0528">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Submit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1710" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="776e99ed-5fbb-4765-b1ab-e88dd9de05cb">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Rejection]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1800" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="0d5e5732-3aee-4fe1-bcff-3e79470de7f1">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1350" y="0" width="540" height="26" isPrintWhenDetailOverflows="true" uuid="b9c74fb3-1d99-4884-81de-0432d567f248">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Total Leads (To Date)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1890" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="76d975b6-439d-418a-8723-1dcec7032480">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Case]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2070" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="da0235c6-fa00-4a45-b4d4-4473677415b3">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Case]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1980" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="1858bf68-eb0b-4fc5-9a45-5056073e382c">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2160" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="bc952ad4-2134-4f90-9af5-02edebb12a85">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1890" y="13" width="180" height="13" isPrintWhenDetailOverflows="true" uuid="f0abdfed-58dd-4f84-8b25-6a813f857ec9">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[MPS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2070" y="13" width="180" height="13" isPrintWhenDetailOverflows="true" uuid="639f3eaf-36a4-4efa-bd78-7281dca5a406">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[OTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1890" y="0" width="360" height="13" isPrintWhenDetailOverflows="true" uuid="737469b3-1d5b-4163-abf6-6a448143feac">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Target APE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2250" y="0" width="540" height="13" isPrintWhenDetailOverflows="true" uuid="39b6e1f5-1b12-4d84-a3f2-a9e5ed193724">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Sumbission]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2250" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="2d1fdfb0-34a1-4f01-b831-3c55726b89b7">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Case]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2340" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8a3bb8ef-97b6-4210-88a0-b6dc8fa5e468">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2430" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="bf7b0e52-1578-41af-88f2-3cf85b34fdd8">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Case]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2520" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="647de35a-45d0-4672-ac58-74f872d16dc5">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2700" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="d6ead2af-44c0-4465-afed-70f4e17ce64f">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2610" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="76a9bcbc-72a1-475c-b278-c52faa1fcd33">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Case]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2250" y="13" width="180" height="13" isPrintWhenDetailOverflows="true" uuid="603da558-2293-4b01-bcc5-2dc67487552e">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[iSmart]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2430" y="13" width="180" height="13" isPrintWhenDetailOverflows="true" uuid="bbeb55c0-b980-46a4-9f12-8c2dfc5c91de">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[iPrime]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2610" y="13" width="180" height="13" isPrintWhenDetailOverflows="true" uuid="07ffd617-9d9a-4f2d-ac4c-631ed9f8dc39">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2790" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="77c2177d-ae2f-4a0a-aa8c-0de62d05ed35">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Case]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2880" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="6fc72765-0bcc-468c-a754-a46e1da3ab85">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE Non Adhoc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3060" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a4c949fa-e1bd-4474-8b19-e7fc203498b5">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2970" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a787e534-0f20-4fce-a791-0c1dc136c457">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE Adhoc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3330" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="6b443e92-8a63-4b21-8e1a-93ebe98a6476">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE Adhoc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3240" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="e812d7dc-37b6-4c71-8917-799660351e3d">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE Non Adhoc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3150" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c06b7afc-82a8-4227-bd5b-8173dc4bb929">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Case]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3420" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="6a3c4d6d-5a9e-4cc5-be97-c8859cabdc05">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3780" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="482af5ce-1bd8-4d53-98c6-2309469ae981">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3510" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="0ef7127e-d6f0-446a-a0a7-b736c6d1b8e9">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Case]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3600" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="e2d6fb35-c644-4de4-8a0d-5d71ba44ec6a">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE Non Adhoc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3690" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="382236a0-b687-4e2f-9177-4b86b2cc9eba">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE Adhoc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2790" y="13" width="360" height="13" isPrintWhenDetailOverflows="true" uuid="12937817-5110-4dc9-8459-8d30407631e1">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[iSmart]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3150" y="13" width="360" height="13" isPrintWhenDetailOverflows="true" uuid="7c9a75cf-91a2-45d8-a6a4-24b2f7f3d44d">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[iPrime]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3510" y="13" width="360" height="13" isPrintWhenDetailOverflows="true" uuid="b516481d-56f4-41d1-ae7d-1fb7c8ccd7d7">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Total Inforce]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3870" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="8fedcdd5-7b82-4b2c-8dd8-346b95c898dc">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Productivity]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3960" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="e4a1f270-a4ff-4fde-a9bf-15d827e0c09d">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Converstion Ratio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4050" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="28e73018-85c4-4409-b1e1-31bddb16a36f">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Average Case Size]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4140" y="0" width="90" height="39" isPrintWhenDetailOverflows="true" uuid="369ccd83-fb30-469f-ae06-3ca90d6591cc">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Submit to Inforce Ratio (cases)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4230" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="ad1dd3c6-62a0-49f5-a631-ce4505f72a0b">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Case]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4320" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="2f3c2c22-73a1-4b47-aa2c-3fc74c9b7907">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4410" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="dea39a3e-dbc0-4feb-b7f7-ecdd54c01b87">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Case]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4500" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="58bdbd0c-05b4-4773-9477-f99058dc47aa">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[APE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4230" y="13" width="180" height="13" isPrintWhenDetailOverflows="true" uuid="552ae3ba-2e7c-43c3-b628-7922c3e5eb45">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[MPS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4410" y="13" width="180" height="13" isPrintWhenDetailOverflows="true" uuid="7ba6ea03-389e-46a4-92ac-b3d285a5dab1">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[OTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4230" y="0" width="360" height="13" isPrintWhenDetailOverflows="true" uuid="f54d9941-fe32-4f94-b7ff-fb4ae60232ef">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[%APE Achievement]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2790" y="0" width="1080" height="13" isPrintWhenDetailOverflows="true" uuid="9d67e844-8cbf-4ee9-af65-3ca417708868">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Inforce]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4590" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="4775d43f-e47a-4c5b-ae62-888a04e3d5a3">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[1 rider]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4680" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="e91796ef-4a34-4615-82c8-0f04b369a312">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[>= 2 rider]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4770" y="26" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8b0029ad-2e73-4e64-bd81-40b8fc7bf129">
+					<propertyExpression name="net.sf.jasperreports.export.xls.sheet.name"><![CDATA["RSMR AAL"]]></propertyExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4590" y="13" width="180" height="13" isPrintWhenDetailOverflows="true" uuid="8a6f918a-f713-42ce-8da6-fdb5e51e4482">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Rider attachment (iSmart)]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="50">
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" isPrintRepeatedValues="false" mode="Transparent" x="90" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="4bab3232-de0e-4d16-a5f5-ade9b6ef8cab">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{asmName}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="180" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="fe65c1d1-6c9e-4445-a5fd-651deaa5467c">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pfcCode}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="270" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="404cc447-d9e8-4bae-90aa-49cdb182d699">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pfcName}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="360" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="e020be83-bb51-48c5-8a1b-292bb937ea3b">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{batch} != "null" ? $F{batch} : ""]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd-MM-yyyy" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="450" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="4862d9ca-5a56-4760-b287-e5d68c169363">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( ($F{appointedDate} != null && !$F{appointedDate}.equals("0")) ? new SimpleDateFormat("yyyy-MM-dd").parse($F{appointedDate}) :"")]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="540" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8ac6da42-b529-4614-8ba4-8d16f30a48b6">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{level}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="630" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="d4f8ba27-980f-4d16-887e-dd58f67c8e30">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{leadsTarget}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="720" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="88d74507-61a5-4440-ab9c-a2d30bc3cca2">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{leadsContactMade}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="810" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="71aafb40-de25-4b46-8bf9-9d34aff6f633">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{leadsMeetingComplete}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="900" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c26c8336-9c73-47bb-8fe1-0828cf6e9bb8">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{leadsProposalMade}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="990" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b903dfb1-9ce4-402e-86ac-5c7dcbc0bd88">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{leadsSubmitted}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1080" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="abeee1d9-a77d-4c4e-a30c-ef62fd3c9773">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{leadsCancelled}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1170" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="1387e73c-ce65-4d7e-a975-e9095249a352">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{leadsTotalActual}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1260" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="5b6dd4c8-126c-4be8-a867-7331cedac368">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((($F{leadsTarget} != null && $F{leadsTarget} != 0) && ($F{leadsTotalActual} != null && $F{leadsTotalActual} != 0)) ? new BigDecimal((new Double($F{leadsTotalActual}) / new Double($F{leadsTarget}) * 100)).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() + "%": "0%")]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1350" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="844939e0-3f77-4e78-8a9a-9ae883589579">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{totalLeadsContactMade}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1440" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="48e6095c-592e-4a8c-b7fe-450c34be3c56">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{totalLeadsMeetingComplete}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1530" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="d9d9e267-20ac-4b61-8c1d-c283d251d291">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{totalLeadsProposalMade}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1620" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="095f0fc2-510f-4bb7-918b-d3ca63f84efa">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{totalLeadsSubmitted}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1710" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="0b87f133-afeb-4b6b-af8c-72a9643fec7f">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{totalLeadsCancelled}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1800" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="526def2d-a907-41b1-81a9-ac0dae2fdd46">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{totalLeadsTotal}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1890" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c0490749-13b5-4353-ae7a-c195e8acd165">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{totalLeadsCancelled}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1980" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="27e52a49-9ba8-4510-aa51-6a1c0be3e2d4">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{totalLeadsTotal}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1890" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="3afef910-0703-4989-b026-b7529eafb5d2">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{targetAPEMPSCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1980" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f106afd5-bb7a-482b-ac5b-82754466ceee">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{targetAPEMPSAPE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2070" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="20630ead-0ce0-48ce-8afd-754c43591728">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{targetAPEOTECase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2160" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="994a1bfd-cf1c-41cc-ac12-68f5087edfbe">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{targetAPEOTEAPE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2250" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="4dee5ed9-f7c3-4f84-bfcf-cfefc946bae6">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{submissionIsmartCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2340" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a11668d8-2030-4a11-8714-bc06371c8c4c">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{submissionIsmartAPE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2430" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="864b3aff-8e20-404d-9c85-26d30dcde4b2">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{submissionIprimeCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2520" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="d4921e0c-6167-474c-97f7-93bb26dd3ba6">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{submissionIprimeAPE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2610" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="441709e1-3a94-4835-9258-448a52f6e222">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{submissionIsmartCase} + $F{submissionIprimeCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2700" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8613d270-98be-4119-8cf3-7ce81c397e00">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{submissionIsmartAPE} + $F{submissionIprimeAPE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2790" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="659d9927-d841-40ab-9f65-e309743bf3a7">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIsmartCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2880" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="47455cb8-1395-4e51-9cb8-19d7335ed516">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIsmartAPENonAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2970" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="49975992-3a97-44d3-92ba-27af58c63ff1">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIsmartAPEAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3060" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="cd9bd062-bfd4-4db1-a2be-9a1bd003588a">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIsmartAPENonAdHoc} + $F{inforceIsmartAPEAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3150" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b1683d31-00e8-4216-82dd-aab4a9eca0d0">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIprimeCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3240" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="cdf8541b-8e82-4528-8020-6331b8050671">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIprimeAPENonAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3330" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="be8a74d2-dff9-4f85-bf66-4d566c94308a">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIprimeAPEAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3420" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="4e23fbb9-daa9-4639-a280-a44ce9880f15">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIprimeAPENonAdHoc} + $F{inforceIprimeAPEAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3510" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b681581d-5f3e-4983-94a7-1a8be706d5a0">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIsmartCase} + $F{inforceIprimeCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3600" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="90342614-3655-476c-97ff-44d1d51a986b">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIsmartAPENonAdHoc} + $F{inforceIprimeAPENonAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3690" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="5365effe-42a8-469b-a80e-5e259df716df">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIsmartAPEAdHoc} + $F{inforceIprimeAPEAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3780" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a0bd449b-5c38-49a0-b679-c80224d23b67">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIsmartAPENonAdHoc} + $F{inforceIsmartAPEAdHoc} + $F{inforceIprimeAPENonAdHoc} + $F{inforceIprimeAPEAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3870" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="17c0a30b-afe6-4224-a605-e0db9bba32bd">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inforceIsmartCase} + $F{inforceIprimeCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3960" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c04be042-3133-48e5-b4a3-1d135634798d">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{leadsTotalActual} - $F{leadsCancelled} > 0 ? new BigDecimal((($F{inforceIsmartCase} + $F{inforceIprimeCase} ) / ($F{leadsTotalActual} - $F{leadsCancelled})) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() + "%" : "0%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4050" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="cf660499-5b0f-4f2b-bea2-07f915bf1fda">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{inforceIsmartCase} + $F{inforceIprimeCase} ) > 0 ? new BigDecimal(($F{inforceIsmartAPENonAdHoc} + $F{inforceIsmartAPEAdHoc} + $F{inforceIprimeAPENonAdHoc} + $F{inforceIprimeAPEAdHoc} ) / ($F{inforceIsmartCase} + $F{inforceIprimeCase} )).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() : "0"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4140" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="1e5e3f4d-f6b7-4af6-8a9f-f5a909d29667">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{submissionIsmartCase} + $F{submissionIprimeCase} ) > 0 ? (new BigDecimal(($F{inforceIsmartCase} + $F{inforceIprimeCase} ) / ($F{submissionIsmartCase} + $F{submissionIprimeCase} )).setScale(4, BigDecimal.ROUND_HALF_UP).doubleValue()) * 100 + "%" : "0%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4230" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="213d12e9-42f3-4ef9-a8df-4b39e8e6a581">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{targetAPEMPSCase} > 0 ? new BigDecimal((($F{inforceIsmartCase} + $F{inforceIprimeCase} ) / $F{targetAPEMPSCase}) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() + "%" : "0%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4320" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a3c9e013-dedc-4a9f-b468-c4fa12a469db">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{targetAPEMPSAPE} > 0 ? new BigDecimal((($F{inforceIsmartAPENonAdHoc} + $F{inforceIsmartAPEAdHoc} + $F{inforceIprimeAPENonAdHoc} + $F{inforceIprimeAPEAdHoc} ) / $F{targetAPEMPSAPE}) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() + "%" : "0%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4410" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="5b00eeb9-b478-47a4-a5b5-8d7b1d277cbe">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{targetAPEOTECase} > 0 ? new BigDecimal((($F{inforceIsmartCase} + $F{inforceIprimeCase} ) / $F{targetAPEOTECase}) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() + "%" : "0%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4500" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="15b6dffa-b774-4eeb-b6fa-00507420147e">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{targetAPEOTEAPE} > 0 ? new BigDecimal((($F{inforceIsmartAPENonAdHoc} + $F{inforceIsmartAPEAdHoc} + $F{inforceIprimeAPENonAdHoc} + $F{inforceIprimeAPEAdHoc} ) / $F{targetAPEOTEAPE}) * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue() + "%" : "0%"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4590" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c5d26b27-10d1-4177-91c3-f762ef035c4e">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{rider1}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4680" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="9e9d55b7-2e80-4962-bdbb-a18b20157270">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{rider2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement isPrintRepeatedValues="false" x="0" y="0" width="90" height="13" uuid="f1179c69-1775-423f-a280-9fc17348cf98"/>
+				<textFieldExpression><![CDATA[$F{rsmName}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="60">
+			<staticText>
+				<reportElement mode="Transparent" x="0" y="0" width="630" height="13" uuid="be83a060-91d2-4988-8770-8f7899305eac"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Grand Total]]></text>
+			</staticText>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="630" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="d6d7f422-ca7d-449f-adc8-fd52a3097031">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalleadsTarget}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="720" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="709e33a1-8e4b-4e84-9347-5cf7a65dc58c">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalleadsContactMade}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="810" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="50337e9c-f2b7-4793-ab0e-14b063f4a78b">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalLeadsMeetingComplete}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="900" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="7c374f7e-0f18-468c-bfa2-03632c4cc5f5">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalleadsProposalMade}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="990" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="d27a7335-8e97-41e4-a8f0-11b3599eab80">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalleadsSubmitted}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1080" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c0816d8a-01cb-4dfd-a8e7-79164ce7cdb4">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalleadsCancelled}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1170" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="59d8460e-921a-46dd-baa0-6b989c7023d8">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalleadsTotalActual}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1260" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="6841bf53-fba2-48a8-8871-bf6a5fa09fb8">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalleadsPercentage} + "%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1350" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="0354209c-9acb-4a16-9e1e-92cfe64f66f2">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotaltotalLeadsContactMade}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1440" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="da44a0ef-7298-4dfd-bf56-8ef2c3974504">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotaltotalLeadsMeetingComplete}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1530" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="50fe7e85-79d6-475f-8e62-99cec6394cfb">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotaltotalLeadsProposalMade}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1620" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="1dd1eefc-edf6-4aaa-8e55-cb855dd63049">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotaltotalLeadsSubmitted}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1710" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="ed86ac52-6d25-4033-b691-e8503ce21d45">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotaltotalLeadsCancelled}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1800" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="37453206-90b0-4c8c-aaf9-fc1db6550f47">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotaltotalLeadsTotal}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1890" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="62bccc29-dac8-44a2-bbe3-9e48d58f8f9b">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotaltargetAPEMPSCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="1980" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="a1716902-e5d9-418d-b068-7efc59dbe34c">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotaltargetAPEMPSAPE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2070" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="5e7db64f-f32f-4598-8241-a5f0b7fac75c">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotaltargetAPEOTECase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2160" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f2f898f6-cf41-4931-8489-1570d3d33c16">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotaltargetAPEOTEAPE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2250" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f141ad4e-d307-4d28-955e-d10e13512c8d">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalsubmissionIsmartCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2340" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="82c2564d-66a9-4083-9442-ef50b8481d01">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalsubmissionIsmartAPE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2430" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="37810bbe-6a47-482f-95c3-221d937faeb0">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalsubmissionIprimeCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2520" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="8f3e7d37-dd56-47de-8375-4b7b8b10f066">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalsubmissionIprimeAPE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2610" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="ee5f17f1-0f3b-4c6b-90b5-c0d95017b6ab">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalsubmissionTotalCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2700" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="5ef8ff5a-8b08-4ff6-898d-8ff9bce7f153">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalsubmissionTotalAPE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2790" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b1c039fa-bc40-4bfc-92cd-dc53c0fedae7">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceIsmartCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2880" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="26f61310-db84-446b-b799-9ba24c76fa24">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceIsmartAPENonAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="2970" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b55159a9-0bb5-473a-a5b8-6437a42909af">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceIsmartAPEAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3060" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="51686f21-4dfe-4152-877c-81e5f1715d4e">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceIsmartAPETotal}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3150" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="9e79a996-5263-4705-9d8e-dc885e0e4806">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceIprimeCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3240" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="7dfe4e16-38e6-4af9-87fe-6247a70eb91f">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceIprimeAPENonAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3330" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="c5901c4a-aba4-4c42-bd63-d2de5ca2ba61">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceIprimeAPEAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3420" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="9dffb256-4b0b-49fa-906f-3c06e3608968">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceIprimeAPETotal}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3510" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f93301e4-c4ce-4aaf-abce-517d6067685c">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceTotalInforceCase}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3600" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="1923c554-05e3-4086-a0a2-f6e5db304625">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceTotalInforceAPENonAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3690" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="cb921635-37d3-437e-9c90-dbde7ad48cd0">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceTotalInforceAPEAdHoc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3780" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="2b4cceaf-d777-4cad-bbff-2b52c731ef48">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalinforceTotalInforceAPETotal}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3870" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="896eef89-516c-4f1a-bc09-d2ce159b1f75">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalproductivity}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="3960" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="23925227-6102-486f-bdb9-1d4e74a4ebcc">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalconversionRatio} + "%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4050" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="71ccb739-f442-4eec-ae36-f56a411b22d5">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalavgCaseSize}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4140" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="2bb5a239-fda3-4051-8b36-90e0b9257ac3">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalputThroughRate} + "%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4230" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="19b3d24b-5e87-4eed-a1ec-e805f5f21088">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalapeAchievementMPSCase} + "%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4320" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="4a04f7e1-e365-435d-a25d-6093f6cffc15">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalapeAchievementMPSAPE} + "%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4410" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="87048259-714a-477c-900d-00f3338666a7">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalapeAchievementOTECase} + "%"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4500" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="2eca6cbd-cfb8-4ce2-b0f4-028ac35ee3cf">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalapeAchievementOTEAPE} + "%"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4590" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="f19d5ac8-119f-4382-b7d1-37b42c326f5c">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalRider1}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="4680" y="0" width="90" height="13" isPrintWhenDetailOverflows="true" uuid="b29d89d8-f80b-4cf9-8d1e-500764fb5249">
+					<property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{GrandTotalRider2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="614" splitType="Stretch"/>
+	</summary>
+</jasperReport>

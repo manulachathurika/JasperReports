@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<leadPerformanceReportXML>
+    <leadPerfReportDTO>
+        <cancelLeads>0</cancelLeads>
+        <month>Sep 2014</month>
+        <newLeads>0</newLeads>
+        <outstandingLeads>0</outstandingLeads>
+        <submitNew>0</submitNew>
+        <submitRecurring>0</submitRecurring>
+        <totalOutstandingSubmissions>0</totalOutstandingSubmissions>
+        <totalPolicyCancle>0</totalPolicyCancle>
+        <totalPolicyInforce>0</totalPolicyInforce>
+        <totalPolicyPending>0</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>0</cancelLeads>
+        <month>Oct 2014</month>
+        <newLeads>0</newLeads>
+        <outstandingLeads>0</outstandingLeads>
+        <submitNew>0</submitNew>
+        <submitRecurring>0</submitRecurring>
+        <totalOutstandingSubmissions>0</totalOutstandingSubmissions>
+        <totalPolicyCancle>0</totalPolicyCancle>
+        <totalPolicyInforce>0</totalPolicyInforce>
+        <totalPolicyPending>0</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>0</cancelLeads>
+        <month>Nov 2014</month>
+        <newLeads>0</newLeads>
+        <outstandingLeads>0</outstandingLeads>
+        <submitNew>0</submitNew>
+        <submitRecurring>0</submitRecurring>
+        <totalOutstandingSubmissions>0</totalOutstandingSubmissions>
+        <totalPolicyCancle>0</totalPolicyCancle>
+        <totalPolicyInforce>0</totalPolicyInforce>
+        <totalPolicyPending>0</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>0</cancelLeads>
+        <month>Dec 2014</month>
+        <newLeads>0</newLeads>
+        <outstandingLeads>0</outstandingLeads>
+        <submitNew>0</submitNew>
+        <submitRecurring>0</submitRecurring>
+        <totalOutstandingSubmissions>0</totalOutstandingSubmissions>
+        <totalPolicyCancle>0</totalPolicyCancle>
+        <totalPolicyInforce>0</totalPolicyInforce>
+        <totalPolicyPending>0</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>0</cancelLeads>
+        <month>Jan 2015</month>
+        <newLeads>4</newLeads>
+        <outstandingLeads>0</outstandingLeads>
+        <submitNew>2</submitNew>
+        <submitRecurring>0</submitRecurring>
+        <totalOutstandingSubmissions>2</totalOutstandingSubmissions>
+        <totalPolicyCancle>0</totalPolicyCancle>
+        <totalPolicyInforce>1</totalPolicyInforce>
+        <totalPolicyPending>1</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>1</cancelLeads>
+        <month>Feb 2015</month>
+        <newLeads>8</newLeads>
+        <outstandingLeads>2</outstandingLeads>
+        <submitNew>4</submitNew>
+        <submitRecurring>1</submitRecurring>
+        <totalOutstandingSubmissions>5</totalOutstandingSubmissions>
+        <totalPolicyCancle>1</totalPolicyCancle>
+        <totalPolicyInforce>2</totalPolicyInforce>
+        <totalPolicyPending>2</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>2</cancelLeads>
+        <month>Mar 2015</month>
+        <newLeads>3</newLeads>
+        <outstandingLeads>5</outstandingLeads>
+        <submitNew>4</submitNew>
+        <submitRecurring>2</submitRecurring>
+        <totalOutstandingSubmissions>2</totalOutstandingSubmissions>
+        <totalPolicyCancle>0</totalPolicyCancle>
+        <totalPolicyInforce>2</totalPolicyInforce>
+        <totalPolicyPending>4</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>0</cancelLeads>
+        <month>Apr 2015</month>
+        <newLeads>3</newLeads>
+        <outstandingLeads>2</outstandingLeads>
+        <submitNew>4</submitNew>
+        <submitRecurring>4</submitRecurring>
+        <totalOutstandingSubmissions>1</totalOutstandingSubmissions>
+        <totalPolicyCancle>1</totalPolicyCancle>
+        <totalPolicyInforce>4</totalPolicyInforce>
+        <totalPolicyPending>3</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>0</cancelLeads>
+        <month>May 2015</month>
+        <newLeads>0</newLeads>
+        <outstandingLeads>1</outstandingLeads>
+        <submitNew>1</submitNew>
+        <submitRecurring>3</submitRecurring>
+        <totalOutstandingSubmissions>0</totalOutstandingSubmissions>
+        <totalPolicyCancle>1</totalPolicyCancle>
+        <totalPolicyInforce>2</totalPolicyInforce>
+        <totalPolicyPending>1</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>0</cancelLeads>
+        <month>Jun 2015</month>
+        <newLeads>24</newLeads>
+        <outstandingLeads>0</outstandingLeads>
+        <submitNew>9</submitNew>
+        <submitRecurring>1</submitRecurring>
+        <totalOutstandingSubmissions>15</totalOutstandingSubmissions>
+        <totalPolicyCancle>0</totalPolicyCancle>
+        <totalPolicyInforce>1</totalPolicyInforce>
+        <totalPolicyPending>9</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>0</cancelLeads>
+        <month>Jul 2015</month>
+        <newLeads>68</newLeads>
+        <outstandingLeads>15</outstandingLeads>
+        <submitNew>11</submitNew>
+        <submitRecurring>9</submitRecurring>
+        <totalOutstandingSubmissions>72</totalOutstandingSubmissions>
+        <totalPolicyCancle>0</totalPolicyCancle>
+        <totalPolicyInforce>1</totalPolicyInforce>
+        <totalPolicyPending>19</totalPolicyPending>
+    </leadPerfReportDTO>
+    <leadPerfReportDTO>
+        <cancelLeads>0</cancelLeads>
+        <month>Aug 2015</month>
+        <newLeads>2</newLeads>
+        <outstandingLeads>72</outstandingLeads>
+        <submitNew>2</submitNew>
+        <submitRecurring>19</submitRecurring>
+        <totalOutstandingSubmissions>72</totalOutstandingSubmissions>
+        <totalPolicyCancle>0</totalPolicyCancle>
+        <totalPolicyInforce>0</totalPolicyInforce>
+        <totalPolicyPending>21</totalPolicyPending>
+    </leadPerfReportDTO>
+</leadPerformanceReportXML>

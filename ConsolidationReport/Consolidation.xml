@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<consolidationRptDTOList>
+    <agentName>Winarto Amidjojo Tested </agentName>
+    <lvlFlag>D</lvlFlag>
+    <count>110</count>
+	<permataAgentFlag>N</permataAgentFlag>
+    <permataPFCAgentFlag>Y</permataPFCAgentFlag>
+    <consolidationRptDto>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ape>100100000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>1000000</basicPremium>
+        <billFrequency>Tunggal</billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <combinedRequirementsAndStateOfRequirements></combinedRequirementsAndStateOfRequirements>
+        <convertedApe>100100000</convertedApe>
+        <convertedBasicPremium>1000000</convertedBasicPremium>
+        <convertedFyp>100100000</convertedFyp>
+        <convertedSingleTopup>1000000000</convertedSingleTopup>
+        <convertedTotalPremium>1001000000</convertedTotalPremium>
+        <country>Indonesia                     </country>
+        <currency>USD</currency>
+        <dob>19870203</dob>
+		<inceptionDate>19870203</inceptionDate>
+        <documentFlag>false</documentFlag>
+        <ERefNo>US1A4000005150203131849</ERefNo>
+        <exchangeRate>1</exchangeRate>
+        <fua>0</fua>
+        <fyp>100100000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>32500</grossRevenue>
+        <hrpDocFlag>false</hrpDocFlag>
+        <id>1</id>
+        <lifeAssuredCif>19873333            </lifeAssuredCif>
+        <lifeAssuredDob>19870203</lifeAssuredDob>
+        <lifeAssuredID>19873333                </lifeAssuredID>
+        <lifeAssuredName>Teting Fund</lifeAssuredName>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <nettRevenue>29500</nettRevenue>
+        <ownerID>19873333                </ownerID>
+        <ownerName>Teting Fund</ownerName>
+        <ownerPermataCif>19873333            </ownerPermataCif>
+        <paymentMethod>Direct Billing = 1.001.000.000,00</paymentMethod>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>00158264</policyNo>
+        <policyStatus>Application Received and Captured                           </policyStatus>
+        <postalCode>45111     </postalCode>
+        <premiumAmount>1001000000</premiumAmount>
+        <premiumCollected>0</premiumCollected>
+        <productCode>US1</productCode>
+        <receivedDate>20150204</receivedDate>
+        <region>Permata Bank Region 07        </region>
+        <requirements> </requirements>
+        <residentialAddress>A A A A Bncufnucdnicmi</residentialAddress>
+        <singleTopup>1000000000</singleTopup>
+        <statusOfRequirements> </statusOfRequirements>
+        <totalPremium>1001000000</totalPremium>
+        <vat>100100000</vat>
+        <eRefNo>US1A4000005150203131849</eRefNo>
+		<netSurrenderValue>123</netSurrenderValue>
+		<asmCode>123 </asmCode> 
+		<asmName>123 </asmName> 
+		<rsmCode>13</rsmCode>
+		<rsmName>123</rsmName>
+		<failedLodgement>13</failedLodgement>
+		<regularTopup>13	</regularTopup>
+		<convertedRegularTopup>123</convertedRegularTopup>
+		<uwAprovedDateVal>123</uwAprovedDateVal>
+		<ESubNo>123</ESubNo>
+		<homeNo>13</homeNo>
+		<officeNo>123</officeNo>
+		<faxNo>123</faxNo>
+		<email>123</email>
+		<mailAddress>123	</mailAddress>
+		<mailCountry>123</mailCountry>
+		<mailPostalCode>123</mailPostalCode>
+		<statusEffectiveDate>20150204</statusEffectiveDate>
+		<premiumDueDate>20150204</premiumDueDate>
+		<policyDocDelStatus>123</policyDocDelStatus>
+		<policyDocDelDate>20150204</policyDocDelDate>
+		<policyDocDelReason>123</policyDocDelReason>
+		<outstandingReason>No reason</outstandingReason>
+    </consolidationRptDto>    <consolidationRptDto>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ape>100100000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>1000000</basicPremium>
+        <billFrequency>Tunggal</billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <combinedRequirementsAndStateOfRequirements></combinedRequirementsAndStateOfRequirements>
+        <convertedApe>100100000</convertedApe>
+        <convertedBasicPremium>1000000</convertedBasicPremium>
+        <convertedFyp>100100000</convertedFyp>
+        <convertedSingleTopup>1000000000</convertedSingleTopup>
+        <convertedTotalPremium>1001000000</convertedTotalPremium>
+        <country>Indonesia                     </country>
+        <currency>USD</currency>
+        <dob>19870203</dob>
+		<inceptionDate>19870203</inceptionDate>
+        <documentFlag>false</documentFlag>
+        <ERefNo>US1A4000005150203131849</ERefNo>
+        <exchangeRate>1</exchangeRate>
+        <fua>0</fua>
+        <fyp>100100000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>32500</grossRevenue>
+        <hrpDocFlag>false</hrpDocFlag>
+        <id>1</id>
+        <lifeAssuredCif>19873333            </lifeAssuredCif>
+        <lifeAssuredDob>19870203</lifeAssuredDob>
+        <lifeAssuredID>19873333                </lifeAssuredID>
+        <lifeAssuredName>Teting Fund</lifeAssuredName>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <nettRevenue>29500</nettRevenue>
+        <ownerID>19873333                </ownerID>
+        <ownerName>Teting Fund</ownerName>
+        <ownerPermataCif>19873333            </ownerPermataCif>
+        <paymentMethod>Direct Billing = 1.001.000.000,00</paymentMethod>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>00158264</policyNo>
+        <policyStatus>Application Received and Captured                           </policyStatus>
+        <postalCode>45111     </postalCode>
+        <premiumAmount>1001000000</premiumAmount>
+        <premiumCollected>0</premiumCollected>
+        <productCode>US1</productCode>
+        <receivedDate>20150204</receivedDate>
+        <region>Permata Bank Region 07        </region>
+        <requirements> </requirements>
+        <residentialAddress>A A A A Bncufnucdnicmi</residentialAddress>
+        <singleTopup>1000000000</singleTopup>
+        <statusOfRequirements> </statusOfRequirements>
+        <totalPremium>1001000000</totalPremium>
+        <vat>100100000</vat>
+        <eRefNo>US1A4000005150203131849</eRefNo>
+		<netSurrenderValue>123</netSurrenderValue>
+		<asmCode>123 </asmCode> 
+		<asmName>123 </asmName> 
+		<rsmCode>13</rsmCode>
+		<rsmName>123</rsmName>
+		<failedLodgement>13</failedLodgement>
+		<regularTopup>13	</regularTopup>
+		<convertedRegularTopup>123</convertedRegularTopup>
+		<uwAprovedDateVal>123</uwAprovedDateVal>
+		<ESubNo>123</ESubNo>
+		<homeNo>13</homeNo>
+		<officeNo>123</officeNo>
+		<faxNo>123</faxNo>
+		<email>123</email>
+		<mailAddress>123	</mailAddress>
+		<mailCountry>123</mailCountry>
+		<mailPostalCode>123</mailPostalCode>
+		<statusEffectiveDate>20150204</statusEffectiveDate>
+		<premiumDueDate>20150204</premiumDueDate>
+		<policyDocDelStatus>123</policyDocDelStatus>
+		<policyDocDelDate>20150204</policyDocDelDate>
+		<policyDocDelReason>123</policyDocDelReason>
+		<outstandingReason>No reason</outstandingReason>
+    </consolidationRptDto>    <consolidationRptDto>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ape>100100000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>1000000</basicPremium>
+        <billFrequency>Tunggal</billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <combinedRequirementsAndStateOfRequirements></combinedRequirementsAndStateOfRequirements>
+        <convertedApe>100100000</convertedApe>
+        <convertedBasicPremium>1000000</convertedBasicPremium>
+        <convertedFyp>100100000</convertedFyp>
+        <convertedSingleTopup>1000000000</convertedSingleTopup>
+        <convertedTotalPremium>1001000000</convertedTotalPremium>
+        <country>Indonesia                     </country>
+        <currency>USD</currency>
+        <dob>19870203</dob>
+		<inceptionDate>19870203</inceptionDate>
+        <documentFlag>false</documentFlag>
+        <ERefNo>US1A4000005150203131849</ERefNo>
+        <exchangeRate>1</exchangeRate>
+        <fua>0</fua>
+        <fyp>100100000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>32500</grossRevenue>
+        <hrpDocFlag>false</hrpDocFlag>
+        <id>1</id>
+        <lifeAssuredCif>19873333            </lifeAssuredCif>
+        <lifeAssuredDob>19870203</lifeAssuredDob>
+        <lifeAssuredID>19873333                </lifeAssuredID>
+        <lifeAssuredName>Teting Fund</lifeAssuredName>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <nettRevenue>29500</nettRevenue>
+        <ownerID>19873333                </ownerID>
+        <ownerName>Teting Fund</ownerName>
+        <ownerPermataCif>19873333            </ownerPermataCif>
+        <paymentMethod>Direct Billing = 1.001.000.000,00</paymentMethod>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>00158264</policyNo>
+        <policyStatus>Application Received and Captured                           </policyStatus>
+        <postalCode>45111     </postalCode>
+        <premiumAmount>1001000000</premiumAmount>
+        <premiumCollected>0</premiumCollected>
+        <productCode>US1</productCode>
+        <receivedDate>20150204</receivedDate>
+        <region>Permata Bank Region 07        </region>
+        <requirements> </requirements>
+        <residentialAddress>A A A A Bncufnucdnicmi</residentialAddress>
+        <singleTopup>1000000000</singleTopup>
+        <statusOfRequirements> </statusOfRequirements>
+        <totalPremium>1001000000</totalPremium>
+        <vat>100100000</vat>
+        <eRefNo>US1A4000005150203131849</eRefNo>
+		<netSurrenderValue>123</netSurrenderValue>
+		<asmCode>123 </asmCode> 
+		<asmName>123 </asmName> 
+		<rsmCode>13</rsmCode>
+		<rsmName>123</rsmName>
+		<failedLodgement>13</failedLodgement>
+		<regularTopup>13	</regularTopup>
+		<convertedRegularTopup>123</convertedRegularTopup>
+		<uwAprovedDateVal>123</uwAprovedDateVal>
+		<ESubNo>123</ESubNo>
+		<homeNo>13</homeNo>
+		<officeNo>123</officeNo>
+		<faxNo>123</faxNo>
+		<email>123</email>
+		<mailAddress>123	</mailAddress>
+		<mailCountry>123</mailCountry>
+		<mailPostalCode>123</mailPostalCode>
+		<statusEffectiveDate>20150204</statusEffectiveDate>
+		<premiumDueDate>20150204</premiumDueDate>
+		<policyDocDelStatus>123</policyDocDelStatus>
+		<policyDocDelDate>20150204</policyDocDelDate>
+		<policyDocDelReason>123</policyDocDelReason>
+		<outstandingReason>No reason</outstandingReason>
+    </consolidationRptDto>
+</consolidationRptDTOList>

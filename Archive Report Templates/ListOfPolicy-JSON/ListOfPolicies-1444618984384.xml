@@ -1,0 +1,2448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<policyReportDTOList>
+    <lvlFlag>I</lvlFlag>
+    <count>33</count>
+    <permataAgentFlag>N</permataAgentFlag>
+    <permataPFCAgentFlag>Y</permataPFCAgentFlag>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>2200000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>12000000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>390000</convGrossRevenue>
+        <convNettRevenue>354000</convNettRevenue>
+        <convTopupGrossRevenue>325000</convTopupGrossRevenue>
+        <convTopupNettRevenue>295000</convTopupNettRevenue>
+        <convertedApe>2200000</convertedApe>
+        <convertedBasicPremium>12000000</convertedBasicPremium>
+        <convertedFyp>2200000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>10000000</convertedSingleTopup>
+        <convertedTotalPremium>22000000</convertedTotalPremium>
+        <convertedVat>71500</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19661113</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>19510409.24</fua>
+        <fyp>2200000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>390000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20141113</inceptionDate>
+        <inforceMonth>November </inforceMonth>
+        <issuanceDate>20141113</issuanceDate>
+        <lifeAssuredCif>19661               </lifeAssuredCif>
+        <lifeAssuredDob>19661113</lifeAssuredDob>
+        <lifeAssuredID>19661                   </lifeAssuredID>
+        <lifeAssuredName>Aired Muliana</lifeAssuredName>
+        <mailAddress>Apa Aja Boleh Hahaha Jakarta</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>45278     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>354000</nettRevenue>
+        <officeNo>2344            </officeNo>
+        <ownerID>19661                   </ownerID>
+        <ownerName>Aired Muliana</ownerName>
+        <ownerPermataCif>19661               </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150410</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>00129324</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>45278     </postalCode>
+        <premiumAmount>22000000</premiumAmount>
+        <premiumDueDate>20151113</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>Apa Aja Boleh Hahaha Jakarta</residentialAddress>
+        <singleTopup>10000000</singleTopup>
+        <statusEffectiveDate>20141113</statusEffectiveDate>
+        <topupGrossRevenue>325000</topupGrossRevenue>
+        <topupNettRevenue>295000</topupNettRevenue>
+        <totalPremium>22000000</totalPremium>
+        <vat>71500</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>1000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>10000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>4103125</convGrossRevenue>
+        <convNettRevenue>3724375</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>12625000</convertedApe>
+        <convertedBasicPremium>126250000</convertedBasicPremium>
+        <convertedFyp>12625000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>126250000</convertedTotalPremium>
+        <convertedVat>410312.5</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>USD</currency>
+        <dob>19870324</dob>
+        <email>                                                  </email>
+        <exchangeRate>12625</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>8482.62</fua>
+        <fyp>1000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>325</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150702</inceptionDate>
+        <inforceMonth>July     </inforceMonth>
+        <issuanceDate>20150702</issuanceDate>
+        <lifeAssuredCif>2403198772          </lifeAssuredCif>
+        <lifeAssuredDob>19870324</lifeAssuredDob>
+        <lifeAssuredID>2403198772              </lifeAssuredID>
+        <lifeAssuredName>Cek Moderat</lifeAssuredName>
+        <mailAddress>A Aaa A A A</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>573836    </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>295</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>2403198772              </ownerID>
+        <ownerName>Cek Moderat</ownerName>
+        <ownerPermataCif>2403198772          </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>41012020</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>573836    </postalCode>
+        <premiumAmount>11000</premiumAmount>
+        <premiumDueDate>20160702</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>A Aaa A A A</residentialAddress>
+        <statusEffectiveDate>20150702</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>10000</totalPremium>
+        <uwAprovedDate>
+            <nanos>394586000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-07-02</uwAprovedDateVal>
+        <vat>32.5</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>1200000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>12000000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>390000</convGrossRevenue>
+        <convNettRevenue>354000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>1200000</convertedApe>
+        <convertedBasicPremium>12000000</convertedBasicPremium>
+        <convertedFyp>1200000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>12000000</convertedTotalPremium>
+        <convertedVat>39000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870324</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>163765141310.66</fua>
+        <fyp>1200000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>390000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150324</inceptionDate>
+        <inforceMonth>March    </inforceMonth>
+        <issuanceDate>20150325</issuanceDate>
+        <lifeAssuredCif>2403198773          </lifeAssuredCif>
+        <lifeAssuredDob>19870324</lifeAssuredDob>
+        <lifeAssuredID>2403198773              </lifeAssuredID>
+        <lifeAssuredName>Cel Agresif</lifeAssuredName>
+        <mailAddress>A A A A Ureie</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>73838     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>American Samoa</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>354000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>2403198773              </ownerID>
+        <ownerName>Cel Agresif</ownerName>
+        <ownerPermataCif>2403198773          </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150410</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>41000404</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>73838     </postalCode>
+        <premiumAmount>2112000000</premiumAmount>
+        <premiumDueDate>20160324</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>A A A A Ureie</residentialAddress>
+        <statusEffectiveDate>20150325</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>12000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>836278000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-03-31</uwAprovedDateVal>
+        <vat>39000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>165000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>12500000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>6875000</convGrossRevenue>
+        <convNettRevenue>6250000</convNettRevenue>
+        <convTopupGrossRevenue>375000</convTopupGrossRevenue>
+        <convTopupNettRevenue>341250</convTopupNettRevenue>
+        <convertedApe>165000000</convertedApe>
+        <convertedBasicPremium>12500000</convertedBasicPremium>
+        <convertedFyp>13750000</convertedFyp>
+        <convertedRegularTopup>12500000</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>25000000</convertedTotalPremium>
+        <convertedVat>725000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19820430</dob>
+        <email>                                                  </email>
+        <erefNo>UR1A4000005150430170355</erefNo>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>13341132.17</fua>
+        <fyp>13750000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>6875000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150608</inceptionDate>
+        <inforceMonth>June     </inforceMonth>
+        <issuanceDate>20150608</issuanceDate>
+        <lifeAssuredCif>CIF645786           </lifeAssuredCif>
+        <lifeAssuredDob>19820430</lifeAssuredDob>
+        <lifeAssuredID>754859770               </lifeAssuredID>
+        <lifeAssuredName>Payment Test2</lifeAssuredName>
+        <mailAddress>Fuy.Guinjk Yugugibk Ighol Ugiubkbjk Ouhiholni</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>8769677   </mailPostalCode>
+        <maritalStatus>Widowed</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>62575868        </mobileNo>
+        <nationality>Antarctica</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>6250000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>754859770               </ownerID>
+        <ownerName>Payment Test2</ownerName>
+        <ownerPermataCif>CIF645786           </ownerPermataCif>
+        <paymentMethod>Bank Direct Debit Billing     </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41003459</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>8769677   </postalCode>
+        <premiumAmount>25000000</premiumAmount>
+        <premiumDueDate>20150708</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <regularTopup>12500000</regularTopup>
+        <residentialAddress>Fuy.Guinjk Yugugibk Ighol Ugiubkbjk Ouhiholni</residentialAddress>
+        <statusEffectiveDate>20150608</statusEffectiveDate>
+        <submittedDate>2015-04-30T17:07:28+08:00</submittedDate>
+        <submittedDateVal>2015-04-30</submittedDateVal>
+        <topupGrossRevenue>375000</topupGrossRevenue>
+        <topupNettRevenue>341250</topupNettRevenue>
+        <totalPremium>25000000</totalPremium>
+        <vat>725000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>RM PERMATA A</agntName>
+        <agntNum>01900005</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>160000000</ape>
+        <areaCode>JKT19   </areaCode>
+        <areaName>Jakarta 19                    </areaName>
+        <basicPremium>800000000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>019     </branchCode>
+        <branchName>Metro Pondok Indah            </branchName>
+        <convGrossRevenue>26000000</convGrossRevenue>
+        <convNettRevenue>23600000</convNettRevenue>
+        <convTopupGrossRevenue>26000000</convTopupGrossRevenue>
+        <convTopupNettRevenue>23600000</convTopupNettRevenue>
+        <convertedApe>160000000</convertedApe>
+        <convertedBasicPremium>800000000</convertedBasicPremium>
+        <convertedFyp>160000000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>800000000</convertedSingleTopup>
+        <convertedTotalPremium>1600000000</convertedTotalPremium>
+        <convertedVat>5200000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19501126</dob>
+        <email>MAHESHA_RADITA@AVIVA-ASIA.COM                     </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>1405167694.62</fua>
+        <fyp>160000000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>26000000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150527</inceptionDate>
+        <inforceMonth>May      </inforceMonth>
+        <issuanceDate>20150527</issuanceDate>
+        <lifeAssuredCif>92KSDKFIEJ98291     </lifeAssuredCif>
+        <lifeAssuredDob>19501126</lifeAssuredDob>
+        <lifeAssuredID>KJDSFIEJ093242          </lifeAssuredID>
+        <lifeAssuredName>TEST TPD MANUAL</lifeAssuredName>
+        <mailAddress>JALAN TPD MANUAL   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>23600000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>KJDSFIEJ093242          </ownerID>
+        <ownerName>TEST TPD MANUAL</ownerName>
+        <ownerPermataCif>92KSDKFIEJ98291     </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>41005152</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>1600000000</premiumAmount>
+        <premiumDueDate>20160527</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 04        </region>
+        <residentialAddress>JALAN TPD MANUAL   </residentialAddress>
+        <singleTopup>800000000</singleTopup>
+        <statusEffectiveDate>20150527</statusEffectiveDate>
+        <topupGrossRevenue>26000000</topupGrossRevenue>
+        <topupNettRevenue>23600000</topupNettRevenue>
+        <totalPremium>1600000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>421400000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-05-27</uwAprovedDateVal>
+        <vat>5200000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>RM PERMATA A</agntName>
+        <agntNum>01900005</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>115200000</ape>
+        <areaCode>JKT19   </areaCode>
+        <areaName>Jakarta 19                    </areaName>
+        <basicPremium>2000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>019     </branchCode>
+        <branchName>Metro Pondok Indah            </branchName>
+        <convGrossRevenue>1100000</convGrossRevenue>
+        <convNettRevenue>1000000</convNettRevenue>
+        <convTopupGrossRevenue>2280000</convTopupGrossRevenue>
+        <convTopupNettRevenue>2074800</convTopupNettRevenue>
+        <convertedApe>115200000</convertedApe>
+        <convertedBasicPremium>2000000</convertedBasicPremium>
+        <convertedFyp>9600000</convertedFyp>
+        <convertedRegularTopup>76000000</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>78000000</convertedTotalPremium>
+        <convertedVat>338000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19501127</dob>
+        <email>MAHESHA_RADITA@AVIVA-ASIA.COM                     </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>64504240.76</fua>
+        <fyp>9600000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>1100000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150527</inceptionDate>
+        <inforceMonth>May      </inforceMonth>
+        <issuanceDate>20150527</issuanceDate>
+        <lifeAssuredCif>SFKJEOR2304         </lifeAssuredCif>
+        <lifeAssuredDob>19501127</lifeAssuredDob>
+        <lifeAssuredID>LKJDSFIJE8U32432        </lifeAssuredID>
+        <lifeAssuredName>TEST TPD MANUAL 64</lifeAssuredName>
+        <mailAddress>JALAN TPD MANUAL 64   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>1000000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>LKJDSFIJE8U32432        </ownerID>
+        <ownerName>TEST TPD MANUAL 64</ownerName>
+        <ownerPermataCif>SFKJEOR2304         </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41005161</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>78000000</premiumAmount>
+        <premiumDueDate>20150627</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 04        </region>
+        <regularTopup>76000000</regularTopup>
+        <residentialAddress>JALAN TPD MANUAL 64   </residentialAddress>
+        <statusEffectiveDate>20150527</statusEffectiveDate>
+        <topupGrossRevenue>2280000</topupGrossRevenue>
+        <topupNettRevenue>2074800</topupNettRevenue>
+        <totalPremium>78000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>421400000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-05-27</uwAprovedDateVal>
+        <vat>338000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>RM PERMATA A</agntName>
+        <agntNum>01900005</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>331200000</ape>
+        <areaCode>JKT19   </areaCode>
+        <areaName>Jakarta 19                    </areaName>
+        <basicPremium>20000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>019     </branchCode>
+        <branchName>Metro Pondok Indah            </branchName>
+        <convGrossRevenue>11000000</convGrossRevenue>
+        <convNettRevenue>10000000</convNettRevenue>
+        <convTopupGrossRevenue>2280000</convTopupGrossRevenue>
+        <convTopupNettRevenue>2074800</convTopupNettRevenue>
+        <convertedApe>331200000</convertedApe>
+        <convertedBasicPremium>20000000</convertedBasicPremium>
+        <convertedFyp>27600000</convertedFyp>
+        <convertedRegularTopup>76000000</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>96000000</convertedTotalPremium>
+        <convertedVat>1328000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19501126</dob>
+        <email>MAHESHA_RADITA@AVIVA-ASIA.COM                     </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>116597384.68</fua>
+        <fyp>27600000</fyp>
+        <gender>Female</gender>
+        <grossRevenue>11000000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150527</inceptionDate>
+        <inforceMonth>May      </inforceMonth>
+        <issuanceDate>20150527</issuanceDate>
+        <lifeAssuredCif>MSDAF24324          </lifeAssuredCif>
+        <lifeAssuredDob>19501126</lifeAssuredDob>
+        <lifeAssuredID>ASKDJLKFJOIEU234        </lifeAssuredID>
+        <lifeAssuredName>TEST TPD MANUAL UR1 65</lifeAssuredName>
+        <mailAddress>JALAN TPD MANUAL UR1 65   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>10000000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>ASKDJLKFJOIEU234        </ownerID>
+        <ownerName>TEST TPD MANUAL UR1 65</ownerName>
+        <ownerPermataCif>MSDAF24324          </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41005194</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>96000000</premiumAmount>
+        <premiumDueDate>20150627</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 04        </region>
+        <regularTopup>76000000</regularTopup>
+        <residentialAddress>JALAN TPD MANUAL UR1 65   </residentialAddress>
+        <statusEffectiveDate>20150527</statusEffectiveDate>
+        <topupGrossRevenue>2280000</topupGrossRevenue>
+        <topupNettRevenue>2074800</topupNettRevenue>
+        <totalPremium>96000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>421400000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-05-27</uwAprovedDateVal>
+        <vat>1328000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>RM PERMATA A</agntName>
+        <agntNum>01900005</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>140000000</ape>
+        <areaCode>JKT19   </areaCode>
+        <areaName>Jakarta 19                    </areaName>
+        <basicPremium>700000000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>019     </branchCode>
+        <branchName>Metro Pondok Indah            </branchName>
+        <convGrossRevenue>22750000</convGrossRevenue>
+        <convNettRevenue>20650000</convNettRevenue>
+        <convTopupGrossRevenue>22750000</convTopupGrossRevenue>
+        <convTopupNettRevenue>20650000</convTopupNettRevenue>
+        <convertedApe>140000000</convertedApe>
+        <convertedBasicPremium>700000000</convertedBasicPremium>
+        <convertedFyp>140000000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>700000000</convertedSingleTopup>
+        <convertedTotalPremium>1400000000</convertedTotalPremium>
+        <convertedVat>4550000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19501127</dob>
+        <email>MAHESHA_RADITA@AVIVA-ASIA.COM                     </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>1192837321.43</fua>
+        <fyp>140000000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>22750000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150527</inceptionDate>
+        <inforceMonth>May      </inforceMonth>
+        <issuanceDate>20150527</issuanceDate>
+        <lifeAssuredDob>19501127</lifeAssuredDob>
+        <lifeAssuredID>LKASJOFIJOEWJ1213       </lifeAssuredID>
+        <lifeAssuredName>TEST TPD MANUAL US1 64</lifeAssuredName>
+        <mailAddress>JALAN TPD MANUAL US1 64   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>20650000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>LKASJOFIJOEWJ1213       </ownerID>
+        <ownerName>TEST TPD MANUAL US1 64</ownerName>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>41005184</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>1400000000</premiumAmount>
+        <premiumDueDate>20160527</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 04        </region>
+        <residentialAddress>JALAN TPD MANUAL US1 64   </residentialAddress>
+        <singleTopup>700000000</singleTopup>
+        <statusEffectiveDate>20150527</statusEffectiveDate>
+        <topupGrossRevenue>22750000</topupGrossRevenue>
+        <topupNettRevenue>20650000</topupNettRevenue>
+        <totalPremium>1400000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>202805000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-06-15</uwAprovedDateVal>
+        <vat>4550000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>1500</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>15000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>6064500</convGrossRevenue>
+        <convNettRevenue>5504700</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>18660000</convertedApe>
+        <convertedBasicPremium>186600000</convertedBasicPremium>
+        <convertedFyp>18660000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>186600000</convertedTotalPremium>
+        <convertedVat>606450</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>USD</currency>
+        <dob>20140101</dob>
+        <email>WINARTO_AMIDJOJO@AVIVA-ASIA.COM                   </email>
+        <exchangeRate>12440</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>372.71</fua>
+        <fyp>1500</fyp>
+        <gender>Male</gender>
+        <grossRevenue>487.5</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150101</inceptionDate>
+        <inforceMonth>January  </inforceMonth>
+        <issuanceDate>20150101</issuanceDate>
+        <lifeAssuredDob>20140101</lifeAssuredDob>
+        <lifeAssuredID>TESTING VA              </lifeAssuredID>
+        <lifeAssuredName>TESTING VA</lifeAssuredName>
+        <mailAddress>1   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>442.5</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>TESTING VA              </ownerID>
+        <ownerName>TESTING VA</ownerName>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150410</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>00132005</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>15000</premiumAmount>
+        <premiumDueDate>20160101</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>1   </residentialAddress>
+        <statusEffectiveDate>20150101</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>15000</totalPremium>
+        <vat>48.75</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>2000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>20000000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>650000</convGrossRevenue>
+        <convNettRevenue>590000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>2000000</convertedApe>
+        <convertedBasicPremium>20000000</convertedBasicPremium>
+        <convertedFyp>2000000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>20000000</convertedTotalPremium>
+        <convertedVat>65000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>20140101</dob>
+        <email>WINARTO_AMIDJOJO@AVIVA-ASIA.COM                   </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>21160239.27</fua>
+        <fyp>2000000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>650000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20141127</inceptionDate>
+        <inforceMonth>November </inforceMonth>
+        <issuanceDate>20141127</issuanceDate>
+        <lifeAssuredDob>20140101</lifeAssuredDob>
+        <lifeAssuredID>TESTING VA              </lifeAssuredID>
+        <lifeAssuredName>TESTING VA</lifeAssuredName>
+        <mailAddress>1   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>590000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>TESTING VA              </ownerID>
+        <ownerName>TESTING VA</ownerName>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150410</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>00132064</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>20000000</premiumAmount>
+        <premiumDueDate>20151127</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>1   </residentialAddress>
+        <statusEffectiveDate>20141127</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>20000000</totalPremium>
+        <vat>65000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>RM PERMATA A</agntName>
+        <agntNum>01900005</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>25200000</ape>
+        <areaCode>JKT19   </areaCode>
+        <areaName>Jakarta 19                    </areaName>
+        <basicPremium>2000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>019     </branchCode>
+        <branchName>Metro Pondok Indah            </branchName>
+        <convGrossRevenue>1100000</convGrossRevenue>
+        <convNettRevenue>1000000</convNettRevenue>
+        <convTopupGrossRevenue>30000</convTopupGrossRevenue>
+        <convTopupNettRevenue>27300</convTopupNettRevenue>
+        <convertedApe>25200000</convertedApe>
+        <convertedBasicPremium>2000000</convertedBasicPremium>
+        <convertedFyp>2100000</convertedFyp>
+        <convertedRegularTopup>1000000</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>3000000</convertedTotalPremium>
+        <convertedVat>113000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19840101</dob>
+        <email>mahesha_radita@aviva-asia.com                     </email>
+        <erefNo>UR1A4000005150511180459</erefNo>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>983038413.57</fua>
+        <fyp>2100000</fyp>
+        <gender>Female</gender>
+        <grossRevenue>1100000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150511</inceptionDate>
+        <inforceMonth>May      </inforceMonth>
+        <issuanceDate>20150518</issuanceDate>
+        <lifeAssuredCif>JYYBEKXI83735383    </lifeAssuredCif>
+        <lifeAssuredDob>19841231</lifeAssuredDob>
+        <lifeAssuredID>Ururhnnu837373          </lifeAssuredID>
+        <lifeAssuredName>Regina Spektor</lifeAssuredName>
+        <mailAddress>1   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>62987683        </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>1000000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>Muyebsjxo734636         </ownerID>
+        <ownerName>Tamara</ownerName>
+        <ownerPermataCif>KDJEYEB646379       </ownerPermataCif>
+        <paymentMethod>Bank Direct Debit Billing     </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41003866</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>92826     </postalCode>
+        <premiumAmount>3000000</premiumAmount>
+        <premiumDueDate>20150611</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 04        </region>
+        <regularTopup>1000000</regularTopup>
+        <residentialAddress>Kcm Ksmdi Kwjcijfhu Iejdi Kejdijd</residentialAddress>
+        <statusEffectiveDate>20150518</statusEffectiveDate>
+        <submittedDate>2015-05-11T18:26:01+08:00</submittedDate>
+        <submittedDateVal>2015-05-11</submittedDateVal>
+        <topupGrossRevenue>30000</topupGrossRevenue>
+        <topupNettRevenue>27300</topupNettRevenue>
+        <totalPremium>3000000</totalPremium>
+        <vat>113000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>144000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>12000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>6600000</convGrossRevenue>
+        <convNettRevenue>6000000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>144000000</convertedApe>
+        <convertedBasicPremium>12000000</convertedBasicPremium>
+        <convertedFyp>12000000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>12000000</convertedTotalPremium>
+        <convertedVat>660000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19490728</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>1200000</fua>
+        <fyp>12000000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>6600000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150805</inceptionDate>
+        <inforceMonth>August   </inforceMonth>
+        <issuanceDate>20150820</issuanceDate>
+        <lifeAssuredCif>28071987            </lifeAssuredCif>
+        <lifeAssuredDob>19490728</lifeAssuredDob>
+        <lifeAssuredID>28071987                </lifeAssuredID>
+        <lifeAssuredName>Tes Tpd</lifeAssuredName>
+        <mailAddress>A A A A A</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>12345     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628             </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>6000000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>28071987                </ownerID>
+        <ownerName>Tes Tpd</ownerName>
+        <ownerPermataCif>28071987            </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41016844</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>12345     </postalCode>
+        <premiumAmount>12000000</premiumAmount>
+        <premiumDueDate>20150905</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>A A A A A</residentialAddress>
+        <statusEffectiveDate>20150820</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>12000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>18688000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-08-27</uwAprovedDateVal>
+        <vat>660000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>1200000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>12000000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>390000</convGrossRevenue>
+        <convNettRevenue>354000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>1200000</convertedApe>
+        <convertedBasicPremium>12000000</convertedBasicPremium>
+        <convertedFyp>1200000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>12000000</convertedTotalPremium>
+        <convertedVat>39000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870601</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>9745665195.32</fua>
+        <fyp>1200000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>390000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150602</inceptionDate>
+        <inforceMonth>June     </inforceMonth>
+        <issuanceDate>20150603</issuanceDate>
+        <lifeAssuredCif>01061987001         </lifeAssuredCif>
+        <lifeAssuredDob>19870601</lifeAssuredDob>
+        <lifeAssuredID>01061987001             </lifeAssuredID>
+        <lifeAssuredName>Test Idr One</lifeAssuredName>
+        <mailAddress>A A A A A</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>12345     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628             </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>354000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>01061987001             </ownerID>
+        <ownerName>Test Idr One</ownerName>
+        <ownerPermataCif>01061987001         </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>41005308</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>12345     </postalCode>
+        <premiumAmount>12000000</premiumAmount>
+        <premiumDueDate>20160602</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>A A A A A</residentialAddress>
+        <statusEffectiveDate>20150603</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>12000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>915720000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-06-02</uwAprovedDateVal>
+        <vat>39000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>1200000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>12000000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>390000</convGrossRevenue>
+        <convNettRevenue>354000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>1200000</convertedApe>
+        <convertedBasicPremium>12000000</convertedBasicPremium>
+        <convertedFyp>1200000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>12000000</convertedTotalPremium>
+        <convertedVat>39000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870601</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>12739670.94</fua>
+        <fyp>1200000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>390000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150626</inceptionDate>
+        <inforceMonth>June     </inforceMonth>
+        <issuanceDate>20150626</issuanceDate>
+        <lifeAssuredCif>01061987001         </lifeAssuredCif>
+        <lifeAssuredDob>19870601</lifeAssuredDob>
+        <lifeAssuredID>01061987001             </lifeAssuredID>
+        <lifeAssuredName>Test Idr One</lifeAssuredName>
+        <mailAddress>A A A A A</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>12345     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628             </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>354000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>01061987001             </ownerID>
+        <ownerName>Test Idr One</ownerName>
+        <ownerPermataCif>01061987001         </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>41011875</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>12345     </postalCode>
+        <premiumAmount>12000000</premiumAmount>
+        <premiumDueDate>20160626</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>A A A A A</residentialAddress>
+        <statusEffectiveDate>20150626</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>12000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>6539000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-06-26</uwAprovedDateVal>
+        <vat>39000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>1200</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>12000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>4923750</convGrossRevenue>
+        <convNettRevenue>4469250</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>15150000</convertedApe>
+        <convertedBasicPremium>151500000</convertedBasicPremium>
+        <convertedFyp>15150000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>151500000</convertedTotalPremium>
+        <convertedVat>492375</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>USD</currency>
+        <dob>19870601</dob>
+        <email>                                                  </email>
+        <exchangeRate>12625</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>9728.85</fua>
+        <fyp>1200</fyp>
+        <gender>Male</gender>
+        <grossRevenue>390</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150602</inceptionDate>
+        <inforceMonth>June     </inforceMonth>
+        <issuanceDate>20150603</issuanceDate>
+        <lifeAssuredCif>01061987002         </lifeAssuredCif>
+        <lifeAssuredDob>19870601</lifeAssuredDob>
+        <lifeAssuredID>01061987002             </lifeAssuredID>
+        <lifeAssuredName>Test Idr Two</lifeAssuredName>
+        <mailAddress>Aa A A A A</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>78930     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628             </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>354</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>01061987002             </ownerID>
+        <ownerName>Test Idr Two</ownerName>
+        <ownerPermataCif>01061987002         </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>41005321</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>78930     </postalCode>
+        <premiumAmount>12000</premiumAmount>
+        <premiumDueDate>20160602</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>Aa A A A A</residentialAddress>
+        <statusEffectiveDate>20150603</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>12000</totalPremium>
+        <uwAprovedDate>
+            <nanos>915720000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-06-02</uwAprovedDateVal>
+        <vat>39</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>13200000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>1000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>550000</convGrossRevenue>
+        <convNettRevenue>500000</convNettRevenue>
+        <convTopupGrossRevenue>30000</convTopupGrossRevenue>
+        <convTopupNettRevenue>27300</convTopupNettRevenue>
+        <convertedApe>13200000</convertedApe>
+        <convertedBasicPremium>1000000</convertedBasicPremium>
+        <convertedFyp>1100000</convertedFyp>
+        <convertedRegularTopup>1000000</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>2000000</convertedTotalPremium>
+        <convertedVat>58000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870601</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>269843444.77</fua>
+        <fyp>1100000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>550000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150602</inceptionDate>
+        <inforceMonth>June     </inforceMonth>
+        <issuanceDate>20150603</issuanceDate>
+        <lifeAssuredCif>01061987002         </lifeAssuredCif>
+        <lifeAssuredDob>19870601</lifeAssuredDob>
+        <lifeAssuredID>01061987002             </lifeAssuredID>
+        <lifeAssuredName>Test Idr Two</lifeAssuredName>
+        <mailAddress>Aa A A A A</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>78930     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628             </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>500000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>01061987002             </ownerID>
+        <ownerName>Test Idr Two</ownerName>
+        <ownerPermataCif>01061987002         </ownerPermataCif>
+        <paymentMethod>Bank Direct Debit Billing     </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41005312</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>78930     </postalCode>
+        <premiumAmount>2000000</premiumAmount>
+        <premiumDueDate>20150702</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <regularTopup>1000000</regularTopup>
+        <residentialAddress>Aa A A A A</residentialAddress>
+        <statusEffectiveDate>20150603</statusEffectiveDate>
+        <topupGrossRevenue>30000</topupGrossRevenue>
+        <topupNettRevenue>27300</topupNettRevenue>
+        <totalPremium>2000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>915720000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-06-02</uwAprovedDateVal>
+        <vat>58000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>13200</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>1000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>6943750</convGrossRevenue>
+        <convNettRevenue>6312500</convNettRevenue>
+        <convTopupGrossRevenue>378750</convTopupGrossRevenue>
+        <convTopupNettRevenue>344662.5</convTopupNettRevenue>
+        <convertedApe>166650000</convertedApe>
+        <convertedBasicPremium>12625000</convertedBasicPremium>
+        <convertedFyp>13887500</convertedFyp>
+        <convertedRegularTopup>12625000</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>25250000</convertedTotalPremium>
+        <convertedVat>732250</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>USD</currency>
+        <dob>19870601</dob>
+        <email>                                                  </email>
+        <exchangeRate>12625</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>793.22</fua>
+        <fyp>1100</fyp>
+        <gender>Male</gender>
+        <grossRevenue>550</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150602</inceptionDate>
+        <inforceMonth>June     </inforceMonth>
+        <issuanceDate>20150603</issuanceDate>
+        <lifeAssuredCif>01062015004         </lifeAssuredCif>
+        <lifeAssuredDob>19870601</lifeAssuredDob>
+        <lifeAssuredID>01062015004             </lifeAssuredID>
+        <lifeAssuredName>Test Usd Four</lifeAssuredName>
+        <mailAddress>A A A A A</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>12345     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628             </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>500</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>01062015004             </ownerID>
+        <ownerName>Test Usd Four</ownerName>
+        <ownerPermataCif>01062015004         </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41005330</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>12345     </postalCode>
+        <premiumAmount>2000</premiumAmount>
+        <premiumDueDate>20150702</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <regularTopup>1000</regularTopup>
+        <residentialAddress>A A A A A</residentialAddress>
+        <statusEffectiveDate>20150603</statusEffectiveDate>
+        <topupGrossRevenue>30</topupGrossRevenue>
+        <topupNettRevenue>27.3</topupNettRevenue>
+        <totalPremium>2000</totalPremium>
+        <uwAprovedDate>
+            <nanos>915720000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-06-02</uwAprovedDateVal>
+        <vat>58</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>24000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>1000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>550000</convGrossRevenue>
+        <convNettRevenue>500000</convNettRevenue>
+        <convTopupGrossRevenue>300000</convTopupGrossRevenue>
+        <convTopupNettRevenue>273000</convTopupNettRevenue>
+        <convertedApe>24000000</convertedApe>
+        <convertedBasicPremium>1000000</convertedBasicPremium>
+        <convertedFyp>2000000</convertedFyp>
+        <convertedRegularTopup>10000000</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>11000000</convertedTotalPremium>
+        <convertedVat>85000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19880211</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>10672337.94</fua>
+        <fyp>2000000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>550000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150211</inceptionDate>
+        <inforceMonth>June     </inforceMonth>
+        <issuanceDate>20150626</issuanceDate>
+        <lifeAssuredCif>19881988            </lifeAssuredCif>
+        <lifeAssuredDob>19880211</lifeAssuredDob>
+        <lifeAssuredID>19881988                </lifeAssuredID>
+        <lifeAssuredName>Testing Rr Fund 2</lifeAssuredName>
+        <mailAddress>A A A A A</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>54637     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>500000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>19881988                </ownerID>
+        <ownerName>Testing Rr Fund 2</ownerName>
+        <ownerPermataCif>19881988            </ownerPermataCif>
+        <paymentMethod>Bank Direct Debit Billing     </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>00159074</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>54637     </postalCode>
+        <premiumAmount>11000000</premiumAmount>
+        <premiumDueDate>20150311</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <regularTopup>10000000</regularTopup>
+        <residentialAddress>A A A A A</residentialAddress>
+        <statusEffectiveDate>20150626</statusEffectiveDate>
+        <topupGrossRevenue>300000</topupGrossRevenue>
+        <topupNettRevenue>273000</topupNettRevenue>
+        <totalPremium>11000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>6539000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-06-26</uwAprovedDateVal>
+        <vat>85000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>20000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>200000000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>6500000</convGrossRevenue>
+        <convNettRevenue>5900000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>20000000</convertedApe>
+        <convertedBasicPremium>200000000</convertedBasicPremium>
+        <convertedFyp>20000000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>200000000</convertedTotalPremium>
+        <convertedVat>650000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870625</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>211257927.59</fua>
+        <fyp>20000000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>6500000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150206</inceptionDate>
+        <inforceMonth>July     </inforceMonth>
+        <issuanceDate>20150723</issuanceDate>
+        <lifeAssuredCif>19872525            </lifeAssuredCif>
+        <lifeAssuredDob>19870625</lifeAssuredDob>
+        <lifeAssuredID>19872525                </lifeAssuredID>
+        <lifeAssuredName>Winarto Testing</lifeAssuredName>
+        <mailAddress>A A A A Bncufnucdnicmi</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>45111     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>5900000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>19872525                </ownerID>
+        <ownerName>Winarto Testing</ownerName>
+        <ownerPermataCif>19872525            </ownerPermataCif>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>00158617</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>45111     </postalCode>
+        <premiumAmount>200000000</premiumAmount>
+        <premiumDueDate>20160206</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>Jl Pulasaren No 6  Lemah Wungkuk Cirebon Jawa Barat</residentialAddress>
+        <statusEffectiveDate>20150723</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>200000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>537560000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-07-23</uwAprovedDateVal>
+        <vat>650000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>RM PERMATA A</agntName>
+        <agntNum>01900005</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>27600000</ape>
+        <areaCode>JKT19   </areaCode>
+        <areaName>Jakarta 19                    </areaName>
+        <basicPremium>2000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>019     </branchCode>
+        <branchName>Metro Pondok Indah            </branchName>
+        <convGrossRevenue>1100000</convGrossRevenue>
+        <convNettRevenue>1000000</convNettRevenue>
+        <convTopupGrossRevenue>90000</convTopupGrossRevenue>
+        <convTopupNettRevenue>81900</convTopupNettRevenue>
+        <convertedApe>27600000</convertedApe>
+        <convertedBasicPremium>2000000</convertedBasicPremium>
+        <convertedFyp>2300000</convertedFyp>
+        <convertedRegularTopup>3000000</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>5000000</convertedTotalPremium>
+        <convertedVat>119000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19800316</dob>
+        <email>mahesha_radita@aviva-asia.com                     </email>
+        <erefNo>UR1A4000005150511133647</erefNo>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>2681572.37</fua>
+        <fyp>2300000</fyp>
+        <gender>Female</gender>
+        <grossRevenue>1100000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150511</inceptionDate>
+        <inforceMonth>May      </inforceMonth>
+        <issuanceDate>20150513</issuanceDate>
+        <lifeAssuredCif>JDJDWUJ928373       </lifeAssuredCif>
+        <lifeAssuredDob>19820501</lifeAssuredDob>
+        <lifeAssuredID>Jdhdyrhd937369          </lifeAssuredID>
+        <lifeAssuredName>Super Girl</lifeAssuredName>
+        <mailAddress>Mdmdj  Kdkdi Ksuen Kswiejdj</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>8364      </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>62838373        </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>1000000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>Kdkdkdi938373           </ownerID>
+        <ownerName>Wonder Woman</ownerName>
+        <ownerPermataCif>MSKDDJI929283       </ownerPermataCif>
+        <paymentMethod>Bank Direct Debit Billing     </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41003834</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>8364      </postalCode>
+        <premiumAmount>5000000</premiumAmount>
+        <premiumDueDate>20150611</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 04        </region>
+        <regularTopup>3000000</regularTopup>
+        <residentialAddress>Mdmdj  Kdkdi Ksuen Kswiejdj</residentialAddress>
+        <statusEffectiveDate>20150513</statusEffectiveDate>
+        <submittedDate>2015-05-11T14:18:34+08:00</submittedDate>
+        <submittedDateVal>2015-05-11</submittedDateVal>
+        <topupGrossRevenue>90000</topupGrossRevenue>
+        <topupNettRevenue>81900</topupNettRevenue>
+        <totalPremium>5000000</totalPremium>
+        <vat>119000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>24000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>1000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>550000</convGrossRevenue>
+        <convNettRevenue>500000</convNettRevenue>
+        <convTopupGrossRevenue>300000</convTopupGrossRevenue>
+        <convTopupNettRevenue>273000</convTopupNettRevenue>
+        <convertedApe>24000000</convertedApe>
+        <convertedBasicPremium>1000000</convertedBasicPremium>
+        <convertedFyp>2000000</convertedFyp>
+        <convertedRegularTopup>10000000</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>11000000</convertedTotalPremium>
+        <convertedVat>85000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870323</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>9547142.89</fua>
+        <fyp>2000000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>550000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150323</inceptionDate>
+        <inforceMonth>June     </inforceMonth>
+        <issuanceDate>20150626</issuanceDate>
+        <lifeAssuredCif>230319872           </lifeAssuredCif>
+        <lifeAssuredDob>19870323</lifeAssuredDob>
+        <lifeAssuredID>230319872               </lifeAssuredID>
+        <lifeAssuredName>Yes Moderat</lifeAssuredName>
+        <mailAddress>A A A A A</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>46986     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>500000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>230319872               </ownerID>
+        <ownerName>Yes Moderat</ownerName>
+        <ownerPermataCif>230319872           </ownerPermataCif>
+        <paymentMethod>Bank Direct Debit Billing     </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41000150</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>46986     </postalCode>
+        <premiumAmount>11000000</premiumAmount>
+        <premiumDueDate>20150423</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <regularTopup>10000000</regularTopup>
+        <residentialAddress>A A A A A</residentialAddress>
+        <statusEffectiveDate>20150626</statusEffectiveDate>
+        <topupGrossRevenue>300000</topupGrossRevenue>
+        <topupNettRevenue>273000</topupNettRevenue>
+        <totalPremium>11000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>6539000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-06-26</uwAprovedDateVal>
+        <vat>85000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>1200000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>12000000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>390000</convGrossRevenue>
+        <convNettRevenue>354000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>1200000</convertedApe>
+        <convertedBasicPremium>12000000</convertedBasicPremium>
+        <convertedFyp>1200000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>12000000</convertedTotalPremium>
+        <convertedVat>39000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19900803</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>10996002.25</fua>
+        <fyp>1200000</fyp>
+        <gender>Female</gender>
+        <grossRevenue>390000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150409</inceptionDate>
+        <inforceMonth>May      </inforceMonth>
+        <issuanceDate>20150509</issuanceDate>
+        <lifeAssuredDob>19900803</lifeAssuredDob>
+        <lifeAssuredID>472389749               </lifeAssuredID>
+        <lifeAssuredName>test duplicate</lifeAssuredName>
+        <mailAddress>1   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>354000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>472389749               </ownerID>
+        <ownerName>test duplicate</ownerName>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>41001779</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>12000000</premiumAmount>
+        <premiumDueDate>20160409</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>1   </residentialAddress>
+        <statusEffectiveDate>20150509</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>12000000</totalPremium>
+        <vat>39000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>1440000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>120000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>66000000</convGrossRevenue>
+        <convNettRevenue>60000000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>1440000000</convertedApe>
+        <convertedBasicPremium>120000000</convertedBasicPremium>
+        <convertedFyp>120000000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>120000000</convertedTotalPremium>
+        <convertedVat>6600000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19900803</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>13229412.26</fua>
+        <fyp>120000000</fyp>
+        <gender>Female</gender>
+        <grossRevenue>66000000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150202</inceptionDate>
+        <inforceMonth>March    </inforceMonth>
+        <issuanceDate>20150323</issuanceDate>
+        <lifeAssuredDob>19900803</lifeAssuredDob>
+        <lifeAssuredID>472389749               </lifeAssuredID>
+        <lifeAssuredName>test duplicate</lifeAssuredName>
+        <mailAddress>1   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>60000000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>472389749               </ownerID>
+        <ownerName>test duplicate</ownerName>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150410</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41001792</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>120000000</premiumAmount>
+        <premiumDueDate>20150302</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>1   </residentialAddress>
+        <statusEffectiveDate>20150323</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>120000000</totalPremium>
+        <vat>6600000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>10000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>100000000</basicPremium>
+        <billFrequency> Tunggal                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>3250000</convGrossRevenue>
+        <convNettRevenue>2950000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>10000000</convertedApe>
+        <convertedBasicPremium>100000000</convertedBasicPremium>
+        <convertedFyp>10000000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>100000000</convertedTotalPremium>
+        <convertedVat>325000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870625</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>87862645.33</fua>
+        <fyp>10000000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>3250000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150602</inceptionDate>
+        <inforceMonth>June     </inforceMonth>
+        <issuanceDate>20150603</issuanceDate>
+        <lifeAssuredDob>19870625</lifeAssuredDob>
+        <lifeAssuredID>OTH1                    </lifeAssuredID>
+        <lifeAssuredName>win test IDR</lifeAssuredName>
+        <mailAddress>1   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>2950000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>OTH1                    </ownerID>
+        <ownerName>win test IDR</ownerName>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iPrime                    </policyName>
+        <policyNo>41005344</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>100000000</premiumAmount>
+        <premiumDueDate>20160602</premiumDueDate>
+        <productCode>US1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>1   </residentialAddress>
+        <statusEffectiveDate>20150603</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>100000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>915720000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-06-02</uwAprovedDateVal>
+        <vat>325000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>12000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>1000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>6943750</convGrossRevenue>
+        <convNettRevenue>6312500</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>151500000</convertedApe>
+        <convertedBasicPremium>12625000</convertedBasicPremium>
+        <convertedFyp>12625000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>12625000</convertedTotalPremium>
+        <convertedVat>694375</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>USD</currency>
+        <dob>19870625</dob>
+        <email>                                                  </email>
+        <exchangeRate>12625</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>0</fua>
+        <fyp>1000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>550</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150602</inceptionDate>
+        <inforceMonth>June     </inforceMonth>
+        <issuanceDate>20150603</issuanceDate>
+        <lifeAssuredDob>19870625</lifeAssuredDob>
+        <lifeAssuredID>OTH2                    </lifeAssuredID>
+        <lifeAssuredName>win test usd</lifeAssuredName>
+        <mailAddress>1   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>500</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>OTH2                    </ownerID>
+        <ownerName>win test usd</ownerName>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150723</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>41005354</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>1000</premiumAmount>
+        <premiumDueDate>20150702</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>1   </residentialAddress>
+        <statusEffectiveDate>20150603</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>1000</totalPremium>
+        <uwAprovedDate>
+            <nanos>915720000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-06-02</uwAprovedDateVal>
+        <vat>55</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>360000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>20000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>11000000</convGrossRevenue>
+        <convNettRevenue>10000000</convNettRevenue>
+        <convTopupGrossRevenue>3000000</convTopupGrossRevenue>
+        <convTopupNettRevenue>2730000</convTopupNettRevenue>
+        <convertedApe>360000000</convertedApe>
+        <convertedBasicPremium>20000000</convertedBasicPremium>
+        <convertedFyp>30000000</convertedFyp>
+        <convertedRegularTopup>100000000</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>120000000</convertedTotalPremium>
+        <convertedVat>1400000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870625</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>370573532.36</fua>
+        <fyp>30000000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>11000000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150205</inceptionDate>
+        <inforceMonth>February </inforceMonth>
+        <issuanceDate>20150205</issuanceDate>
+        <lifeAssuredDob>19870625</lifeAssuredDob>
+        <lifeAssuredID>4Y37892Y2349            </lifeAssuredID>
+        <lifeAssuredName>winarto test top up</lifeAssuredName>
+        <mailAddress>1   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>10000000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>4Y37892Y2349            </ownerID>
+        <ownerName>winarto test top up</ownerName>
+        <paymentMethod>Bank Direct Debit Billing     </paymentMethod>
+        <policyDocDelDate>20150410</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>00158395</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>120000000</premiumAmount>
+        <premiumDueDate>20150705</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <regularTopup>100000000</regularTopup>
+        <residentialAddress>1   </residentialAddress>
+        <statusEffectiveDate>20150205</statusEffectiveDate>
+        <topupGrossRevenue>3000000</topupGrossRevenue>
+        <topupNettRevenue>2730000</topupNettRevenue>
+        <totalPremium>120000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>431002000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-02-05</uwAprovedDateVal>
+        <vat>1400000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>12000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>1000000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>550000</convGrossRevenue>
+        <convNettRevenue>500000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>12000000</convertedApe>
+        <convertedBasicPremium>1000000</convertedBasicPremium>
+        <convertedFyp>1000000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>1000000</convertedTotalPremium>
+        <convertedVat>55000</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870625</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>24563.83</fua>
+        <fyp>1000000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>550000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150227</inceptionDate>
+        <inforceMonth>February </inforceMonth>
+        <issuanceDate>20150227</issuanceDate>
+        <lifeAssuredDob>19870625</lifeAssuredDob>
+        <lifeAssuredID>4Y37892Y2349            </lifeAssuredID>
+        <lifeAssuredName>winarto test top up</lifeAssuredName>
+        <mailAddress>1   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>500000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>4Y37892Y2349            </ownerID>
+        <ownerName>winarto test top up</ownerName>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150410</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>00159186</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>1000000</premiumAmount>
+        <premiumDueDate>20150427</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>1   </residentialAddress>
+        <statusEffectiveDate>20150227</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>1000000</totalPremium>
+        <uwAprovedDate>
+            <nanos>927127000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-02-11</uwAprovedDateVal>
+        <vat>55000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahFilter>POLICY_REPORT</ahFilter>
+        <ape>6000000</ape>
+        <areaCode>JATIM3  </areaCode>
+        <areaName>Jatim 3                       </areaName>
+        <basicPremium>500000</basicPremium>
+        <billFrequency> Bulanan                 </billFrequency>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convGrossRevenue>275000</convGrossRevenue>
+        <convNettRevenue>250000</convNettRevenue>
+        <convTopupGrossRevenue>0</convTopupGrossRevenue>
+        <convTopupNettRevenue>0</convTopupNettRevenue>
+        <convertedApe>6000000</convertedApe>
+        <convertedBasicPremium>500000</convertedBasicPremium>
+        <convertedFyp>500000</convertedFyp>
+        <convertedRegularTopup>0</convertedRegularTopup>
+        <convertedSingleTopup>0</convertedSingleTopup>
+        <convertedTotalPremium>500000</convertedTotalPremium>
+        <convertedVat>27500</convertedVat>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870625</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <fua>36553.71</fua>
+        <fyp>500000</fyp>
+        <gender>Male</gender>
+        <grossRevenue>275000</grossRevenue>
+        <homeNo>                </homeNo>
+        <inceptionDate>20150227</inceptionDate>
+        <inforceMonth>February </inforceMonth>
+        <issuanceDate>20150227</issuanceDate>
+        <lifeAssuredDob>19870625</lifeAssuredDob>
+        <lifeAssuredID>4Y37892Y2349            </lifeAssuredID>
+        <lifeAssuredName>winarto test top up</lifeAssuredName>
+        <mailAddress>1   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <netSurrenderValue>0</netSurrenderValue>
+        <nettRevenue>250000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>4Y37892Y2349            </ownerID>
+        <ownerName>winarto test top up</ownerName>
+        <paymentMethod>Direct Billing                </paymentMethod>
+        <policyDocDelDate>20150410</policyDocDelDate>
+        <policyDocDelReason>                              </policyDocDelReason>
+        <policyDocDelStatus>In Process                    </policyDocDelStatus>
+        <policyName>AVA iSmart                    </policyName>
+        <policyNo>00159195</policyNo>
+        <policyStatus>In Force                      </policyStatus>
+        <postalCode>          </postalCode>
+        <premiumAmount>500000</premiumAmount>
+        <premiumDueDate>20150427</premiumDueDate>
+        <productCode>UR1</productCode>
+        <region>Permata Bank Region 07        </region>
+        <residentialAddress>1   </residentialAddress>
+        <statusEffectiveDate>20150227</statusEffectiveDate>
+        <topupGrossRevenue>0</topupGrossRevenue>
+        <topupNettRevenue>0</topupNettRevenue>
+        <totalPremium>500000</totalPremium>
+        <uwAprovedDate>
+            <nanos>927127000</nanos>
+        </uwAprovedDate>
+        <uwAprovedDateVal>2015-02-11</uwAprovedDateVal>
+        <vat>27500</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahApe>100</ahApe>
+        <ahConvApe>1262500</ahConvApe>
+        <ahConvFup>1262500</ahConvFup>
+        <ahConvGrossRev>410312.5</ahConvGrossRev>
+        <ahConvNettRev>372437.5</ahConvNettRev>
+        <ahConvVat>41031.25</ahConvVat>
+        <ahFilter>ADHOC_REPORT</ahFilter>
+        <ahFyp>100</ahFyp>
+        <ahGrossRevenue>32.5</ahGrossRevenue>
+        <ahNettRevenue>29.5</ahNettRevenue>
+        <ahTopup>1000</ahTopup>
+        <ahTopupDate>20150702</ahTopupDate>
+        <ahVat>3.25</ahVat>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convertedAdhocTopup>12625000</convertedAdhocTopup>
+        <country>Indonesia                     </country>
+        <currency>USD</currency>
+        <dob>19870324</dob>
+        <email>                                                  </email>
+        <exchangeRate>12625</exchangeRate>
+        <faxNo>                </faxNo>
+        <gender>Male</gender>
+        <grossRevenue>325</grossRevenue>
+        <homeNo>                </homeNo>
+        <lifeAssuredCif>2403198772          </lifeAssuredCif>
+        <lifeAssuredDob>19870324</lifeAssuredDob>
+        <lifeAssuredID>2403198772              </lifeAssuredID>
+        <lifeAssuredName>Cek Moderat</lifeAssuredName>
+        <mailAddress>A Aaa A A A</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>573836    </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <nettRevenue>295</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>2403198772              </ownerID>
+        <ownerName>Cek Moderat</ownerName>
+        <ownerPermataCif>2403198772          </ownerPermataCif>
+        <policyNo>41012020</policyNo>
+        <postalCode>573836    </postalCode>
+        <productCode>US1</productCode>
+        <residentialAddress>A Aaa A A A</residentialAddress>
+        <vat>32.5</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahApe>10000000</ahApe>
+        <ahConvApe>10000000</ahConvApe>
+        <ahConvFup>10000000</ahConvFup>
+        <ahConvGrossRev>3250000</ahConvGrossRev>
+        <ahConvNettRev>2950000</ahConvNettRev>
+        <ahConvVat>325000</ahConvVat>
+        <ahFilter>ADHOC_REPORT</ahFilter>
+        <ahFyp>10000000</ahFyp>
+        <ahGrossRevenue>3250000</ahGrossRevenue>
+        <ahNettRevenue>2950000</ahNettRevenue>
+        <ahTopup>100000000</ahTopup>
+        <ahTopupDate>20150327</ahTopupDate>
+        <ahVat>325000</ahVat>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convertedAdhocTopup>100000000</convertedAdhocTopup>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870324</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <gender>Male</gender>
+        <grossRevenue>390000</grossRevenue>
+        <homeNo>                </homeNo>
+        <lifeAssuredCif>2403198773          </lifeAssuredCif>
+        <lifeAssuredDob>19870324</lifeAssuredDob>
+        <lifeAssuredID>2403198773              </lifeAssuredID>
+        <lifeAssuredName>Cel Agresif</lifeAssuredName>
+        <mailAddress>A A A A Ureie</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>73838     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>American Samoa</nationality>
+        <nettRevenue>354000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>2403198773              </ownerID>
+        <ownerName>Cel Agresif</ownerName>
+        <ownerPermataCif>2403198773          </ownerPermataCif>
+        <policyNo>41000404</policyNo>
+        <postalCode>73838     </postalCode>
+        <productCode>US1</productCode>
+        <residentialAddress>A A A A Ureie</residentialAddress>
+        <vat>39000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahApe>100000000</ahApe>
+        <ahConvApe>100000000</ahConvApe>
+        <ahConvFup>100000000</ahConvFup>
+        <ahConvGrossRev>32500000</ahConvGrossRev>
+        <ahConvNettRev>29500000</ahConvNettRev>
+        <ahConvVat>3250000</ahConvVat>
+        <ahFilter>ADHOC_REPORT</ahFilter>
+        <ahFyp>100000000</ahFyp>
+        <ahGrossRevenue>32500000</ahGrossRevenue>
+        <ahNettRevenue>29500000</ahNettRevenue>
+        <ahTopup>1000000000</ahTopup>
+        <ahTopupDate>20150331</ahTopupDate>
+        <ahVat>3250000</ahVat>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convertedAdhocTopup>1000000000</convertedAdhocTopup>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870324</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <gender>Male</gender>
+        <grossRevenue>390000</grossRevenue>
+        <homeNo>                </homeNo>
+        <lifeAssuredCif>2403198773          </lifeAssuredCif>
+        <lifeAssuredDob>19870324</lifeAssuredDob>
+        <lifeAssuredID>2403198773              </lifeAssuredID>
+        <lifeAssuredName>Cel Agresif</lifeAssuredName>
+        <mailAddress>A A A A Ureie</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>73838     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>American Samoa</nationality>
+        <nettRevenue>354000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>2403198773              </ownerID>
+        <ownerName>Cel Agresif</ownerName>
+        <ownerPermataCif>2403198773          </ownerPermataCif>
+        <policyNo>41000404</policyNo>
+        <postalCode>73838     </postalCode>
+        <productCode>US1</productCode>
+        <residentialAddress>A A A A Ureie</residentialAddress>
+        <vat>39000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>Relationship Manager 7 Permata In Branch</agntName>
+        <agntNum>36980001</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahApe>100000000</ahApe>
+        <ahConvApe>100000000</ahConvApe>
+        <ahConvFup>100000000</ahConvFup>
+        <ahConvGrossRev>32500000</ahConvGrossRev>
+        <ahConvNettRev>29500000</ahConvNettRev>
+        <ahConvVat>3250000</ahConvVat>
+        <ahFilter>ADHOC_REPORT</ahFilter>
+        <ahFyp>100000000</ahFyp>
+        <ahGrossRevenue>32500000</ahGrossRevenue>
+        <ahNettRevenue>29500000</ahNettRevenue>
+        <ahTopup>1000000000</ahTopup>
+        <ahTopupDate>20150528</ahTopupDate>
+        <ahVat>3250000</ahVat>
+        <branchCode>369     </branchCode>
+        <branchName>Pesona Intan                  </branchName>
+        <convertedAdhocTopup>1000000000</convertedAdhocTopup>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19870324</dob>
+        <email>                                                  </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <gender>Male</gender>
+        <grossRevenue>390000</grossRevenue>
+        <homeNo>                </homeNo>
+        <lifeAssuredCif>2403198773          </lifeAssuredCif>
+        <lifeAssuredDob>19870324</lifeAssuredDob>
+        <lifeAssuredID>2403198773              </lifeAssuredID>
+        <lifeAssuredName>Cel Agresif</lifeAssuredName>
+        <mailAddress>A A A A Ureie</mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>73838     </mailPostalCode>
+        <maritalStatus>Single</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>628122090370    </mobileNo>
+        <nationality>American Samoa</nationality>
+        <nettRevenue>354000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>2403198773              </ownerID>
+        <ownerName>Cel Agresif</ownerName>
+        <ownerPermataCif>2403198773          </ownerPermataCif>
+        <policyNo>41000404</policyNo>
+        <postalCode>73838     </postalCode>
+        <productCode>US1</productCode>
+        <residentialAddress>A A A A Ureie</residentialAddress>
+        <vat>39000</vat>
+    </policyReportDTOs>
+    <policyReportDTOs>
+        <adviserCode>A4000005</adviserCode>
+        <adviserName>Winarto Amidjojo Tested</adviserName>
+        <agntName>RM PERMATA A</agntName>
+        <agntNum>01900005</agntNum>
+        <agntType>RM (Permata Bank)             </agntType>
+        <ahApe>5400000</ahApe>
+        <ahConvApe>5400000</ahConvApe>
+        <ahConvFup>5400000</ahConvFup>
+        <ahConvGrossRev>1620000</ahConvGrossRev>
+        <ahConvNettRev>1474200</ahConvNettRev>
+        <ahConvVat>162000</ahConvVat>
+        <ahFilter>ADHOC_REPORT</ahFilter>
+        <ahFyp>5400000</ahFyp>
+        <ahGrossRevenue>1620000</ahGrossRevenue>
+        <ahNettRevenue>1474200</ahNettRevenue>
+        <ahTopup>54000000</ahTopup>
+        <ahTopupDate>20150605</ahTopupDate>
+        <ahVat>162000</ahVat>
+        <branchCode>019     </branchCode>
+        <branchName>Metro Pondok Indah            </branchName>
+        <convertedAdhocTopup>54000000</convertedAdhocTopup>
+        <country>Indonesia                     </country>
+        <currency>IDR</currency>
+        <dob>19501126</dob>
+        <email>MAHESHA_RADITA@AVIVA-ASIA.COM                     </email>
+        <exchangeRate>1</exchangeRate>
+        <faxNo>                </faxNo>
+        <gender>Female</gender>
+        <grossRevenue>11000000</grossRevenue>
+        <homeNo>                </homeNo>
+        <lifeAssuredCif>MSDAF24324          </lifeAssuredCif>
+        <lifeAssuredDob>19501126</lifeAssuredDob>
+        <lifeAssuredID>ASKDJLKFJOIEU234        </lifeAssuredID>
+        <lifeAssuredName>TEST TPD MANUAL UR1 65</lifeAssuredName>
+        <mailAddress>JALAN TPD MANUAL UR1 65   </mailAddress>
+        <mailCountry>INDONESIA</mailCountry>
+        <mailPostalCode>          </mailPostalCode>
+        <maritalStatus>Married</maritalStatus>
+        <maturityValue>0</maturityValue>
+        <mobileNo>                </mobileNo>
+        <nationality>INDONESIA</nationality>
+        <nettRevenue>10000000</nettRevenue>
+        <officeNo>                </officeNo>
+        <ownerID>ASKDJLKFJOIEU234        </ownerID>
+        <ownerName>TEST TPD MANUAL UR1 65</ownerName>
+        <ownerPermataCif>MSDAF24324          </ownerPermataCif>
+        <policyNo>41005194</policyNo>
+        <postalCode>          </postalCode>
+        <productCode>UR1</productCode>
+        <residentialAddress>JALAN TPD MANUAL UR1 65   </residentialAddress>
+        <vat>1328000</vat>
+    </policyReportDTOs>
+</policyReportDTOList>

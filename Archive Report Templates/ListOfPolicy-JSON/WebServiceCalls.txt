@@ -1,0 +1,9 @@
+http://10.138.174.84:8080/portal-aol-bl/blws/leadinfo/processProductivityReportSchedule?rsmRole=RM&asmRole=AM&date=01102015
+
+http://10.138.174.83:8080/portal-fe/fews/policy/getpoliciesxls?agentType=ALL&dashboardFlag=N&dateRangeType=ID&loggedUserID=A4000005&lvlFlag=D&reportDateFrom=20150801&reportDateTo=20151001&status=A
+
+http://10.138.174.84:8080/portal-aol-bl/blws/policy/getpoliciesxls?agentType=ALL&dashboardFlag=N&dateRangeType=ID&loggedUserID=A4000005&lvlFlag=D&reportDateFrom=20150801&reportDateTo=20151001&status=A&agntClntNum=123&userID=123
+
+http://10.138.174.84:8080/portal-aol-bl/blws/policy/getpoliciesxls?agentType=ALL&dashboardFlag=N&dateRangeType=SI&loggedUserID=A4000005&lvlFlag=I&reportDateFrom=20140101&reportDateTo=20151001&status=A&agntClntNum=123&userID=123
+
+http://10.138.174.84:8080/portal-aol-bl/blws/policy/getpoliciesxls?agentType=ALL&dashboardFlag=N&dateRangeType=SI&loggedUserID=A0070293&lvlFlag=I&reportDateFrom=20140101&reportDateTo=20151001&status=A&agntClntNum=123&userID=123
